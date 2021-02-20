@@ -1,0 +1,145 @@
+attributes:
+- type
+- status
+- description
+- dates
+- contacts
+- links
+detailed_collection:
+  Autamus Web Interface:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Biosphere 2 Biosystems Visualization Collaboration:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Bryan Carter Photogrammetry:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Covid Retail Mitigation Web Scraping:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Cyverse Container Bootcamp Sig On Remote Visualization:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Has Faculty Collaborations With Holodeck:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Independent Study Abby Collier:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Jason Hortin Holographic Dance Graduate Project:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Judging The Data Visualization Challenge:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  'Migrant Forensic Empathy Project: A Digital Borderlands Grant Initiative':
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Observablehq Portfolio Of Data Visualization:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Oyster Vibrio Literature Review:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Presentation For Civil Engineering Department:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Ray Tracing On The Hpc:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Remote Visualization Infrastructure Development:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  Stellarscape Astronomy Multimedia Dance Performance:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+  'Womens Hackathon: Visualization On The Web Workshop':
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    type: 
+names:
+- Biosphere 2 Biosystems visualization Collaboration
+- Stellarscape Astronomy Multimedia Dance Performance
+- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
+- Independent study Abby Collier
+- Presentation for Civil Engineering Department
+- Judging the data visualization challenge
+- Remote visualization infrastructure Development
+- Oyster Vibrio Literature Review
+- Ray tracing on the HPC
+- HAS Faculty collaborations with Holodeck
+- COVID Retail Mitigation Web Scraping
+- Autamus web interface
+- Bryan Carter Photogrammetry
+- 'Womens Hackathon: Visualization on the web workshop'
+- ObservableHQ portfolio of Data Visualization
+- Cyverse Container Bootcamp SIG on Remote Visualization
+- Jason Hortin holographic dance graduate project

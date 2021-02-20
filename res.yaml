@@ -1,0 +1,118 @@
+attributes:
+- title
+- type
+- status
+- description
+- dates
+- contacts
+- links
+detailed_collection:
+  Autamus web interface:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  HAS Faculty collaborations with Holodeck:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Independent study Abby Collier:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Judging the data visualization challenge:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  'Migrant Forensic Empathy project: a Digital Borderlands grant initiative':
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Presentation for Civil Engineering department:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Ray tracing o the HPC:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Remote visualization infrastructure development:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Retail Mitigation Scraping:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Stellarscape Astronomy multimedia dance performance:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  Vibrio literature review:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+  biosphere 2 collaboration:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: 
+    title: 
+    type: 
+names:
+- biosphere 2 collaboration
+- Stellarscape Astronomy multimedia dance performance
+- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
+- Independent study Abby Collier
+- Presentation for Civil Engineering department
+- Judging the data visualization challenge
+- Remote visualization infrastructure development
+- Vibrio literature review
+- Ray tracing o the HPC
+- HAS Faculty collaborations with Holodeck
+- Retail Mitigation Scraping
+- Autamus web interface

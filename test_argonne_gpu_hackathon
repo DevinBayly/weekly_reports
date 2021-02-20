@@ -1,0 +1,59 @@
+idea is to take something that doesn't already run on gpu and do it there
+
+I really like flocking algorithms I think they are neat, perhaps that'ss something that we could work on? or something astronomical with fluids interacting
+
+there's an introductory meeting that happens first
+
+discuss the code that we have already written
+   IGuess we would need to create something ahead of time then
+
+  3 weeks before the event (3 weeks before 4/20?) so beginning of april we get access to their system
+    spend time working with the system and the batch scheduler and such ahead of time
+  ? what gpus are we going to be using? 
+
+Team Name: 
+
+Tell us about your team:
+
+What is the name of your code/application
+
+Application Details
+
+Domain
+
+Programming Language(s) and libraries used in your application
+
+GPU programming model you intend to use (or currently use) in your application
+
+For HPC codes: Please specify the programming model or libraries you are planning to use for GPU acceleration (e.g. CUDA, CUDA Fortran, OpenACC, OpenMP, cuBLAS, cuFFT, etc.).
+
+What framework(s) and models have you used to work with your data? Please enter N/A if you're not using any machine learning or deep learning in your application.
+
+Is your model similar to ResNet-50 CNN, LSTM, BERT, random forest, etc.? What optimizer and/or training method are you using? What systems have you worked on before with your data and models?
+
+Algorithmic motifs
+
+Describe what types of algorithms dominate your application, especially the ones your team is targeting for acceleration.
+
+Current application/code performance?
+
+Describe the current performance characteristics of your application. Where does it run (CPU, GPU)? How many nodes does it scale to?
+
+Provide details about your data source and model (For AI problem statements only)
+
+Details should include information about licenses, size of the data source, size of the model, current time to train, and links to any applicable information.
+
+Please specify the software license(s) and version(s) for your application.
+
+Please provide any and all licenses and versions that pertain to your application or code in order to ensure that we are compliant with any licensing obligations (i.e. GPL v3.0, LGPL-2.1, BSD, Apache 2.0, MIT, etc.).
+
+List the computing facilities this application runs on.
+
+Example: Desktop, local clusters, HPC centers, etc.
+
+What do you hope to achieve at the hackathon?
+
+Is there anything else you'd like to mention or ask us?
+
+Are there compute resources that you need to get your model trained faster (GPUs, Storage, etc.)?  What additional dataset do you need (local, regional, size , etc.)? Is there specific expertise you want guidance on so that we can assign right mentor to you?
+

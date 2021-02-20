@@ -1,0 +1,298 @@
+attributes:
+- type
+- status
+- description
+- updates
+- dates
+- contacts
+- links
+detailed_collection:
+  3D & Vr Retrofit Azlive:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Autamus Web Interface:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: infrastructure
+    updates: 
+  Bio5 Virtual Reality Tour:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Biosphere 2 Biosystems Visualization Collaboration:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: collaboration
+    updates: 
+      - 
+        - Made more progress on understanding the .vtu file format and its layout of data, useful for visualizing the results of Open Root Sim 
+        - Began work with wireframe visualization of Zea Maize root development
+  Bryan Carter Photogrammetry:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: consultation
+    updates: 
+  Covid Retail Mitigation Web Scraping:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Cyverse Container Bootcamp Sig On Remote Visualization:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: workshop
+    updates: 
+  Force Directed Biochem Networks:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Has Faculty Collaborations With Holodeck:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: collaboration
+    updates: 
+  Independent Study Abby Collier:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: student
+    updates: 
+      -
+        - Met several times to try to troubleshoot the GLSL shader code on her feature p5.js sketch.
+        - Shifted into our first week of the data visualization side of the independent study.
+  Jason Hortin Holographic Dance Graduate Project:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: consult
+    updates: 
+  Judging The Data Visualization Challenge:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: community
+    updates: 
+      - 
+        - No updates this week
+  'Migrant Forensic Empathy Project: A Digital Borderlands Grant Initiative':
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: collaboration
+    updates: 
+      -
+        - Meeting with Jonathan Crisman to discuss beginning questions for converting his existing application to the Aframe WebVR platform so that future modification/maintenance is easier.
+  Mt. Lemmon In Your Pocket-Creating A Virtual Reality Tour:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: workshop
+    updates: 
+  Neuro Choropleth:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Observablehq Portfolio Of Data Visualization:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: community
+    updates: 
+  Oyster Vibrio Literature Review:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: collaboration
+    updates: 
+  Presentation For Civil Engineering Department:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: workshop
+    updates: 
+      -
+        - Met with Jeff Oliver last week to build outline for presentation.
+        - Got OK from faculty Josh Levine to use material from his slides for the "why we do data visualization" and "best practices" portion of the presentation.
+  Ray Tracing On The Hpc:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: upcoming
+    type: collaboration
+    updates: 
+  Remote Visualization Infrastructure Development:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: infrastructure
+    updates: 
+      - 
+        - Received new desktop machine with Nvidia card inside
+        - Started trying to develop containers for use with HPC remote visualization
+        - Windows Subsystem for Linux 2 is stuck with certain Nvidia Utils like nvidia-smi
+  Resbaz Organizer And Workshop Provider:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: workshop
+    updates: 
+      - 
+        - Organizer meeting this week to discuss what workshops to offer, and other administrivia
+  Social Vr Museum Capstone Student Project:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: student
+    updates: 
+  Spring Break Covid Photo Maps:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: collaboration
+    updates: 
+  Stellarscape Astronomy Multimedia Dance Performance:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: collaboration
+    updates: 
+      - 
+        - Met with Kay, shot footage of various nebulae (horse head, carina, orion,...)
+        - Finished storyboard for first movement of performance
+        - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard the results of that meeting  
+
+  Tech Core Level Up Presentation Monday, Sept 28 2020:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: workshop
+    updates: 
+  Tech Core Level Up Presentation Tuesday, Mar 17 2020:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: workshop
+    updates: 
+  Virtualgl For Nvidia Accelerated Remote Hpc Visualizations:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: infrastructure
+    updates: 
+  'Womens Hackathon: Visualization On The Web Workshop':
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: active
+    type: workshop
+    updates: 
+      - 
+        - Provided feed back to Jen on the website that has the schedule for the event
+
+  Xpra And Singularity For Comprehensive Graphical Application Support On Hpc:
+    contacts: 
+    dates: 
+    description: 
+    links: 
+    status: complete
+    type: infrastructure
+    updates: 
+names:
+- Biosphere 2 Biosystems visualization Collaboration
+- Stellarscape Astronomy Multimedia Dance Performance
+- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
+- Independent study Abby Collier
+- Presentation for Civil Engineering Department
+- Judging the data visualization challenge
+- Remote visualization infrastructure Development
+- Oyster Vibrio Literature Review
+- Ray tracing on the HPC
+- HAS Faculty collaborations with Holodeck
+- COVID Retail Mitigation Web Scraping
+- Autamus web interface
+- Bryan Carter Photogrammetry
+- 'Womens Hackathon: Visualization on the web workshop'
+- ObservableHQ portfolio of Data Visualization
+- Cyverse Container Bootcamp SIG on Remote Visualization
+- Jason Hortin holographic dance graduate project
+- Resbaz organizer and workshop provider
+- force directed biochem networks
+- neuro choropleth
+- spring break COVID photo maps
+- VirtualGL for Nvidia accelerated remote HPC visualizations
+- Xpra and Singularity for comprehensive Graphical application support on HPC
+- 3D & VR Retrofit AZLIVE
+- BIO5 virtual reality tour
+- social VR museum capstone student project
+- Tech core level up presentation Tuesday, Mar 17 2020
+- Tech core level up presentation Monday, Sept 28 2020
+- Mt. Lemmon in your Pocket-creating a virtual reality tour
