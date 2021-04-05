@@ -8,4 +8,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-      
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/hello-world-action
