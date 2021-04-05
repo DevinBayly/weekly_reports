@@ -9,4 +9,4 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - uses: actions/checkout@v2
-      - uses: ./.github/actions/hello-world-action
+      - uses: ./.github/actions
