@@ -1,4 +1,4 @@
-- name: 'Example'
+name: 'Example'
 description: 'Receives file and generates output'
 inputs:
   file-path:  # id of input
