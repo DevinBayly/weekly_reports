@@ -1,0 +1,578 @@
+attributes:
+- type
+- status
+- description
+- updates
+- dates
+- contacts
+- newUpdates
+- links
+detailed_collection:
+  3D & Vr Retrofit Azlive:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#retrofitAZLIVE
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Argonne Gpu Hackathon:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: infrastructure
+    updates:
+    - - Should hear from the organizers about whether we are admitted this week
+    - - Blake asked if he could join, so I spoke with organizers again
+    - - Dima asked if he could join the team so I wrote to the organizers to update
+        our roster and they allowed it
+    - - Submitted an application to participate in the Argonne GPU hackathon which
+        takes place at the end of april
+      - Team mates are Sara Willis, Chris Reidy, and Abby Collier
+      - Our project is to produce a gpu accelerated flocking simulation that we can
+        remotely visualize from a demo created to run only on a single cpu
+      - Waiting on updates about our application
+  Autamus Web Interface:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#autamus_interface
+    newUpdates: null
+    status: complete
+    type: infrastructure
+    updates: null
+  Bio5 Virtual Reality Tour:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#bio5-vr-tour
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Biosphere 2 Biosystems Visualization Collaboration:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: collaboration
+    updates:
+    - - Produced multithreading rust program that can do our "point to texture" conversion
+      - from here I generated a brief example animation to demonstrate how we can
+        use these textures with particle system visualizations
+      - https://drive.google.com/file/d/13mIKrDNFu6SYvQSZCQxqFJnntc7HCl0y/view?usp=sharing
+      - Aaron Bugaj notified us that the green fund is no longer a viable option for
+        funding the media vis walls grant
+      - Treating this year as a prototype of the program for working with students
+        that have Biological System visualizations they want to do
+    - - Started working on exploring unreal engine offerings related to our eventual
+        visualization
+      - Omani says the mist engine might be what we need for particle systems?
+      - Created https://repl.it/@baylyd/quadtreeroot#script.js ,https://quadtreeroot.baylyd.repl.co/
+      - Started working on Numpy method of calculating Luminosity of texture based
+        on the distance that pixel lies from the nearest root point
+      - Will use this texture for particle movement against or with value gradient
+      - Ran into memory limit for certain sections of the root system on a Jetstream
+        allocation
+    - - Omani now has DCC status, which is great
+      - Met and she got unreal engine installed on the machine that is more stable
+        than the laptop
+      - She's going to continue to brush up on her python
+      - I'm going to try to create the first 3D texture of our first root so that
+        we can use other programs than p5.js to do some of our first animated visualizations
+    - - Succeeded at parsing the converted .vtu file into a mesh surrounding the points
+        of the root simulation
+      - Started a small example openprocessing sketch to explain the work to others,
+        and myself at a later date
+    - - Made more progress on understanding the .vtu file format and its layout of
+        data, useful for visualizing the results of Open Root Sim
+      - Began work with wireframe visualization of Zea Maize root development
+  Bryan Carter Photogrammetry:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: consult
+    updates:
+    - - null
+    - - Met Bryan last week for a Metashape Demo
+      - Talked about how access might work with the HPC
+      - Need to explore the setup of Tyson's license inside the HPC environment
+      - Discussed using UA's Apporto as a means of getting his studentt up to speed
+    - - Tyson and Bryan were able to meet, but I could attend
+      - Have a meeting with Bryan set for first week of March to discuss HPC and Metashape
+        workflows
+    - - Met and discussed array of different upcoming potential partnerships with
+        the new center for digital humanities.
+      - Potential project to explore using the Nvidia Omniverse for streaming the
+        results of HPC calculations/render to center for digital humanities
+      - Discussed meeting with Tyson to get started learning to use Metashape for
+        his photogrammetry needs
+      - Discussed using jetstream allocations instead of their AWS accounts to provide
+        on demand access to media for their research projects from user's phones (didn't
+        go into details about this)
+  Covid Retail Mitigation Web Scraping:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#retailscraping
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Cyverse Container Bootcamp Sig On Remote Visualization:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: workshop
+    updates: null
+  Force Directed Biochem Networks:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#biochem-networks
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Has Faculty Collaborations With Holodeck:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: collaboration
+    updates: null
+  Independent Study Abby Collier:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: student
+    updates:
+    - - Had our usual friday meeting
+      - Discussed advanced interaction via geometric/semantic zooms, and data brushing
+      - Spent the last 30 minutes discussing her feature piece for the data visualization
+        section of the independent study
+      - Have settled on doing a visualization of the Squirrel Census data hosted on
+        Github
+    - - Met up and answered questions related to previous week's exercises
+      - discussed intricacies of D3 data binding
+      - Covered the dynamics of adding and removing data without a key function
+      - Moved on to some very basic code for reacting to user generated events such
+        as "Mouse Over" "Mouse Out" and "Click"
+    - - Met and took care of questions for the week
+      - Moved along to using transitions and animations for our data visualizaions
+      - Started looking at how D3 manages changes to the visualization's underlying
+        data (enter,update,remove selections)
+      - Assigned exercises for the week
+      - Mentioned that she should attend the weekend workshop on using p5.js for website
+        element creation, and she was one of the 5 people
+    - - Met and addressed questions about the first week of using d3
+      - Moved away from the template literal svg creation that is in vogue, and revisited
+        the roots of d3 and DOM management with selections
+      - Invited her to participate in the Argonne GPU hackathon as an extension of
+        the datascience side of her independent study.
+      - Worked on using the <g> element to organize our data in the graphics, and
+        apply transforms to many elements at the same time.
+      - Used the <g> elements to learn about how to create axes for our visualizations
+    - - Met several times to try to troubleshoot the GLSL shader code on her feature
+        p5.js sketch.
+      - Shifted into our first week of the data visualization side of the independent
+        study.
+  Jason Hortin Holographic Dance Graduate Project:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: consult
+    updates: null
+  Judging The Data Visualization Challenge:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: community
+    updates:
+    - - Spoke with Jeff Oliver about helping with a peer review session for individuals
+        participating in the data visualization challenge
+    - null
+    - null
+    - - Started going over the website for information related to my judging duties
+    - - No updates this week
+  Meeting With Tyson Swetnam To Discuss Containers And Remote Visualization:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: null
+    type: null
+    updates:
+    - - Had recent break through using different technology, need to reach out to
+        Tyson to discuss "NoMachine"
+    - null
+    - null
+    - - Discussed approaches to using containers for remote visualization
+      - Shared videos of my developments with him, waiting to hear feedback
+      - Discussed option for teaching small special interest group session on container's
+        equipped for remote visualization in the upcoming container bootcamp
+      - He mentioned an opportunity to try out some proprietary nvidia remote desktop
+        software, but we will only have 45 days to use it so I'm waiting for a less
+        busy time of the semester to follow up
+      - He was interested in the work of Florian Feldhaus and his xpra virtualgl EGL
+        backend running out a docker container as a way to remove the X server dependency
+        for accelerated remote visualization
+  'Migrant Forensic Empathy Project: A Digital Borderlands Grant Initiative':
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: collaboration
+    updates:
+    - - Generated first draft of content converted to Aframe https://drive.google.com/file/d/1GAPmOVXS1lgGaoFf_8nSHtGIbJh2XRxk/view?usp=sharing
+      - Some issues listed here in my development issue tracker https://github.com/DevinBayly/digital_borderlands_conversion/projects/1
+    - - First official week of development for this project.
+      - Spent most of the time working on retrieving and modifying the landscape model
+        of Southern AZ near "Oregon Pipe National Park"
+      - Experimented with the Meshlab python api for programmatically editing/filtering
+        large point clouds into meshes
+      - Drafted process for systematically importing existing assets into Aframe
+    - - Picked up an oculus rift from the library that I can use for 2 weeks
+      - I'll try to record some of my previous unity build reviews so that I can refer
+        to those as I start the Aframe conversion this way I don't have to rent the
+        hardware multiple times
+    - - Met with Jonathhan Crisman to get more details about the files that came with
+        his folder of student work
+      - Looks like i'll need to borrow an oculus in order to demo his scenes so that
+        I can see what to create
+      - Will reach out to Jen Nichols, and Jonathan  again to get help with this,
+        Bryan Carter is where Jonathan got his temporary set so I might start there
+        also
+    - - Meeting with Jonathan Crisman to discuss beginning questions for converting
+        his existing application to the Aframe WebVR platform so that future modification/maintenance
+        is easier.
+  Mt. Lemmon In Your Pocket-Creating A Virtual Reality Tour:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#GIS_week2020
+    newUpdates: null
+    status: complete
+    type: workshop
+    updates: null
+  Neuro Choropleth:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#neuro-choro
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Observablehq Portfolio Of Data Visualization:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: community
+    updates: null
+  Oyster Vibrio Literature Review:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: collaboration
+    updates: null
+  Presentation For Civil Engineering Department:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://docs.google.com/presentation/d/15Z9zcxU4vIIgFPnKEcaGv9GH7JtjNdx4Xpnjec0EzEc/edit?usp=sharing
+    newUpdates: null
+    status: complete
+    type: workshop
+    updates:
+    - - Met with Jeff
+      - Debriefed Civil Engineering presentation
+      - Created action items planning future presentations
+      - Discussed Department of Sociology and Anthropology presentation with Kelsey
+        Gonzalez for the 16th of April
+      - Created planning document with our debrief thoughts, presentation opportunities,
+        and content relevant to each individual audience
+    - - Met with Jeff Oliver, ran through our presentation to practice
+      - Discussed changes, sent the presentation to Joshua Levine to double check
+        the attributions for material from his slides
+      - Presented to the graduate civil engineers seminar
+      - Jeff mentioned that it went so well that he wants to "take it on the road"
+    - - Decided on the examples I'll be showing
+      - One finite element method visualization of stress forces spreading through
+        a model
+      - Second one is going to be an Aframe scene of an intersection with car models
+        steered by data coming from "CityFlow" the open source traffic simulator
+    - - Met with Jeff Oliver last week to build outline for presentation.
+      - Got OK from faculty Josh Levine to use material from his slides for the "why
+        we do data visualization" and "best practices" portion of the presentation.
+  Ray Tracing On The Hpc:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: upcoming
+    type: collaboration
+    updates: null
+  Remote Visualization Infrastructure Development:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: infrastructure
+    updates:
+    - - Succeeded in using Vulkan via NoMachine remote desktop running on subdivided
+        V100 Nvidia GPU
+      - Created a screen cast video explaining the setup steps and sent to Jeremy
+        Fischer in charge of NSF's Exosphere
+      - He's very excited and is going to use the video to create documentation for
+        users interested in my workflow when Exosphere is released to the public
+    - - Worked on Jeremy Fischer's exosphere Nvidia JS Ubuntu 18 instance
+      - Worried that their Nvidia V100 gridded VGPU isn't going to actually work for
+        Vulkan which will limit the access to modern graphics development that researchers
+        can do in their instances
+      - Uncertain whether this is going to predict whether Vulkan will work with our
+        V100s and K80s since they aren't currently being subdivided into virtual GPUs
+      - Will be trying all of my steps on Exosphere outside of singularity containers
+        this week to determine if singularity is the problem
+    - - See whether I can use the singularity containers in the HPC testing environment
+        that Chris has setup on Ocelote
+      - If that works out, transfer the containers to the exosphere GPU instances
+        I have from Jeremy Fischer and test there
+    - - Successfully configured new desktop to work as build environment for the singularity
+        containers that will have remote visualization/advanced graphics capability
+      - Did test with nvidia/vulkan (openGL's successor) and was able to get graphical
+        windows from the vkcube, and all of the rust gfx-hal demos
+    - - Received new desktop machine with Nvidia card inside
+      - Started trying to develop containers for use with HPC remote visualization
+      - Windows Subsystem for Linux 2 is stuck with certain Nvidia Utils like nvidia-smi
+  Resbaz Organizer And Workshop Provider:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: workshop
+    updates:
+    - - Planning on trello
+      - Discussing the needs for Zoom and how to use gather.town for community sessions
+    - - Got access settings set correctly for Alex to modify the document
+      - Discussing individual tasks with Chinmay for the Zoom and Youtube coordinators
+    - - started working with Alex and Kate on a google doc to organize our plans for
+        introducing ObservableHQ at the resbaz this year
+      - connected with Fernando Rios' buddy Ian Johnson who works at Observable
+    - - Met with rest of organizing group
+      - Put myself down as one of the two youtube/zoom coordinators since that role
+        is similar to how I'm helping the Women's hackathon
+      - Pitched an ObservableHQ visualization workshop and Alex Bigelow is going to
+        coteach and help with development
+    - - Organizer meeting this week to discuss what workshops to offer, and other
+        administrivia
+  Social Vr Museum Capstone Student Project:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#social-vr-museum
+    newUpdates: null
+    status: complete
+    type: student
+    updates: null
+  Spring Break Covid Photo Maps:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#spring-break-covid
+    newUpdates: null
+    status: complete
+    type: collaboration
+    updates: null
+  Stellarscape Astronomy Multimedia Dance Performance:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: collaboration
+    updates:
+    - - Produced particle system visualizations driven by fluid mechanics coupled
+        to user input (mouse or microsoft kinect)
+      - Created first particle system with interconnecting lines using Kay's audio
+        input
+      - Discussing presentation options with Win Burleson for the top down dancer
+        on stage section of movement 1
+      - Found second researcher James Wadsley who may be able to provide solar formation
+        SPH (smoothed particle hydrodynamics) simulations
+    - - Got commercial license for Touch Designer
+      - Exploring the differences from the free version
+      - Learning to use the geometry shader section of the opengl pipeline to change
+        the primitives that I operate on from points to lines
+      - Exploring and recreating the techniques used in MONOCOLOR, Latent Space and
+        Fulldome show by Marian Essl https://derivative.ca/community-post/monocolor-latent-space-and-fulldome-environment
+      - Hitting snags related to renders that are higher resolution than 1280x720
+      - Discussing options for movement 1's camera setups with Win Burleson
+    - - Met with Kay to do Space Engine Flythroughs with the new version of the program,
+        using its built in recorder
+      - She thinks that we have all the space footage that we need for the show now
+      - Met with Lewis Humphrey of Tech Launch Arizona to discuss what license we
+        need for the programs we use in the project, he says we are commercial and
+        Kay will try to raise money to pay for Touch Designer commercial license (600$)
+      - Deadline for visuals of the first movement was Friday, but not everything
+        was complete
+      - Created a Trello to better track my progress and Kay's suggestions
+      - New deadline is the 18th to finish part 1, and the first of april to have
+        the second movements visuals
+    - - Met with Kay to discuss development of particle system behaviors
+      - Had a second meeting with her in the week to test out whether my iMac Pro
+        desktop is faster than the resources she has, appears a mixed result
+    - - Met with Kay, shot footage of various nebulae (horse head, carina, orion,...)
+      - Finished storyboard for first movement of performance
+      - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
+        the results of that meeting
+  Tech Core Level Up Presentation Monday, Sept 28 2020:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#techcoresept28
+    newUpdates: null
+    status: complete
+    type: workshop
+    updates: null
+  Tech Core Level Up Presentation Tuesday, Mar 17 2020:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#techcoremar20
+    newUpdates: null
+    status: complete
+    type: workshop
+    updates: null
+  Virtualgl For Nvidia Accelerated Remote Hpc Visualizations:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#virtualgl
+    newUpdates: null
+    status: complete
+    type: infrastructure
+    updates: null
+  'Womens Hackathon: Visualization On The Web Workshop':
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: active
+    type: workshop
+    updates:
+    - - Taught "Making art on the web with code" workshop one more time
+      - Low attendance (4 people)
+      - Tested using repl.it collaborative coding platform for teaching, proved a
+        bit complex and prone to people accidentally deleting the entire program
+      - Facilitated other needs with the discord chat such as sharing the youtube
+        links when asked for
+    - - Provided support for other workshop presenters
+      - Assisted with questions related to presenation methods during the virtual
+        hackathon
+      - Helped upload a few different presenter's videos to the youtube channel
+    - - Recorded my workshop on friday evening
+      - Second hour on HTML/CSS started recording but didn't finish so will have to
+        re-record and upload this week
+      - Trouble shot issues with uploads of longer videos on saturday morning
+      - Apparently the email notifications for participants didn't go out so I may
+        be teaching this again next saturday
+      - Had 4 people attend and taught about basic p5.js as well as how to use it
+        to create webpage interfaces that can affect the visualizations
+    - - Brainstorming and organizing material for my upcoming pre-recorded workshop
+        on creative coding with p5.js
+    - - Provided feed back to Jen on the website that has the schedule for the event
+  Xpra And Singularity For Comprehensive Graphical Application Support On Hpc:
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://rtdatavis.github.io/#xprasingularity
+    newUpdates: null
+    status: complete
+    type: infrastructure
+    updates: null
+names:
+- Biosphere 2 Biosystems visualization Collaboration
+- Stellarscape Astronomy Multimedia Dance Performance
+- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
+- Independent study Abby Collier
+- Presentation for Civil Engineering Department
+- Judging the data visualization challenge
+- Remote visualization infrastructure Development
+- Oyster Vibrio Literature Review
+- Ray tracing on the HPC
+- HAS Faculty collaborations with Holodeck
+- COVID Retail Mitigation Web Scraping
+- Autamus web interface
+- Bryan Carter Photogrammetry
+- 'Womens Hackathon: Visualization on the web workshop'
+- ObservableHQ portfolio of Data Visualization
+- Cyverse Container Bootcamp SIG on Remote Visualization
+- Jason Hortin holographic dance graduate project
+- Resbaz organizer and workshop provider
+- force directed biochem networks
+- neuro choropleth
+- spring break COVID photo maps
+- VirtualGL for Nvidia accelerated remote HPC visualizations
+- Xpra and Singularity for comprehensive Graphical application support on HPC
+- 3D & VR Retrofit AZLIVE
+- BIO5 virtual reality tour
+- social VR museum capstone student project
+- Tech core level up presentation Tuesday, Mar 17 2020
+- Tech core level up presentation Monday, Sept 28 2020
+- Argonne GPU hackathon
+- Mt. Lemmon in your Pocket-creating a virtual reality tour
+- Meeting with Tyson Swetnam to discuss containers and remote visualization

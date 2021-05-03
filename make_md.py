@@ -22,6 +22,8 @@ def run():
                 print(deets)
                 if deets["updates"] != None and len(deets["updates"]) > 0:
                     latest = deets["updates"][0]
+                    if latest == None:
+                        continue
                     for update in latest:
                         phile.write(f"\t * {update}\n")
         phile.write(f"\n\n### Consultations \n\n")
@@ -57,3 +59,4 @@ def section_fill(dc,phile,status,type):
         if deets["status"] == status and deets["type"] == type:
             phile.write(f"* {p_name_key} \n")
 
+run()
