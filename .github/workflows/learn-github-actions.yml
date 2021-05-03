@@ -1,33 +1,33 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  convert pdf:
+  convert-pdf:
     runs-on: ubuntu-latest
     container:
       image: pandoc/latex
       options: --entrypoint /bin/bash
     steps:
       - name: Checkout 
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: convert to pdf
-      run: | 
-        pandoc convert_temp.md -o convert_temp.pdf
+        run: | 
+          pandoc convert_temp.md -o convert_temp.pdf
       - name: upload artifacts
         uses: actions/upload-arifact@v2
         with:
           name: convert_temp.pdf
           path: convert_temp.pdf
   
-  push pdf to repo:
+  push-pdf-to-repo:
     runs-on: ubuntu-latest
-    needs: convert pdf
+    needs: convert-pdf
     steps:
       - name: checkout
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: download
-       uses: actions/download-artifact@v2
-       with:
-        name: convert_temp.pdf
+        uses: actions/download-artifact@v2
+        with:
+          name: convert_temp.pdf
       - name: commit and push
         run: |
           git config --global user.name "github-actions"
