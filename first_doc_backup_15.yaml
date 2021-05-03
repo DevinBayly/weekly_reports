@@ -9,20 +9,20 @@ attributes:
 - links
 detailed_collection:
   3D & Vr Retrofit Azlive:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#retrofitAZLIVE
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Advice For Thesis Defense Visualizations, Sabrina Nardin:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: consult
@@ -40,9 +40,9 @@ detailed_collection:
         many other people that are like her target audience as early as possible
       - Has asked for a follow up based on changes incorporated since the meeting
   Argonne Gpu Hackathon:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://drive.google.com/file/d/1yzTyizIMLxRXabMTQgk7KzECsVYHrXOf/view?usp=sharing
     newUpdates: false
@@ -66,30 +66,30 @@ detailed_collection:
         remotely visualize from a demo created to run only on a single cpu
       - Waiting on updates about our application
   Autamus Web Interface:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#autamus_interface
     newUpdates: false
     status: complete
     type: infrastructure
-    updates: 
+    updates: null
   Bio5 Virtual Reality Tour:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#bio5-vr-tour
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Biosphere 2 Biosystems Visualization Collaboration:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: collaboration
@@ -184,10 +184,10 @@ detailed_collection:
         data, useful for visualizing the results of Open Root Sim
       - Began work with wireframe visualization of Zea Maize root development
   Bryan Carter Photogrammetry:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: consult
@@ -212,38 +212,38 @@ detailed_collection:
         on demand access to media for their research projects from user's phones (didn't
         go into details about this)
   Collaboration With Techcore'S Summer Internship:
-    contacts: 
-    dates: 
-    description: 
-    links: 
-    newUpdates: 
-    status: 
-    type: 
-    updates: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: null
+    type: null
+    updates: null
   Collaboration With Techcore's Summer Internship:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
     status: upcoming
     type: collaboration
-    updates: 
+    updates: null
   Covid Retail Mitigation Web Scraping:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#retailscraping
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Data Visualization Roadshow With Jeff Oliver:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
     status: active
     type: collaboration
@@ -259,28 +259,28 @@ detailed_collection:
         for them
       - Trying the NSCS department next
   Force Directed Biochem Networks:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#biochem-networks
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Has Faculty Collaborations With Holodeck:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
     status: upcoming
     type: collaboration
-    updates: 
+    updates: null
   Independent Study Abby Collier:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://openprocessing.org/user/255658?view=sketches
     - https://observablehq.com/@aecollier/sqrrules?ui=classic
@@ -375,10 +375,10 @@ detailed_collection:
       - Shifted into our first week of the data visualization side of the independent
         study.
   Jason Hortin Holographic Dance Graduate Project:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: consult
@@ -390,10 +390,10 @@ detailed_collection:
       - Sounds like more will happen in the fall because he's going back to Chicago
         for the summer
   Judging The Data Visualization Challenge:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: community
@@ -425,13 +425,13 @@ detailed_collection:
     - - Started going over the website for information related to my judging duties
     - - No updates this week
   Meeting With Tyson Swetnam To Discuss Containers And Remote Visualization:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
-    status: 
-    type: 
+    status: null
+    type: null
     updates:
     - - Had recent break through using different technology, need to reach out to
         Tyson to discuss "NoMachine"
@@ -446,9 +446,9 @@ detailed_collection:
         backend running out a docker container as a way to remove the X server dependency
         for accelerated remote visualization
   'Migrant Forensic Empathy Project: A Digital Borderlands Grant Initiative':
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://mfemigrantdeathmap.baylyd.repl.co/
     newUpdates: true
@@ -543,39 +543,39 @@ detailed_collection:
         his existing application to the Aframe WebVR platform so that future modification/maintenance
         is easier.
   Mt. Lemmon In Your Pocket-Creating A Virtual Reality Tour:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#GIS_week2020
     newUpdates: false
     status: complete
     type: workshop
-    updates: 
+    updates: null
   Neuro Choropleth:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#neuro-choro
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Observablehq Portfolio Of Data Visualization:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
     status: upcoming
     type: community
-    updates: 
+    updates: null
   Oyster Vibrio Literature Review:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: collaboration
@@ -590,9 +590,9 @@ detailed_collection:
       - Setup meeting this friday to discuss her needs and advise about data visualization
         techniques
   Presentation For Civil Engineering Department:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://docs.google.com/presentation/d/15Z9zcxU4vIIgFPnKEcaGv9GH7JtjNdx4Xpnjec0EzEc/edit?usp=sharing
     newUpdates: false
@@ -619,29 +619,29 @@ detailed_collection:
     - - Met with Jeff Oliver last week to build outline for presentation.
       - Got OK from faculty Josh Levine to use material from his slides for the "why
         we do data visualization" and "best practices" portion of the presentation.
-  Radiology 1St Year Resident Carl Sabotke:
-    contacts: 
-    dates: 
-    description: 
-    links: 
-    newUpdates: true
-    status: upcoming
-    type: collaboration
-    updates: 
+  Radiology 1St Year Resident Carol Sabotke:
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: null
+    status: null
+    type: null
+    updates: null
   Ray Tracing On The Hpc:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: false
     status: upcoming
     type: collaboration
-    updates: 
+    updates: null
   Remote Visualization Infrastructure Development:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: infrastructure
@@ -724,10 +724,10 @@ detailed_collection:
       - Started trying to develop containers for use with HPC remote visualization
       - Windows Subsystem for Linux 2 is stuck with certain Nvidia Utils like nvidia-smi
   Resbaz Organizer And Workshop Provider:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: workshop
@@ -778,30 +778,30 @@ detailed_collection:
     - - Organizer meeting this week to discuss what workshops to offer, and other
         administrivia
   Social Vr Museum Capstone Student Project:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#social-vr-museum
     newUpdates: false
     status: complete
     type: student
-    updates: 
+    updates: null
   Spring Break Covid Photo Maps:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#spring-break-covid
     newUpdates: false
     status: complete
     type: collaboration
-    updates: 
+    updates: null
   Stellarscape Astronomy Multimedia Dance Performance:
-    contacts: 
-    dates: 
-    description: 
-    links: 
+    contacts: null
+    dates: null
+    description: null
+    links: null
     newUpdates: true
     status: active
     type: collaboration
@@ -910,39 +910,39 @@ detailed_collection:
       - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
         the results of that meeting
   Tech Core Level Up Presentation Monday, Sept 28 2020:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#techcoresept28
     newUpdates: false
     status: complete
     type: workshop
-    updates: 
+    updates: null
   Tech Core Level Up Presentation Tuesday, Mar 17 2020:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#techcoremar20
     newUpdates: false
     status: complete
     type: workshop
-    updates: 
+    updates: null
   Virtualgl For Nvidia Accelerated Remote Hpc Visualizations:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#virtualgl
     newUpdates: false
     status: complete
     type: infrastructure
-    updates: 
+    updates: null
   'Womens Hackathon: Visualization On The Web Workshop':
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://womenshackathon.arizona.edu/
     - https://www.youtube.com/channel/UCe1YiJ53o3qcayVs4cipeXA/videos
@@ -973,15 +973,15 @@ detailed_collection:
         on creative coding with p5.js
     - - Provided feed back to Jen on the website that has the schedule for the event
   Xpra And Singularity For Comprehensive Graphical Application Support On Hpc:
-    contacts: 
-    dates: 
-    description: 
+    contacts: null
+    dates: null
+    description: null
     links:
     - https://rtdatavis.github.io/#xprasingularity
     newUpdates: false
     status: complete
     type: infrastructure
-    updates: 
+    updates: null
 names:
 - Biosphere 2 Biosystems visualization Collaboration
 - Stellarscape Astronomy Multimedia Dance Performance
@@ -1014,6 +1014,6 @@ names:
 - Tech core level up presentation Tuesday, Mar 17 2020
 - Tech core level up presentation Monday, Sept 28 2020
 - Argonne GPU hackathon
-- Radiology 1st year resident Carl Sabotke
+- Radiology 1st year resident Carol Sabotke
 - Mt. Lemmon in your Pocket-creating a virtual reality tour
 - Meeting with Tyson Swetnam to discuss containers and remote visualization
