@@ -13,7 +13,7 @@ jobs:
         run: | 
           pandoc convert_temp.md -o convert_temp.pdf
       - name: upload artifacts
-        uses: actions/upload-arifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: convert_temp.pdf
           path: convert_temp.pdf
