@@ -23,7 +23,7 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -94,6 +94,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Met with Omani and talked more about how to use Touch Designer for compute shaders
+      - Corresponded with Ash about internship arrangement, haven't gotten all the details kinked out but a working document is here https://drive.google.com/file/d/1a4dsJT1ZWRVSsP7CJB7bCF6RqsKClblq/view?usp=sharing
     - - Didn't connect with Omani last week because of a time conflict on her end
         with building maintenance
       - Started working on a Proof of Concept for helping to convert models into point
@@ -192,6 +194,9 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Met with Tayvien and tested out whether Metashape is going to be able to handle the number of images he has
+      - Sounds like there will probably be a need to use HPC just because the runtime is a bit too much for apporto? 
+      - Should reach out to him and ask when his finals are over so that we can meet again and get situated on the HPC
     - - Meeting Tayvien who works with Bryan on Thursday this week
       - Will spend some time getting him started with apporto and metashape to test
         things out
@@ -288,6 +293,8 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met and added final touches to her feature piece for the final part of the independent study
+      - Submitted grade with Blake, and will send Holly Brown a brief report with Abby's independent study webpage
     - - Abby won the SBS senior award !!
       - Met and discussed how to use actively moving particles positions for sampling
         other textures
@@ -383,6 +390,8 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Helped Jason connect with Bryan and Tech Core with idea that his holographic dance project could be part of the Tech Core summer internship
+      - Last I heard he had connected with Bryan to do some volumetric video capture in the Digital Humanities new center
     - - Wrote another email to Jason and mentioned he should get his project into
         the running for projects listed in the tech core summer Internship
       - He also reached out to Dr. Bryan Carter recently to see what the options were
@@ -394,8 +403,10 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
-    status: active
+      - https://ual-odis.github.io/data-viz-challenge/
+      - https://arizona.figshare.com/search?q=visualization+challenge
+    newUpdates: false
+    status: complete
     type: community
     updates:
     - - Completed this, my favorite entries also were the ones that won so at least
@@ -455,6 +466,10 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Lots of time going into this to try to wrap things up by the end of May
+      - Unfortunately I've hit a considerable obstacle that the mechanism I was counting on doesn't work for constraining the camera motion to the landscape mesh
+      - I've spent a significant amount of time trying to research alternatives and implementing my own solutions and I'm coming up empty
+      - I have posted to SO about this and hopefully that will get some attention
     - - Time to really push on this project
       - discovered that the "shader:flat" method can help eliminate artifacts introduced
         from a renderer that's struggling with shadows on a large mesh
@@ -576,7 +591,7 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -646,6 +661,9 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
+    - - Met with Chris to discuss vulkan support
+      - He's still working on NoMachine configurations, 
+      - Perhaps going to setup the vulkan 1.1 when the x server is live and see if I get different errors
     - - Met with Chris and discussed remote visualization options
       - Sounds like we should look into other tools that support rendering vulkan
         windows that aren't just NoMachine, still need to get to the bottom of that
@@ -728,7 +746,7 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: workshop
     updates:
@@ -806,6 +824,10 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Had monthly meeting last week
+      - Discussion about grants that will be pursued by other members on the team following our eventual performance
+      - Shared my updates about conversation with Gustavo on Sensors
+      - Demoed my most recent visualizations using Touch Designer
     - - Wrote code to generate multisegment lines, but got stuck with how to apply
         this with multi line data also
       - Got curious about the scanline fill algorithms used to color the interior
