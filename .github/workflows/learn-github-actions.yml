@@ -3,9 +3,15 @@ on: [push]
 jobs:
   test-python:
     runs-on: ubuntu-latest
+    container:
+      image: continuumio/miniconda3
+      options: --entrypoint /bin/bash
     steps:
       - name: Checkout 
         uses: actions/checkout@v2
+      - name: install
+        run: |
+          pip install yaml
       - name: test-python
         run: |
           python convert.py
