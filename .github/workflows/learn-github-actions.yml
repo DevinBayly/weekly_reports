@@ -13,6 +13,7 @@ jobs:
           name: convert_temp.md
           path: convert_temp.md
   convert-pdf:
+    needs: test-python
     runs-on: ubuntu-latest
     container:
       image: pandoc/latex
