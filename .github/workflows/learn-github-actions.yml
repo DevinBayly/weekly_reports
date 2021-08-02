@@ -1,6 +1,17 @@
 name: learn-github-actions
 on: [push]
 jobs:
+  test-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test-python
+        run: |
+          python convert.py
+      - name: first-artifact
+        uses: actions/upload-artifacts@v2
+        with:
+          name: convert_temp.md
+          path: convert_temp.md
   convert-pdf:
     runs-on: ubuntu-latest
     container:
