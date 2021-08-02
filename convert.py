@@ -54,7 +54,6 @@ import os
 import datetime
 import yaml
 from io import StringIO
-from IPython.display import clear_output
 import time
 
 def run():
