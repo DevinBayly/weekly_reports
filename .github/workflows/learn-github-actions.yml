@@ -8,7 +8,7 @@ jobs:
         run: |
           python convert.py
       - name: first-artifact
-        uses: actions/upload-artifacts@v2
+        uses: actions/upload-artifact@v2
         with:
           name: convert_temp.md
           path: convert_temp.md
