@@ -18,13 +18,30 @@ detailed_collection:
     status: complete
     type: collaboration
     updates: 
+  Discussion about Social Network Analysis Visualizations:
+    contacts: 
+    - Leih, Rachel - (rleih) <rleih@arizona.edu>
+    - Gildersleeve, Rachel - (ragildersleeve) <ragildersleeve@arizona.edu>
+    dates: 
+    description: 
+    links: 
+    - NA
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - I received a message from Jean McClelland mentioning there are two faculty lookin for assistance with Visualizations for their project that involves Social network analysis
+      - Set meeting up for this upcoming Tuesday
+      - Leih, Rachel - (rleih) <rleih@arizona.edu>
+      - Gildersleeve, Rachel - (ragildersleeve) <ragildersleeve@arizona.edu>
   Advice For Thesis Defense Visualizations, Sabrina Nardin:
     contacts: 
     dates: 
     description: 
     links: 
+    - NA
     newUpdates: false
-    status: active
+    status: complete
     type: consult
     updates:
     - - Answered follow up questions about her new stream graph over email
@@ -94,6 +111,24 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+
+    - - Met with Omani and discussed new idea to use photogrammtery to create the point cloud version of her scene
+      - This means we need to automate the taking of high resolution photos from her unreal engine scene 
+      - Left that as a task for her to experiment with next week
+    - - Created a new video upload explaining the process of sampling input textures and writing color to output texture
+      - Met with Omani before that and did a recap of the syntax of GLSL
+    - - Met with Omani last week and agreed upon meeting on tuesday's at 1:30pm 
+      - Will ask her for help converting her unreal scenes to bulk exportable models that I can employ the meshlab point cloud conversion on 
+      - Will be uploading compute shader instructional material to youtube as a stream every week on mondays
+    - - Changing day of the week that I meet with Omani since her schedule is Changing
+      - Haven't met up since we first discussed that change
+    - - Met with Josh Levine and he helped me perform Poisson Disk Sampling in Meshlab to translate a meshed model into a sampled point cloud as one step
+      - Using PyMeshlab this will be an automatable process too
+    - - Met with Omani and learned to create squares on the screen via the compute shader
+      - Had several breakthroughs related to the Mesh-> Point Cloud Conversion
+      - Wrote a little python program to sample obj image textures at 3D points for each geometry face and write that out formatted as .xyz
+      - Next need to try this on some of Omani's plant models if she can export them from unreal
+      - Got thumbs up from Ash about changes to the internship involvement document, now need to find out what's needed from me before the 7th of June
     - - Met with Omani and talked more about how to use Touch Designer for compute shaders
       - Corresponded with Ash about internship arrangement, haven't gotten all the details kinked out but a working document is here https://drive.google.com/file/d/1a4dsJT1ZWRVSsP7CJB7bCF6RqsKClblq/view?usp=sharing
     - - Didn't connect with Omani last week because of a time conflict on her end
@@ -190,10 +225,15 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
-    status: active
+      - https://sketchfab.com/3d-models/churche-maze-photogrammetry-d0767af08a5d498fb960efe3ac83385f
+      - https://drive.google.com/file/d/11E5_912vW6kuPBxcujGKs-UQD9S3jA-H/view?usp=sharing
+    newUpdates: false
+    status: complete
     type: consult
     updates:
+    - - Tayvien Ahmaud William's photogrammetry using Apporto and Metashape completely worked!
+      - Very impressed with the final result, and I hope I can ask him how he managed to work around the timeout limit on Apporto
+      - Full version of the model can be found at https://sketchfab.com/3d-models/churche-maze-photogrammetry-d0767af08a5d498fb960efe3ac83385f
     - - Met with Tayvien and tested out whether Metashape is going to be able to handle the number of images he has
       - Sounds like there will probably be a need to use HPC just because the runtime is a bit too much for apporto? 
       - Should reach out to him and ask when his finals are over so that we can meet again and get situated on the HPC
@@ -217,23 +257,43 @@ detailed_collection:
         on demand access to media for their research projects from user's phones (didn't
         go into details about this)
   Collaboration With Techcore'S Summer Internship:
-    contacts: 
+    contacts: Ash Black, Victoria Ogino, Aaron Bugaj, Joost(?)
     dates: 
     description: 
     links: 
-    newUpdates: 
-    status: 
-    type: 
-    updates: 
-  Collaboration With Techcore's Summer Internship:
-    contacts: 
-    dates: 
-    description: 
-    links: 
-    newUpdates: false
-    status: upcoming
+      - https://hackmd.io/xi_m4Kj6QDenBR3ZAfN3iw?edit
+    newUpdates: true
+    status: active
     type: collaboration
     updates: 
+    - - last week the students had the chance to go to the biosphere 2 rainforest
+      - Also we found out that we aren't going to have the new lidar data coming from Joost so we are changing to supporting a photogrammetry worflow
+      - Trying to keep the interns busy working on things that fit with their respective interests, but the creative track students are a little hard to keep busy
+    - - Switched gears to using Unity for our output videos
+      - Lots of learning that I have to do in order to make this work
+      - Figured out how to create custom scriptable render features/passes, compute shaders/buffers, material property blocks, indirect GPU instanced Mesh Draw calls, and some of their ShaderLab /HLSL code 
+      - The performance of graphics in Unity is much better than I expected and it might be a program I use again after this project 
+      - The other students are doing well, and have  figured out how to ask eachother for help where expertises apply 
+      - Farabi is doing great work on the Website and the WebVR, Trevor is learning all the low level graphics I can throw at him, Samantta is doing great work with Adobe Illustrator
+      - Nick and Jai both need more direction on what should be done with Python and the modeling, but I think that's just until they find their feet
+    - - Had first meetings with my interns, Jai Stellmacher, Trevor Hoshiwara, Samantha Garcia, Nick Vinas, Al-Farabi Muhtasim 
+      - Nick and Jai will be the data cleaners and 3D modelers
+      - Samantha is going to be the creative/aesthetics lead
+      - Trevor will be the glsl touch designer assistant
+      - Farabi will be doing the front end development for the final outputs
+      - We will be producing 360 video content showing rainforest lidar scans with animated research data of NO2 and CO2 recordings via probes at one location and different depths over time
+    - - Several meetings with Ash and Aaron last week
+      - Met researcher Laura Meredith from biosphere2 rainforest who's research data we will be using 
+      - Had meeting for me to lay out the way the output is going to be created in the internship
+    - - Started work with Trevor
+      - update the working document with material related to how I want to approach the internship outputs
+    - - Met Ash, Aaron, and Trevor Hoshiwara to discuss the first steps of the project
+      - Getting a meeting with Joost and Laura to discuss their actual data that we will combine with the lidar material
+      - Tentative plan is to aim for generating 360 video that can be watched in a headset
+      - This will allow us the most freedom for the steps involved in combining the static structural data with the dynamic scientific data
+    - - Went through  my email and found the first Rainforest biome lidar point cloud data set
+      - Haven't heard from Joost and Aaron about whether I'm allowed to copy the file to my own systems to attemp to visualize though
+      - Aggreed to have a kick off meeting with Ash and other members of this collaboration on June 3rd
   Covid Retail Mitigation Web Scraping:
     contacts: 
     dates: 
@@ -249,10 +309,27 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - Met with Jeff and planned the changes we have to make to the presentation for next thursday
+      - I decided on the dataset that I'll be using in my part of the presentation (SIR model for virus transmission)
+      - Sent messages out to Catalyst to figure out a meeting time for presentations there in the fall
+      - Jeff invited me to attend the Software carpentry instructor training happening this fall and I think that sounds like a great idea
+    - - Set Thursday next week for  meeting to prepare for first presentation on the 15th for Laura Miller's Research Training Group in the Math Department
+    - - Reached out to Catalyst studios for scheduling our kickoff and wrapup data visualization presentations for general audiences
+      - Jeff has been in contact with the college specific librarians at Eller and Public Health setting up presentations
+      - We've already scheduled 2 presentations with another 6 in the works, and then I think we will only add more upon request
+    - - Flurry of emails week
+      - created google sheet to track who's emailing who and why and what the contact's affiliation is 
+      - Sent out close to 10 separate emails which each made several more contacts
+      - Set the constraint on performing a minimum of 7 presentations in the fall 
+    - - Finished writing stock emails for sending out to faculty we believe are teaching graduate seminars, and the coordinators who can tell us who else is teaching seminars
+    - - Met Jeff and discussed approaches for presentations next fall
+      - Started creating stock email offer for presentation to send to assembled list of contacts
+      - Will perhaps target graduate seminars and section leader/TA groups which have more availability than an undergraduate class  
+    - - Setup meeting with Jeff next week to plan our approach to graduate intro to vis presentations for the fall
     - - Heard back from the NSCS department about a presentation
       - Just working on the date for the presentation
       - Presenting to undergraduates also
@@ -289,10 +366,36 @@ detailed_collection:
     links:
     - https://openprocessing.org/user/255658?view=sketches
     - https://observablehq.com/@aecollier/sqrrules?ui=classic
+    - https://aecollier.github.io/portfolio/
     newUpdates: true
     status: active
     type: student
     updates:
+    - - Met with Abby and worked on compute shader stuff for self advection of color 
+      - we also worked on noise generation inputs for the astro dance performance movement 2c
+    - - Met with Abby and worked on teaching her the fundamentals of rendering lines from glsl custom materials and line primitives
+      - Gave her some instructions about updating the example touch designer network that we are working with 
+    - - Met with Abby and worked on numpy boolean indexing techniques to apply to masked grid effects for the astro dance project visuals
+      - Spent the rest of the time revisiting various ideas of how to create touch designer networks for visualizations
+    - - Met and setup access to a small jetstream machine for learning more about docker and containerization
+      - Spent more time attempting a vectorization of lines following all-to-all connection pattern in a circle, but got stuck on numpy errors
+      - switched to just doing this in touch designer within a single glsl top
+      - ended meeting with idea that we will just  be making a grid and then filtering based on a radius of a given size to control what points are shown
+      - really need to get back to the TCP stuff for transfering data to active touch sessions
+    - - Met and discussed creating regularly spaced data in numpy using vectorize that can be the backbone of touch designer visualizations
+    - - Continuing this connection as part of working on the Astro Dance project
+      - Met up and discussed using docker containers
+      - Shared "Play with Docker" tool to practice docker
+      - Showed her how to use ssh to connect with PuTTY
+      - Sent data from remote machine over ssh to Touch Designer using tcp 
+      - Need to refocus on how these techniques are going to help us going forward
+    - - Met up and started covering TCP protocol for transmitting images from JAX/numpy server into touch designer
+      - This helps us extend to creating assets outside of the touch designer system, and offload larger tasks to more performant machines
+      - Covered some more information about drawing grids with compute shaders, and the numpy Script TOP
+    - - Spent a good amount of time at the begininning looking through materials provided by Kay He to see which effect she would like to work on next
+      - Settled on her helping out with the monocolor circular lines 
+      - Met and started working on compute shader code involving grids
+      - Sent off Abby's portfolio to Holly Brown https://aecollier.github.io/portfolio/
     - - Met and added final touches to her feature piece for the final part of the independent study
       - Submitted grade with Blake, and will send Holly Brown a brief report with Abby's independent study webpage
     - - Abby won the SBS senior award !!
@@ -386,7 +489,7 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -462,10 +565,29 @@ detailed_collection:
     description: 
     links:
     - https://mfemigrantdeathmap.baylyd.repl.co/
-    newUpdates: true
-    status: active
+    - https://devinbayly.github.io/digital_borderlands_conversion/src/mesh_test.html
+    - https://devinbayly.github.io/digital_borderlands_conversion/src/index.html
+    - https://hackmd.io/Qo_HmwmwSTG-QPYVTJl0Lg?view
+    - https://osf.io/v9swc
+    newUpdates: false
+    status: complete
     type: collaboration
     updates:
+    - - Turned in my documentation and project overall to Jason, and will await any students he brings forward to pick up where I left off
+    - - Spending all my time on this writing the final deliverable wiki and OSF project page
+    - - Met with Jonathan, and heard that his grants weren't accepted by the library
+      - Discussed current state of the project and got his go ahead to write a wiki, and then transition the project to closed 
+      - Will be including sections around what remains to be created and some tips about how a student might proceed with such things
+      - https://devinbayly.github.io/digital_borderlands_conversion/src/mesh_test.html
+      - https://hackmd.io/Qo_HmwmwSTG-QPYVTJl0Lg?view
+      - Created OSF project to house additional files and the wiki so that there's a DOI associated with the work for when Jonathan publishes about it https://osf.io/v9swc
+    - - Sent email to Jonathan to update and request meeting next week
+      - Will be ending active development in 2 weeks
+      - Created bi directional transport between shrine and the new 3D portal
+      - Landscape teleportation via clicks on the mesh
+      - Crosses now listen for click events, and create text above featuring whatever information we have about the migrant the cross belongs to
+      - Crosses now populate/remove incrementally based on the location of the camera
+      - Generated UV rotation so that the ground texture doesn't look like 100% the same pattern on all parts of the landscape
     - - Lots of time going into this to try to wrap things up by the end of May
       - Unfortunately I've hit a considerable obstacle that the mechanism I was counting on doesn't work for constraining the camera motion to the landscape mesh
       - I've spent a significant amount of time trying to research alternatives and implementing my own solutions and I'm coming up empty
@@ -591,8 +713,9 @@ detailed_collection:
     dates: 
     description: 
     links: 
+    - TBA
     newUpdates: false
-    status: active
+    status: complete
     type: collaboration
     updates:
     - - Emily had her defense last week, will now reach out to see if she is happy
@@ -639,10 +762,14 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
-    status: upcoming
+    newUpdates: false
+    status: active
     type: collaboration
     updates: 
+    - - Sending out introductory emails for Carl to Win Burleson, Ash Black, Bryan Carter, and Jenn Nichols
+    - - Met Carl for the first time with Chris Reidy and Blake on Thursday
+      - Said I would introduce him to all the folks that I know of who might be able to help with his AR visualization needs
+      - Probably can't do much myself because I'm not familiar at all with the Hardware he's trying to use (Hololens)
   Ray Tracing On The Hpc:
     contacts: 
     dates: 
@@ -657,10 +784,25 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: infrastructure
     updates:
+    - - Spent part of last week learning about "transfer encoding chunked" messages
+      - These make it possible for a http client to continuously receive data using a ReadStream and may be a method for sending streams of data from HPC when on a VPN session. 
+      - Tried to get started with Omniverse on the Exxact system that I was a test driver for, but got stuck waiting for approval to use their docker containers
+    - - Just got access to A100, will attempt to use it for some Omniverse testing
+    - - Attended the RMACC conference and saw quite a few really interesting presentations featuring in-situ visualizations using HPC
+      - Notable speakers were Kenny Gruchalla, Steve Cutchin, George Takahashi, Philip Black & Patrick O'Toole  
+      - Corresponding with Gianluca about nvidia related things (Numba graphics, and vulkan setup things)
+      - Learned the term Pixel Streaming, which means displaying somewhere different than the compute
+      - Started using Jax as a way to make use of GPU's from python Linear Algebra code, could be very useful for some basic headless renderings
+    - - Had meeting with our Nvidia reps Bruce McGowan, and Gianluca Castellani
+      - Asked them all my vulkan questions, and they reported that we should actually see that we have support? 
+      - Adam helped uncover that we are missing the /etc/vulkan files related to the icd.d and implicit-layers.d folder
+      - This suggests that the installation on Ocelote may have been unsuccessful in some regards
+      - Bruce and Gianluca are now helping me try to figure out the issues related to Numba and Jax to see if I can run simulations through these
+      - They recommended that I try to attend RMACC which is a HPC conference happening next week which may have interesting examples of sci vis on the HPC
     - - Met with Chris to discuss vulkan support
       - He's still working on NoMachine configurations, 
       - Perhaps going to setup the vulkan 1.1 when the x server is live and see if I get different errors
@@ -746,10 +888,17 @@ detailed_collection:
     dates: 
     description: 
     links: 
+      - https://hackmd.io/-XS5Mqh8TA2EHjTHCQ_4tw
     newUpdates: false
-    status: active
+    status: complete
     type: workshop
     updates:
+    - - Presented my Observable notebook workshop last week
+      - Had about 10 attendees at the end of the week at 3pm to 5pm which was great
+      - Got feedback that I went too fast and that the material wasn't beginner friendly so I'll probably re work the presentation notebook somewhat
+    - - Met Alex last week and worked on our res baz presentation
+      - Extended our notebook so that there's a collaborative live survey built into the javascript
+      - Fancy way to demonstrate the capabilities of the notebook
     - - Met Chinmay one more time
       - Heard back from Kelsey about what the listing should be for the videos (public
         unless the instructor says otherwise), I think we need to make sure that's
@@ -824,6 +973,42 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Director decided that we are going to try to finish all the visuals in the next month which meant I had to respond with my own sense that this won't be entirely possible
+      - Had a meeting to discuss remaining visual to finish and what the priorities are
+      - Started the process of transferring the Northwestern star formation simulation to hard disk to produce visuals from it
+      - Checking on the machine that had the Agora Plantary disk simulation on it and that Jetstream machine is provin very difficult to access for some reason
+      - Managed to work with Rishav Kumar who is Gustavo Almeida's student to send data over bluetooth from a wearable device to touch designer
+    - - 1 tech test in person session at Crowder Hall 
+      - Created several new effects and tuned up the transitions between several of the fluid dynamics driven particle system 
+      - Took home a Shimmer IMU to practice wearable position detection inputs for touch designer
+      - Will be meeting Gustavo's student Rishav next week to learn how to test these
+    - - 2 tech test in person sessions at Crowder Hall 
+      - Had the opportunity to see how the material I've produced will actual look at the time of the performance
+      - Lots of troubleshooting things that happened during the week
+      - Recorded footage of Hayley from above for effects development
+      - Spent time working on how to perform simple self-advection of velocity fields
+      - This will allow a dancer to move their body and have their input spread to other particles on the screen they hadn't reached hopefully in a realistic way 
+    - - Had monthly meeting this week
+      - presented my work for combining various effects using Hayley's floor dance recordings
+      - then had development session with Kay on friday trying to get ready for the tech test week coming up where we are going to crowder hall in person to experiment
+    - - Shot footage with Hayley last week
+      - had meeting about visualizations that will be used for the floor dance section of the performance
+      - Got 5 TB of data from northwestern researchers on solar formation
+      - Wrote to Evan Schneider about galatic wind data but haven't heard back 
+    - - Met Kay last week for development session
+      - Found that the fluid dynamics effect was broken because a single text file was in use by all the different touch networks so development broke the stable version 
+      - Asked researchers at Northwestern for their globus link to the 5TB dataset for the star birth
+      - Tried compute shader network example for first time
+      - Got the perspective, camera raw matrices to work 
+    - - Several long meetings with Kay working on this project
+      - Decided where various Astronomy simulation data is going to fit
+      - Made progress on recreating the effect used in the Manna lines video
+      - Got 1 snapshot of data from Researchers at Northwestern and will try to work this into a touch designer animation 
+      - Figured out how to parse out the positions from the HDF5 data
+      - have to reach out to Evan Schneider about galactic wind time series simulations, and start Globus setup for the Northwestern 5 TB dataset
+    - - New scientist simulation data
+      - Also met with Kay and discussed ongoing work related to lines
+      - Set another meeting for this upcoming week
     - - Had monthly meeting last week
       - Discussion about grants that will be pursued by other members on the team following our eventual performance
       - Shared my updates about conversation with Gustavo on Sensors
