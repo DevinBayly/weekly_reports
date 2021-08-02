@@ -107,11 +107,10 @@ detailed_collection:
     dates: 
     description: 
     links: 
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
-
     - - Met with Omani and discussed new idea to use photogrammtery to create the point cloud version of her scene
       - This means we need to automate the taking of high resolution photos from her unreal engine scene 
       - Left that as a task for her to experiment with next week
@@ -266,6 +265,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates: 
+    - - Completed incorporating the xorshift PRNG algorithm into the compute shader and it works much better for random uniform 3d motion for gas particles
+      - successfully incorporated Laura Merediths CO2 and N2O data into the visualization such that the concentrations in the data reflect in the transparency of the total number of particles
+      - Generated a background population of particles to suggest the existence of gas particles not just at the locations where the probes were, but without apparent changes in concentration
     - - last week the students had the chance to go to the biosphere 2 rainforest
       - Also we found out that we aren't going to have the new lidar data coming from Joost so we are changing to supporting a photogrammetry worflow
       - Trying to keep the interns busy working on things that fit with their respective interests, but the creative track students are a little hard to keep busy
@@ -313,6 +315,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Reviewed form for collaborative drop ins with myself Jeff Oliver and Kiri Carini at Catalyst
+      - Received ENVS seminar data from Kirsten Ball
+      - Set presentation date for ENVS on sept 27th at 3pm
     - - Met with Jeff and planned the changes we have to make to the presentation for next thursday
       - I decided on the dataset that I'll be using in my part of the presentation (SIR model for virus transmission)
       - Sent messages out to Catalyst to figure out a meeting time for presentations there in the fall
@@ -371,6 +376,8 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met with Abby and discussed how to use the multithreading concept of "atomic" counters for use in compute shaders
+      - worked on several effects where the particles that are generated come off of the dancer and move in the direction that the dancer was proceeding when the particles were born.
     - - Met with Abby and worked on compute shader stuff for self advection of color 
       - we also worked on noise generation inputs for the astro dance performance movement 2c
     - - Met with Abby and worked on teaching her the fundamentals of rendering lines from glsl custom materials and line primitives
@@ -973,6 +980,11 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Deadline appears to be less demanding and more work seems to be hitting the mark
+      - Produced several visual outputs from theoretical astrophysics simulations, one of which required the HPC for the visualization using a juypter notebook and the Datashader python library
+      - The second of which has snapshots that are small enough size of render within touch designer still
+      - Spent the remainder of the week making modifications to existing effects for movements 1 and 2 of the show in accordance with feedback I've received from the director
+      - Just found out that several internationally known multimedia artists have been approached about working on this show also, and one of them seems to have agreed which is very exciting.
     - - Director decided that we are going to try to finish all the visuals in the next month which meant I had to respond with my own sense that this won't be entirely possible
       - Had a meeting to discuss remaining visual to finish and what the priorities are
       - Started the process of transferring the Northwestern star formation simulation to hard disk to produce visuals from it
