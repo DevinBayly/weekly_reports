@@ -7,8 +7,8 @@ attributes:
 - contacts
 - newUpdates
 - links
-detailed_collection: !!python/object/apply:collections.OrderedDict
-- - - Biosphere 2 Biosystems Visualization Collaboration
+detailed_collection: 
+  - - Biosphere 2 Biosystems Visualization Collaboration
     - contacts: null
       dates: null
       description: null
