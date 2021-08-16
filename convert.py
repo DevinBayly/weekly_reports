@@ -64,11 +64,14 @@ def run():
         p = yaml.full_load(phile)
     ophile = StringIO()
     dc = p["detailed_collection"]
+    ## dc now is a list
     ophile.write(f"# Data & Visualization Weekly Projects Report {now:%Y}_{now:%m}_{now:%d}\n")
     ophile.write(f"\n## Active Projects \n\n")
     ophile.write(f"\n### Active Development  \n\n")
-    for p_name_key in dc:
-        deets = dc[p_name_key]
+    for el in dc:
+        p_name_key = el[0]
+        print(dc,p_name_key)
+        deets = el[1]
         #print(deets["status"])
         if deets["status"] == "active" and deets["type"] != "consult":
             ##print("details",p_name_key,deets,"\n\n")
@@ -84,8 +87,10 @@ def run():
                 for update in latest:
                     ophile.write(f"\t * {update}\n")
     ophile.write(f"\n\n### Consultations \n\n")
-    for p_name_key in dc:
-        deets = dc[p_name_key]
+    for el in dc:
+        p_name_key = el[0]
+        print(dc,p_name_key)
+        deets = el[1]        
         if deets["type"] == "consult" and deets["status"]== "active" and deets["newUpdates"]:
             ##print("details",p_name_key,deets,"\n\n")
             ophile.write(f"* {p_name_key} \n")
@@ -100,8 +105,10 @@ def run():
                 for update in latest:
                     ophile.write(f"\t * {update}\n")
     ophile.write(f"\n## Upcoming \n\n")
-    for p_name_key in dc:
-        deets = dc[p_name_key]
+    for el in dc:
+        p_name_key = el[0]
+        print(dc,p_name_key)
+        deets = el[1]     
         if deets["status"] == "upcoming":
             ophile.write(f"* {p_name_key} \n")
     ophile.write(f"\n\n## Completed For Fiscal Year \n\n")
@@ -129,8 +136,10 @@ def run():
 
 
 def just_finished(dc,ophile):
-    for p_name_key in dc:
-        deets = dc[p_name_key]
+    for el in dc:
+        p_name_key = el[0]
+        print(dc,p_name_key)
+        deets = el[1]
         if deets["status"] == "complete" and deets["newUpdates"] == True:
             ophile.write(f"* {p_name_key} \n")
             #print(deets)
@@ -141,8 +150,10 @@ def just_finished(dc,ophile):
 
 
 def section_fill(dc,ophile,status,typ):
-    for p_name_key in dc:
-        deets = dc[p_name_key]
+    for el in dc:
+        p_name_key = el[0]
+        print(dc,p_name_key)
+        deets = el[1]
         if deets["status"] == status and deets["type"] == typ:
             ophile.write(f"* {p_name_key} \n")
             #print(deets)
