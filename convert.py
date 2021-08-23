@@ -160,8 +160,9 @@ def section_fill(dc,ophile,status,typ):
             if status == "complete":
                 print(p_name_key)
                 links = deets['links']
-                for link in links:
-                    ophile.write(f"\t * {link} \n")
+                if links:
+                    for link in links:
+                        ophile.write(f"\t * {link} \n")
 
 result = run()
 result.seek(0)
