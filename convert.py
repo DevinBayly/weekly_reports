@@ -70,7 +70,7 @@ def run():
     ophile.write(f"\n### Active Development  \n\n")
     for el in dc:
         p_name_key = el[0]
-        print(dc,p_name_key)
+        ##print(dc,p_name_key)
         deets = el[1]
         #print(deets["status"])
         if deets["status"] == "active" and deets["type"] != "consult":
@@ -89,7 +89,7 @@ def run():
     ophile.write(f"\n\n### Consultations \n\n")
     for el in dc:
         p_name_key = el[0]
-        print(dc,p_name_key)
+        ##print(dc,p_name_key)
         deets = el[1]        
         if deets["type"] == "consult" and deets["status"]== "active" and deets["newUpdates"]:
             ##print("details",p_name_key,deets,"\n\n")
@@ -107,7 +107,7 @@ def run():
     ophile.write(f"\n## Upcoming \n\n")
     for el in dc:
         p_name_key = el[0]
-        print(dc,p_name_key)
+        ##print(dc,p_name_key)
         deets = el[1]     
         if deets["status"] == "upcoming":
             ophile.write(f"* {p_name_key} \n")
@@ -138,7 +138,7 @@ def run():
 def just_finished(dc,ophile):
     for el in dc:
         p_name_key = el[0]
-        print(dc,p_name_key)
+        ##print(dc,p_name_key)
         deets = el[1]
         if deets["status"] == "complete" and deets["newUpdates"] == True:
             ophile.write(f"* {p_name_key} \n")
@@ -152,7 +152,7 @@ def just_finished(dc,ophile):
 def section_fill(dc,ophile,status,typ):
     for el in dc:
         p_name_key = el[0]
-        print(dc,p_name_key)
+        ##print(dc,p_name_key)
         deets = el[1]
         if deets["status"] == status and deets["type"] == typ:
             ophile.write(f"* {p_name_key} \n")
