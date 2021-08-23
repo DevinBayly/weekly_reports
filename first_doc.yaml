@@ -7,7 +7,478 @@ attributes:
 - contacts
 - newUpdates
 - links
+names:
+- Streaming technology for HPC
+- Vulkan on HPC
+- Biosphere 2 Biosystems visualization Collaboration
+- Stellarscape Astronomy Multimedia Dance Performance
+- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
+- Independent study Abby Collier
+- Presentation for Civil Engineering Department
+- Data Visualization Roadshow with Jeff Oliver
+- Judging the data visualization challenge
+- Remote visualization infrastructure Development
+- Oyster Vibrio Literature Review
+- Ray tracing on the HPC
+- HAS Faculty collaborations with Holodeck
+- COVID Retail Mitigation Web Scraping
+- Autamus web interface
+- Bryan Carter Photogrammetry
+- 'Womens Hackathon: Visualization on the web workshop'
+- ObservableHQ portfolio of Data Visualization
+- Jason Hortin holographic dance graduate project
+- Advice for thesis defense visualizations, Sabrina Nardin
+- Collaboration with TechCore's Summer Internship
+- Resbaz organizer and workshop provider
+- force directed biochem networks
+- neuro choropleth
+- spring break COVID photo maps
+- VirtualGL for Nvidia accelerated remote HPC visualizations
+- Xpra and Singularity for comprehensive Graphical application support on HPC
+- 3D & VR Retrofit AZLIVE
+- BIO5 virtual reality tour
+- social VR museum capstone student project
+- Tech core level up presentation Tuesday, Mar 17 2020
+- Tech core level up presentation Monday, Sept 28 2020
+- Argonne GPU hackathon
+- Radiology 1st year resident Carl Sabotke
+- Mt. Lemmon in your Pocket-creating a virtual reality tour
+- Meeting with Tyson Swetnam to discuss containers and remote visualization
 detailed_collection: 
+  - - Vulkan on HPC
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: infrastructure
+      updates:
+      - - Vulkan is the successor to OpenGL and much of my low level graphics understanding comes from web-gpu that leverages Vulkan
+        - This means in order to provide greater visualization support with the HPC I need to have access to Vulkan
+        - The issues are that our nvidia driver setup has a bug in it related to Vulkan support
+        - I tried to get around this by configuring a singularity container with the files we know to be missing but a new error arises 600 lines later in the `vulkaninfo` command now
+        - Reached out to UCSD and Expanse HPC visualization personnel to inquire about their support for this modern graphics library
+        - Sent email to the Campus Champions list serve about this but didn't get many useful replies
+  - - Streaming Technology for HPC
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: infrastructure
+      updates:
+      - - Spent time working out how to use FFMPEG to send frames from laptop webcam over udp as concatenated JPEG to an intermediary server that received upd and converted that to http Transfer Encoded Chunks received in a web browser and displayed as an updating image
+        - This will eventually develop into a program that can take researcher jpg udp frames and display them where ever the researcher wants to display them as long as the display client is also on the HPC VPN
+        - This is a simpler remote visualization method than use desktops or VNC because it only requires running a script on the HPC, but does mean a researcher has to write code to send the images over udp
+        - Either way, it should be less work for the Infrastructure team and is a simpler remote client setup which just has to be a browser page
+  - - Data Visualization Roadshow With Jeff Oliver
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - Created new flyer for the catalyst studio presentation on the 2nd of Sept
+        - Kiri volunteered to reserve our space at the studios
+        - Worked on material that needs to be swapped out from the presentation template
+        - Prepared material for first drop in time next Tuesday
+      - - Planning the catalyst studios presentation that is our first of 6 "Intro to Data Vis" presentations for this fall
+        - The following presentations will happen and others may be added (ENVS, Math, Level up Eller, 2nd Catalyst presentation, Public Health) 
+      - - Reviewed form for collaborative drop ins with myself Jeff Oliver and Kiri
+          Carini at Catalyst
+        - Received ENVS seminar data from Kirsten Ball
+        - Set presentation date for ENVS on sept 27th at 3pm
+      - - Met with Jeff and planned the changes we have to make to the presentation
+          for next thursday
+        - I decided on the dataset that I'll be using in my part of the presentation
+          (SIR model for virus transmission)
+        - Sent messages out to Catalyst to figure out a meeting time for presentations
+          there in the fall
+        - Jeff invited me to attend the Software carpentry instructor training happening
+          this fall and I think that sounds like a great idea
+      - - Set Thursday next week for  meeting to prepare for first presentation on
+          the 15th for Laura Miller's Research Training Group in the Math Department
+      - - Reached out to Catalyst studios for scheduling our kickoff and wrapup data
+          visualization presentations for general audiences
+        - Jeff has been in contact with the college specific librarians at Eller and
+          Public Health setting up presentations
+        - We've already scheduled 2 presentations with another 6 in the works, and
+          then I think we will only add more upon request
+      - - Flurry of emails week
+        - created google sheet to track who's emailing who and why and what the contact's
+          affiliation is
+        - Sent out close to 10 separate emails which each made several more contacts
+        - Set the constraint on performing a minimum of 7 presentations in the fall
+      - - Finished writing stock emails for sending out to faculty we believe are
+          teaching graduate seminars, and the coordinators who can tell us who else
+          is teaching seminars
+      - - Met Jeff and discussed approaches for presentations next fall
+        - Started creating stock email offer for presentation to send to assembled
+          list of contacts
+        - Will perhaps target graduate seminars and section leader/TA groups which
+          have more availability than an undergraduate class
+      - - Setup meeting with Jeff next week to plan our approach to graduate intro
+          to vis presentations for the fall
+      - - Heard back from the NSCS department about a presentation
+        - Just working on the date for the presentation
+        - Presenting to undergraduates also
+      - - Reaching out to the NSCS department to ask whether they have a graduate
+          seminar which we can present to?
+      - - Sent offer for presentation to Dianne Patterson in SLHS
+        - She isn't able to offer actual class time for a presentation
+        - Will have to decide with Jeff if we really don't want to pre-record something
+          for them
+        - Trying the NSCS department next
+  - - Independent Study Abby Collier
+    - contacts: null
+      dates: null
+      description: null
+      links:
+      - https://openprocessing.org/user/255658?view=sketches
+      - https://observablehq.com/@aecollier/sqrrules?ui=classic
+      - https://aecollier.github.io/portfolio/
+      newUpdates: true
+      status: active
+      type: student
+      updates:
+      - - Met briefly last week to cover recent updates
+        - Discussed plan for distributing the work related to the feedback given from Kay in the last meeting
+      - - Met with Abby and discussed how to use the multithreading concept of "atomic"
+          counters for use in compute shaders
+        - worked on several effects where the particles that are generated come off
+          of the dancer and move in the direction that the dancer was proceeding when
+          the particles were born.
+      - - Met with Abby and worked on compute shader stuff for self advection of color
+        - we also worked on noise generation inputs for the astro dance performance
+          movement 2c
+      - - Met with Abby and worked on teaching her the fundamentals of rendering lines
+          from glsl custom materials and line primitives
+        - Gave her some instructions about updating the example touch designer network
+          that we are working with
+      - - Met with Abby and worked on numpy boolean indexing techniques to apply to
+          masked grid effects for the astro dance project visuals
+        - Spent the rest of the time revisiting various ideas of how to create touch
+          designer networks for visualizations
+      - - Met and setup access to a small jetstream machine for learning more about
+          docker and containerization
+        - Spent more time attempting a vectorization of lines following all-to-all
+          connection pattern in a circle, but got stuck on numpy errors
+        - switched to just doing this in touch designer within a single glsl top
+        - ended meeting with idea that we will just  be making a grid and then filtering
+          based on a radius of a given size to control what points are shown
+        - really need to get back to the TCP stuff for transfering data to active
+          touch sessions
+      - - Met and discussed creating regularly spaced data in numpy using vectorize
+          that can be the backbone of touch designer visualizations
+      - - Continuing this connection as part of working on the Astro Dance project
+        - Met up and discussed using docker containers
+        - Shared "Play with Docker" tool to practice docker
+        - Showed her how to use ssh to connect with PuTTY
+        - Sent data from remote machine over ssh to Touch Designer using tcp
+        - Need to refocus on how these techniques are going to help us going forward
+      - - Met up and started covering TCP protocol for transmitting images from JAX/numpy
+          server into touch designer
+        - This helps us extend to creating assets outside of the touch designer system,
+          and offload larger tasks to more performant machines
+        - Covered some more information about drawing grids with compute shaders,
+          and the numpy Script TOP
+      - - Spent a good amount of time at the begininning looking through materials
+          provided by Kay He to see which effect she would like to work on next
+        - Settled on her helping out with the monocolor circular lines
+        - Met and started working on compute shader code involving grids
+        - Sent off Abby's portfolio to Holly Brown https://aecollier.github.io/portfolio/
+      - - Met and added final touches to her feature piece for the final part of the
+          independent study
+        - Submitted grade with Blake, and will send Holly Brown a brief report with
+          Abby's independent study webpage
+      - - Abby won the SBS senior award !!
+        - Met and discussed how to use actively moving particles positions for sampling
+          other textures
+        - This is the foundation of reactive particle systems, so we now can use video
+          input of a person to manipulate our particle system!
+        - Will work with Blake to submit grade before the end of the semester
+      - - Had our usual friday meeting
+        - Made quite a bit of progress on her feature Touch Designer piece called
+          "purple stars"
+        - Spent time working on her github webpage to present the work from this independent
+          study
+        - Talked about potential for her to continue in this capacity after graduation
+          as a DCC
+      - - Met up and started working on custom materials
+        - Had long discussion in the meeting cementing  the mental model of how the
+          shaders are using different color channels to move particles
+        - Also started working on how to use other texture inputs to help with particle
+          spreading patterns
+        - Had to rush into using uniform sampler2D types
+        - As a result I made a short video recording explaining how to do modular
+          arithmetic to calculate texture sample coordinates from instance id's  for
+          each of our particles
+      - - Met with Abby several times this week
+        - The main focus of our time is on how to get her help with the touch designer
+          visualizations for the show
+        - Kay has requested a recreation of this effect https://www.youtube.com/watch?v=r9dd6csVZbk
+          and I'm making it Abby's focus
+        - Discussed feedback loops, texture lookups, neighbor queries, and soon we
+          will talk about writing custom materials with shader code
+      - - Met with Abby and started working on Touch designer
+        - Wrote a section of Abby's outstanding senior nomination for Rich Thompson
+          who is the primary Python lecturer for ISTA
+        - Worked live through a Touch Designer network showing basic features such
+          as CHOPs TOPs, parameter referencing, and feedback
+        - Then did a very quick intro to programming particle systems as that will
+          be the main thing we generate for the astro dance performance
+      - - Met on friday to discuss final tweaks to the data visualization feature
+          piece
+        - Abby built a very nice heatmap displaying squirrel counts from the data
+          set against the hectares they live in within central park
+        - Worked on making legend for her graph, and how to add observational notes
+          to the data
+        - She will add some prose to outline the process of building the notebook
+          but besides that we have completed our data visualization phase
+        - Discussed with her the first resources she should use to get setup and oriented
+          with Touch Designer!
+        - From this point on she will be helping me produce material for the astronomy
+          multimedia performance
+      - - Met on friday
+        - Discussed her feature piece for the data visualization section of the independent
+          study
+        - Worked on creating data that would lend itself to a heatmap representation
+          of the squirrel population of central park
+        - Additional experimentation in the direction of "details on demand" by providing
+          interesting select "notes" from the data when a user mouses over a tile
+          of the heatmap
+        - Preparing for the wrap up week of the web visualization material
+      - - Had our usual friday meeting
+        - Discussed advanced interaction via geometric/semantic zooms, and data brushing
+        - Spent the last 30 minutes discussing her feature piece for the data visualization
+          section of the independent study
+        - Have settled on doing a visualization of the Squirrel Census data hosted
+          on Github
+      - - Met up and answered questions related to previous week's exercises
+        - discussed intricacies of D3 data binding
+        - Covered the dynamics of adding and removing data without a key function
+        - Moved on to some very basic code for reacting to user generated events such
+          as "Mouse Over" "Mouse Out" and "Click"
+      - - Met and took care of questions for the week
+        - Moved along to using transitions and animations for our data visualizaions
+        - Started looking at how D3 manages changes to the visualization's underlying
+          data (enter,update,remove selections)
+        - Assigned exercises for the week
+        - Mentioned that she should attend the weekend workshop on using p5.js for
+          website element creation, and she was one of the 5 people
+      - - Met and addressed questions about the first week of using d3
+        - Moved away from the template literal svg creation that is in vogue, and
+          revisited the roots of d3 and DOM management with selections
+        - Invited her to participate in the Argonne GPU hackathon as an extension
+          of the datascience side of her independent study.
+        - Worked on using the <g> element to organize our data in the graphics, and
+          apply transforms to many elements at the same time.
+        - Used the <g> elements to learn about how to create axes for our visualizations
+      - - Met several times to try to troubleshoot the GLSL shader code on her feature
+          p5.js sketch.
+        - Shifted into our first week of the data visualization side of the independent
+          study.
+  - - Stellarscape Astronomy Multimedia Dance Performance
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - Several meetings last week, one with Kay to discuss feedback she had for the visuals I shared with the team in meeting
+        - Also met with Gustavo Almeida to discuss use of sensors in the project
+        - Learned about the Kalman filter approach for integrating information from the gyroscopes to minimize drift in the IMU sensor output
+        - Discussed method for creating sensor recordings so that we don't have to use it live each time I want to develop visuals for movement 2a of the piece
+        - Was audience member for Touch Designer E-Sports competition, picked up tons of information about techniques/programs used in the VFX industry from this
+      - - Organized all new visuals and research renders into movement folders for meeting that happened on wednesday
+        - Had successful meeting and can relax a little bit now
+        - Will have meetings with Kay He, Gustavo Almeida, and Win Burleson to work out more revisions to visuals and to chat about sensors
+      - - Deadline appears to be less demanding and more work seems to be hitting
+          the mark
+        - Produced several visual outputs from theoretical astrophysics simulations,
+          one of which required the HPC for the visualization using a juypter notebook
+          and the Datashader python library
+        - The second of which has snapshots that are small enough size of render within
+          touch designer still
+        - Spent the remainder of the week making modifications to existing effects
+          for movements 1 and 2 of the show in accordance with feedback I've received
+          from the director
+        - Just found out that several internationally known multimedia artists have
+          been approached about working on this show also, and one of them seems to
+          have agreed which is very exciting.
+      - - Director decided that we are going to try to finish all the visuals in the
+          next month which meant I had to respond with my own sense that this won't
+          be entirely possible
+        - Had a meeting to discuss remaining visual to finish and what the priorities
+          are
+        - Started the process of transferring the Northwestern star formation simulation
+          to hard disk to produce visuals from it
+        - Checking on the machine that had the Agora Plantary disk simulation on it
+          and that Jetstream machine is provin very difficult to access for some reason
+        - Managed to work with Rishav Kumar who is Gustavo Almeida's student to send
+          data over bluetooth from a wearable device to touch designer
+      - - 1 tech test in person session at Crowder Hall
+        - Created several new effects and tuned up the transitions between several
+          of the fluid dynamics driven particle system
+        - Took home a Shimmer IMU to practice wearable position detection inputs for
+          touch designer
+        - Will be meeting Gustavo's student Rishav next week to learn how to test
+          these
+      - - 2 tech test in person sessions at Crowder Hall
+        - Had the opportunity to see how the material I've produced will actual look
+          at the time of the performance
+        - Lots of troubleshooting things that happened during the week
+        - Recorded footage of Hayley from above for effects development
+        - Spent time working on how to perform simple self-advection of velocity fields
+        - This will allow a dancer to move their body and have their input spread
+          to other particles on the screen they hadn't reached hopefully in a realistic
+          way
+      - - Had monthly meeting this week
+        - presented my work for combining various effects using Hayley's floor dance
+          recordings
+        - then had development session with Kay on friday trying to get ready for
+          the tech test week coming up where we are going to crowder hall in person
+          to experiment
+      - - Shot footage with Hayley last week
+        - had meeting about visualizations that will be used for the floor dance section
+          of the performance
+        - Got 5 TB of data from northwestern researchers on solar formation
+        - Wrote to Evan Schneider about galatic wind data but haven't heard back
+      - - Met Kay last week for development session
+        - Found that the fluid dynamics effect was broken because a single text file
+          was in use by all the different touch networks so development broke the
+          stable version
+        - Asked researchers at Northwestern for their globus link to the 5TB dataset
+          for the star birth
+        - Tried compute shader network example for first time
+        - Got the perspective, camera raw matrices to work
+      - - Several long meetings with Kay working on this project
+        - Decided where various Astronomy simulation data is going to fit
+        - Made progress on recreating the effect used in the Manna lines video
+        - Got 1 snapshot of data from Researchers at Northwestern and will try to
+          work this into a touch designer animation
+        - Figured out how to parse out the positions from the HDF5 data
+        - have to reach out to Evan Schneider about galactic wind time series simulations,
+          and start Globus setup for the Northwestern 5 TB dataset
+      - - New scientist simulation data
+        - Also met with Kay and discussed ongoing work related to lines
+        - Set another meeting for this upcoming week
+      - - Had monthly meeting last week
+        - Discussion about grants that will be pursued by other members on the team
+          following our eventual performance
+        - Shared my updates about conversation with Gustavo on Sensors
+        - Demoed my most recent visualizations using Touch Designer
+      - - Wrote code to generate multisegment lines, but got stuck with how to apply
+          this with multi line data also
+        - Got curious about the scanline fill algorithms used to color the interior
+          of geometries that we express with lines
+        - Met with Gustavo from the sensor lab to discuss our options.
+      - - Worked out how to use the Engine COMP to start processes in other threads
+          so that we can keep our visualization performance high
+        - This enabled me to implement a TCP client that receives raw bytes and converts
+          them to a texture that we can operate on with the GPU
+        - I believe this will help me bring the HPC into the project in bigger ways
+        - Spent more time learning how to create multi segment lines in the compute
+          shader
+      - - Switched gears in development for this project to curves instead of particle
+          systems
+        - Reviewed videos that Kay sent to me for inspiration
+        - Spent time reading Fundamentals of Computer Graphics chapters on splines,
+          Hermite cubics, and Bezier curves
+        - Made a proof of concept GPU compute touch designer example of 100^2 lines
+          interpolated to a level of detail around 1000 segments per line
+        - Somehow this still ran at 60fps? Not going to argue with the results.
+        - Setup meeting with Gustavo the director of the new Sensor Lab to discuss
+          the sensor options we will have access to for the show
+        - Researched and implemented a system for switching between running Visualizations
+          within Touch Designer so that we can script the whole performance from beginning
+          to end without being hands on
+        - This will be ultimately better because its still pretty likely that we would
+          press the wrong thing at the wrong time and create a technical difficulty
+      - - Big meeting this week
+        - Also heard back from Brant Robertson and Evan Schneider that we can use
+          their Galaxy outflow simulation visualization for our show
+        - This is such a cool looking effect, I don't know where it will fit in yet
+          though
+        - Ran into some big performance problems with Touch Designer, but their most
+          recent update appears to fix things
+        - Made demos for meeting with Hayley and Kay
+        - Will do more live outside testing with them next monday
+        - Still stuck on creating simple propagation effects
+        - Watched new series of videos by Stanslav Glasov, but he didn't go into the
+          subject I was looking for on how to generate point/line network effects
+          in touch designer on the GPU
+      - - Rapid prep for presentation of work with our dancer Hayley Meier
+        - Spent the week working on all of our existing visualizations trying to incorporate
+          feedback from Kay
+      - - Fixed Gasoline errors
+        - Ran AGORA Disc example which is Isolated Milky-Way Like Disk Galaxy  using
+          pthread over 10 cores (took 2 days to complete)
+        - Created 2 visualization workflows for this within Touch Designer, Volumetric
+          renderer, Instanced particle system
+        - The volumetric renderer was a useful technique to brush up on but suffered
+          from 3D texture size limitations in touch designer
+        - The instanced particle system will be a much better approach requiring less
+          pre-processing (no 3D texture to create, just parsing a binary snapshot
+          from gasoline) and doesn't have visual artifacts produced at certain angles
+        - visual results https://drive.google.com/file/d/1KFpEVgSEkSh4ZxSClgoLPJEL_Cp3m9ik/view?usp=sharing
+          (instanced particle system) , https://drive.google.com/file/d/1DkSOdYlJpbWoZqremOAbLzGY9XB7OwTb/view?usp=sharing
+          (volumetric renderer)
+      - - Produced first MONOCOLOR inspired geometric scenes
+        - Spent time in the week working with derivative community to troubleshoot
+          performance of the geometry shader, it appears that the radeon pro vega
+          56 card on the imac pro may not be as performant as we hoped
+        - developed a visualization of particles driven by a vector field based on
+          the mathematical operations curl and divergence and the mouse input
+        - Converted fluid mechanics particle system to be driven by kinect depth sensor
+          mode
+        - Experimented with James Wadsley's SPH program "Gasoline", but cannot get
+          past an error which comes up on the Jetstream cloud instance when running
+          with pthread on 6 cpu cores
+        - So far no suggestions from the developers on the github issue I created
+          for this
+      - - Produced particle system visualizations driven by fluid mechanics coupled
+          to user input (mouse or microsoft kinect)
+        - Created first particle system with interconnecting lines using Kay's audio
+          input
+        - Discussing presentation options with Win Burleson for the top down dancer
+          on stage section of movement 1
+        - Found second researcher James Wadsley who may be able to provide solar formation
+          SPH (smoothed particle hydrodynamics) simulations
+      - - Got commercial license for Touch Designer
+        - Exploring the differences from the free version
+        - Learning to use the geometry shader section of the opengl pipeline to change
+          the primitives that I operate on from points to lines
+        - Exploring and recreating the techniques used in MONOCOLOR, Latent Space
+          and Fulldome show by Marian Essl https://derivative.ca/community-post/monocolor-latent-space-and-fulldome-environment
+        - Hitting snags related to renders that are higher resolution than 1280x720
+        - Discussing options for movement 1's camera setups with Win Burleson
+      - - Met with Kay to do Space Engine Flythroughs with the new version of the
+          program, using its built in recorder
+        - She thinks that we have all the space footage that we need for the show
+          now
+        - Met with Lewis Humphrey of Tech Launch Arizona to discuss what license we
+          need for the programs we use in the project, he says we are commercial and
+          Kay will try to raise money to pay for Touch Designer commercial license
+          (600$)
+        - Deadline for visuals of the first movement was Friday, but not everything
+          was complete
+        - Created a Trello to better track my progress and Kay's suggestions
+        - New deadline is the 18th to finish part 1, and the first of april to have
+          the second movements visuals
+      - - Met with Kay to discuss development of particle system behaviors
+        - Had a second meeting with her in the week to test out whether my iMac Pro
+          desktop is faster than the resources she has, appears a mixed result
+      - - Met with Kay, shot footage of various nebulae (horse head, carina, orion,...)
+        - Finished storyboard for first movement of performance
+        - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
+          the results of that meeting
   - - Biosphere 2 Biosystems Visualization Collaboration
     - contacts: null
       dates: null
@@ -17,6 +488,9 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Watched presentation of Birds of a Feather at SIGGRAPH on "Virtual Nature" presented my Maria Garcia at UCF
+        - Had the idea of trying to do collaborations with their group but centered on the southwest instead
+        - Need to look for faculty who would be willing to participate in this collaboration
       - - Found an incredibly specific SIGGRAPH session of "representing nature" that we are going to go through and study for our uses
         - Will meet next week to go through it
       - - Met with Omani and discussed new idea to use photogrammtery to create the
@@ -217,401 +691,6 @@ detailed_collection:
           file to my own systems to attemp to visualize though
         - Aggreed to have a kick off meeting with Ash and other members of this collaboration
           on June 3rd
-  - - Data Visualization Roadshow With Jeff Oliver
-    - contacts: null
-      dates: null
-      description: null
-      links: null
-      newUpdates: true
-      status: active
-      type: collaboration
-      updates:
-      - - Planning the catalyst studios presentation that is our first of 6 "Intro to Data Vis" presentations for this fall
-        - The following presentations will happen and others may be added (ENVS, Math, Level up Eller, 2nd Catalyst presentation, Public Health) 
-      - - Reviewed form for collaborative drop ins with myself Jeff Oliver and Kiri
-          Carini at Catalyst
-        - Received ENVS seminar data from Kirsten Ball
-        - Set presentation date for ENVS on sept 27th at 3pm
-      - - Met with Jeff and planned the changes we have to make to the presentation
-          for next thursday
-        - I decided on the dataset that I'll be using in my part of the presentation
-          (SIR model for virus transmission)
-        - Sent messages out to Catalyst to figure out a meeting time for presentations
-          there in the fall
-        - Jeff invited me to attend the Software carpentry instructor training happening
-          this fall and I think that sounds like a great idea
-      - - Set Thursday next week for  meeting to prepare for first presentation on
-          the 15th for Laura Miller's Research Training Group in the Math Department
-      - - Reached out to Catalyst studios for scheduling our kickoff and wrapup data
-          visualization presentations for general audiences
-        - Jeff has been in contact with the college specific librarians at Eller and
-          Public Health setting up presentations
-        - We've already scheduled 2 presentations with another 6 in the works, and
-          then I think we will only add more upon request
-      - - Flurry of emails week
-        - created google sheet to track who's emailing who and why and what the contact's
-          affiliation is
-        - Sent out close to 10 separate emails which each made several more contacts
-        - Set the constraint on performing a minimum of 7 presentations in the fall
-      - - Finished writing stock emails for sending out to faculty we believe are
-          teaching graduate seminars, and the coordinators who can tell us who else
-          is teaching seminars
-      - - Met Jeff and discussed approaches for presentations next fall
-        - Started creating stock email offer for presentation to send to assembled
-          list of contacts
-        - Will perhaps target graduate seminars and section leader/TA groups which
-          have more availability than an undergraduate class
-      - - Setup meeting with Jeff next week to plan our approach to graduate intro
-          to vis presentations for the fall
-      - - Heard back from the NSCS department about a presentation
-        - Just working on the date for the presentation
-        - Presenting to undergraduates also
-      - - Reaching out to the NSCS department to ask whether they have a graduate
-          seminar which we can present to?
-      - - Sent offer for presentation to Dianne Patterson in SLHS
-        - She isn't able to offer actual class time for a presentation
-        - Will have to decide with Jeff if we really don't want to pre-record something
-          for them
-        - Trying the NSCS department next
-  - - Independent Study Abby Collier
-    - contacts: null
-      dates: null
-      description: null
-      links:
-      - https://openprocessing.org/user/255658?view=sketches
-      - https://observablehq.com/@aecollier/sqrrules?ui=classic
-      - https://aecollier.github.io/portfolio/
-      newUpdates: false
-      status: active
-      type: student
-      updates:
-      - - Met with Abby and discussed how to use the multithreading concept of "atomic"
-          counters for use in compute shaders
-        - worked on several effects where the particles that are generated come off
-          of the dancer and move in the direction that the dancer was proceeding when
-          the particles were born.
-      - - Met with Abby and worked on compute shader stuff for self advection of color
-        - we also worked on noise generation inputs for the astro dance performance
-          movement 2c
-      - - Met with Abby and worked on teaching her the fundamentals of rendering lines
-          from glsl custom materials and line primitives
-        - Gave her some instructions about updating the example touch designer network
-          that we are working with
-      - - Met with Abby and worked on numpy boolean indexing techniques to apply to
-          masked grid effects for the astro dance project visuals
-        - Spent the rest of the time revisiting various ideas of how to create touch
-          designer networks for visualizations
-      - - Met and setup access to a small jetstream machine for learning more about
-          docker and containerization
-        - Spent more time attempting a vectorization of lines following all-to-all
-          connection pattern in a circle, but got stuck on numpy errors
-        - switched to just doing this in touch designer within a single glsl top
-        - ended meeting with idea that we will just  be making a grid and then filtering
-          based on a radius of a given size to control what points are shown
-        - really need to get back to the TCP stuff for transfering data to active
-          touch sessions
-      - - Met and discussed creating regularly spaced data in numpy using vectorize
-          that can be the backbone of touch designer visualizations
-      - - Continuing this connection as part of working on the Astro Dance project
-        - Met up and discussed using docker containers
-        - Shared "Play with Docker" tool to practice docker
-        - Showed her how to use ssh to connect with PuTTY
-        - Sent data from remote machine over ssh to Touch Designer using tcp
-        - Need to refocus on how these techniques are going to help us going forward
-      - - Met up and started covering TCP protocol for transmitting images from JAX/numpy
-          server into touch designer
-        - This helps us extend to creating assets outside of the touch designer system,
-          and offload larger tasks to more performant machines
-        - Covered some more information about drawing grids with compute shaders,
-          and the numpy Script TOP
-      - - Spent a good amount of time at the begininning looking through materials
-          provided by Kay He to see which effect she would like to work on next
-        - Settled on her helping out with the monocolor circular lines
-        - Met and started working on compute shader code involving grids
-        - Sent off Abby's portfolio to Holly Brown https://aecollier.github.io/portfolio/
-      - - Met and added final touches to her feature piece for the final part of the
-          independent study
-        - Submitted grade with Blake, and will send Holly Brown a brief report with
-          Abby's independent study webpage
-      - - Abby won the SBS senior award !!
-        - Met and discussed how to use actively moving particles positions for sampling
-          other textures
-        - This is the foundation of reactive particle systems, so we now can use video
-          input of a person to manipulate our particle system!
-        - Will work with Blake to submit grade before the end of the semester
-      - - Had our usual friday meeting
-        - Made quite a bit of progress on her feature Touch Designer piece called
-          "purple stars"
-        - Spent time working on her github webpage to present the work from this independent
-          study
-        - Talked about potential for her to continue in this capacity after graduation
-          as a DCC
-      - - Met up and started working on custom materials
-        - Had long discussion in the meeting cementing  the mental model of how the
-          shaders are using different color channels to move particles
-        - Also started working on how to use other texture inputs to help with particle
-          spreading patterns
-        - Had to rush into using uniform sampler2D types
-        - As a result I made a short video recording explaining how to do modular
-          arithmetic to calculate texture sample coordinates from instance id's  for
-          each of our particles
-      - - Met with Abby several times this week
-        - The main focus of our time is on how to get her help with the touch designer
-          visualizations for the show
-        - Kay has requested a recreation of this effect https://www.youtube.com/watch?v=r9dd6csVZbk
-          and I'm making it Abby's focus
-        - Discussed feedback loops, texture lookups, neighbor queries, and soon we
-          will talk about writing custom materials with shader code
-      - - Met with Abby and started working on Touch designer
-        - Wrote a section of Abby's outstanding senior nomination for Rich Thompson
-          who is the primary Python lecturer for ISTA
-        - Worked live through a Touch Designer network showing basic features such
-          as CHOPs TOPs, parameter referencing, and feedback
-        - Then did a very quick intro to programming particle systems as that will
-          be the main thing we generate for the astro dance performance
-      - - Met on friday to discuss final tweaks to the data visualization feature
-          piece
-        - Abby built a very nice heatmap displaying squirrel counts from the data
-          set against the hectares they live in within central park
-        - Worked on making legend for her graph, and how to add observational notes
-          to the data
-        - She will add some prose to outline the process of building the notebook
-          but besides that we have completed our data visualization phase
-        - Discussed with her the first resources she should use to get setup and oriented
-          with Touch Designer!
-        - From this point on she will be helping me produce material for the astronomy
-          multimedia performance
-      - - Met on friday
-        - Discussed her feature piece for the data visualization section of the independent
-          study
-        - Worked on creating data that would lend itself to a heatmap representation
-          of the squirrel population of central park
-        - Additional experimentation in the direction of "details on demand" by providing
-          interesting select "notes" from the data when a user mouses over a tile
-          of the heatmap
-        - Preparing for the wrap up week of the web visualization material
-      - - Had our usual friday meeting
-        - Discussed advanced interaction via geometric/semantic zooms, and data brushing
-        - Spent the last 30 minutes discussing her feature piece for the data visualization
-          section of the independent study
-        - Have settled on doing a visualization of the Squirrel Census data hosted
-          on Github
-      - - Met up and answered questions related to previous week's exercises
-        - discussed intricacies of D3 data binding
-        - Covered the dynamics of adding and removing data without a key function
-        - Moved on to some very basic code for reacting to user generated events such
-          as "Mouse Over" "Mouse Out" and "Click"
-      - - Met and took care of questions for the week
-        - Moved along to using transitions and animations for our data visualizaions
-        - Started looking at how D3 manages changes to the visualization's underlying
-          data (enter,update,remove selections)
-        - Assigned exercises for the week
-        - Mentioned that she should attend the weekend workshop on using p5.js for
-          website element creation, and she was one of the 5 people
-      - - Met and addressed questions about the first week of using d3
-        - Moved away from the template literal svg creation that is in vogue, and
-          revisited the roots of d3 and DOM management with selections
-        - Invited her to participate in the Argonne GPU hackathon as an extension
-          of the datascience side of her independent study.
-        - Worked on using the <g> element to organize our data in the graphics, and
-          apply transforms to many elements at the same time.
-        - Used the <g> elements to learn about how to create axes for our visualizations
-      - - Met several times to try to troubleshoot the GLSL shader code on her feature
-          p5.js sketch.
-        - Shifted into our first week of the data visualization side of the independent
-          study.
-  - - Stellarscape Astronomy Multimedia Dance Performance
-    - contacts: null
-      dates: null
-      description: null
-      links: null
-      newUpdates: true
-      status: active
-      type: collaboration
-      updates:
-      - - Organized all new visuals and research renders into movement folders for meeting that happened on wednesday
-        - Had successful meeting and can relax a little bit now
-        - Will have meetings with Kay He, Gustavo Almeida, and Win Burleson to work out more revisions to visuals and to chat about sensors
-      - - Deadline appears to be less demanding and more work seems to be hitting
-          the mark
-        - Produced several visual outputs from theoretical astrophysics simulations,
-          one of which required the HPC for the visualization using a juypter notebook
-          and the Datashader python library
-        - The second of which has snapshots that are small enough size of render within
-          touch designer still
-        - Spent the remainder of the week making modifications to existing effects
-          for movements 1 and 2 of the show in accordance with feedback I've received
-          from the director
-        - Just found out that several internationally known multimedia artists have
-          been approached about working on this show also, and one of them seems to
-          have agreed which is very exciting.
-      - - Director decided that we are going to try to finish all the visuals in the
-          next month which meant I had to respond with my own sense that this won't
-          be entirely possible
-        - Had a meeting to discuss remaining visual to finish and what the priorities
-          are
-        - Started the process of transferring the Northwestern star formation simulation
-          to hard disk to produce visuals from it
-        - Checking on the machine that had the Agora Plantary disk simulation on it
-          and that Jetstream machine is provin very difficult to access for some reason
-        - Managed to work with Rishav Kumar who is Gustavo Almeida's student to send
-          data over bluetooth from a wearable device to touch designer
-      - - 1 tech test in person session at Crowder Hall
-        - Created several new effects and tuned up the transitions between several
-          of the fluid dynamics driven particle system
-        - Took home a Shimmer IMU to practice wearable position detection inputs for
-          touch designer
-        - Will be meeting Gustavo's student Rishav next week to learn how to test
-          these
-      - - 2 tech test in person sessions at Crowder Hall
-        - Had the opportunity to see how the material I've produced will actual look
-          at the time of the performance
-        - Lots of troubleshooting things that happened during the week
-        - Recorded footage of Hayley from above for effects development
-        - Spent time working on how to perform simple self-advection of velocity fields
-        - This will allow a dancer to move their body and have their input spread
-          to other particles on the screen they hadn't reached hopefully in a realistic
-          way
-      - - Had monthly meeting this week
-        - presented my work for combining various effects using Hayley's floor dance
-          recordings
-        - then had development session with Kay on friday trying to get ready for
-          the tech test week coming up where we are going to crowder hall in person
-          to experiment
-      - - Shot footage with Hayley last week
-        - had meeting about visualizations that will be used for the floor dance section
-          of the performance
-        - Got 5 TB of data from northwestern researchers on solar formation
-        - Wrote to Evan Schneider about galatic wind data but haven't heard back
-      - - Met Kay last week for development session
-        - Found that the fluid dynamics effect was broken because a single text file
-          was in use by all the different touch networks so development broke the
-          stable version
-        - Asked researchers at Northwestern for their globus link to the 5TB dataset
-          for the star birth
-        - Tried compute shader network example for first time
-        - Got the perspective, camera raw matrices to work
-      - - Several long meetings with Kay working on this project
-        - Decided where various Astronomy simulation data is going to fit
-        - Made progress on recreating the effect used in the Manna lines video
-        - Got 1 snapshot of data from Researchers at Northwestern and will try to
-          work this into a touch designer animation
-        - Figured out how to parse out the positions from the HDF5 data
-        - have to reach out to Evan Schneider about galactic wind time series simulations,
-          and start Globus setup for the Northwestern 5 TB dataset
-      - - New scientist simulation data
-        - Also met with Kay and discussed ongoing work related to lines
-        - Set another meeting for this upcoming week
-      - - Had monthly meeting last week
-        - Discussion about grants that will be pursued by other members on the team
-          following our eventual performance
-        - Shared my updates about conversation with Gustavo on Sensors
-        - Demoed my most recent visualizations using Touch Designer
-      - - Wrote code to generate multisegment lines, but got stuck with how to apply
-          this with multi line data also
-        - Got curious about the scanline fill algorithms used to color the interior
-          of geometries that we express with lines
-        - Met with Gustavo from the sensor lab to discuss our options.
-      - - Worked out how to use the Engine COMP to start processes in other threads
-          so that we can keep our visualization performance high
-        - This enabled me to implement a TCP client that receives raw bytes and converts
-          them to a texture that we can operate on with the GPU
-        - I believe this will help me bring the HPC into the project in bigger ways
-        - Spent more time learning how to create multi segment lines in the compute
-          shader
-      - - Switched gears in development for this project to curves instead of particle
-          systems
-        - Reviewed videos that Kay sent to me for inspiration
-        - Spent time reading Fundamentals of Computer Graphics chapters on splines,
-          Hermite cubics, and Bezier curves
-        - Made a proof of concept GPU compute touch designer example of 100^2 lines
-          interpolated to a level of detail around 1000 segments per line
-        - Somehow this still ran at 60fps? Not going to argue with the results.
-        - Setup meeting with Gustavo the director of the new Sensor Lab to discuss
-          the sensor options we will have access to for the show
-        - Researched and implemented a system for switching between running Visualizations
-          within Touch Designer so that we can script the whole performance from beginning
-          to end without being hands on
-        - This will be ultimately better because its still pretty likely that we would
-          press the wrong thing at the wrong time and create a technical difficulty
-      - - Big meeting this week
-        - Also heard back from Brant Robertson and Evan Schneider that we can use
-          their Galaxy outflow simulation visualization for our show
-        - This is such a cool looking effect, I don't know where it will fit in yet
-          though
-        - Ran into some big performance problems with Touch Designer, but their most
-          recent update appears to fix things
-        - Made demos for meeting with Hayley and Kay
-        - Will do more live outside testing with them next monday
-        - Still stuck on creating simple propagation effects
-        - Watched new series of videos by Stanslav Glasov, but he didn't go into the
-          subject I was looking for on how to generate point/line network effects
-          in touch designer on the GPU
-      - - Rapid prep for presentation of work with our dancer Hayley Meier
-        - Spent the week working on all of our existing visualizations trying to incorporate
-          feedback from Kay
-      - - Fixed Gasoline errors
-        - Ran AGORA Disc example which is Isolated Milky-Way Like Disk Galaxy  using
-          pthread over 10 cores (took 2 days to complete)
-        - Created 2 visualization workflows for this within Touch Designer, Volumetric
-          renderer, Instanced particle system
-        - The volumetric renderer was a useful technique to brush up on but suffered
-          from 3D texture size limitations in touch designer
-        - The instanced particle system will be a much better approach requiring less
-          pre-processing (no 3D texture to create, just parsing a binary snapshot
-          from gasoline) and doesn't have visual artifacts produced at certain angles
-        - visual results https://drive.google.com/file/d/1KFpEVgSEkSh4ZxSClgoLPJEL_Cp3m9ik/view?usp=sharing
-          (instanced particle system) , https://drive.google.com/file/d/1DkSOdYlJpbWoZqremOAbLzGY9XB7OwTb/view?usp=sharing
-          (volumetric renderer)
-      - - Produced first MONOCOLOR inspired geometric scenes
-        - Spent time in the week working with derivative community to troubleshoot
-          performance of the geometry shader, it appears that the radeon pro vega
-          56 card on the imac pro may not be as performant as we hoped
-        - developed a visualization of particles driven by a vector field based on
-          the mathematical operations curl and divergence and the mouse input
-        - Converted fluid mechanics particle system to be driven by kinect depth sensor
-          mode
-        - Experimented with James Wadsley's SPH program "Gasoline", but cannot get
-          past an error which comes up on the Jetstream cloud instance when running
-          with pthread on 6 cpu cores
-        - So far no suggestions from the developers on the github issue I created
-          for this
-      - - Produced particle system visualizations driven by fluid mechanics coupled
-          to user input (mouse or microsoft kinect)
-        - Created first particle system with interconnecting lines using Kay's audio
-          input
-        - Discussing presentation options with Win Burleson for the top down dancer
-          on stage section of movement 1
-        - Found second researcher James Wadsley who may be able to provide solar formation
-          SPH (smoothed particle hydrodynamics) simulations
-      - - Got commercial license for Touch Designer
-        - Exploring the differences from the free version
-        - Learning to use the geometry shader section of the opengl pipeline to change
-          the primitives that I operate on from points to lines
-        - Exploring and recreating the techniques used in MONOCOLOR, Latent Space
-          and Fulldome show by Marian Essl https://derivative.ca/community-post/monocolor-latent-space-and-fulldome-environment
-        - Hitting snags related to renders that are higher resolution than 1280x720
-        - Discussing options for movement 1's camera setups with Win Burleson
-      - - Met with Kay to do Space Engine Flythroughs with the new version of the
-          program, using its built in recorder
-        - She thinks that we have all the space footage that we need for the show
-          now
-        - Met with Lewis Humphrey of Tech Launch Arizona to discuss what license we
-          need for the programs we use in the project, he says we are commercial and
-          Kay will try to raise money to pay for Touch Designer commercial license
-          (600$)
-        - Deadline for visuals of the first movement was Friday, but not everything
-          was complete
-        - Created a Trello to better track my progress and Kay's suggestions
-        - New deadline is the 18th to finish part 1, and the first of april to have
-          the second movements visuals
-      - - Met with Kay to discuss development of particle system behaviors
-        - Had a second meeting with her in the week to test out whether my iMac Pro
-          desktop is faster than the resources she has, appears a mixed result
-      - - Met with Kay, shot footage of various nebulae (horse head, carina, orion,...)
-        - Finished storyboard for first movement of performance
-        - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
-          the results of that meeting
   - - Jason Hortin Holographic Dance Graduate Project
     - contacts: null
       dates: null
@@ -1373,38 +1452,3 @@ detailed_collection:
         - He was interested in the work of Florian Feldhaus and his xpra virtualgl
           EGL backend running out a docker container as a way to remove the X server
           dependency for accelerated remote visualization
-names:
-- Biosphere 2 Biosystems visualization Collaboration
-- Stellarscape Astronomy Multimedia Dance Performance
-- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
-- Independent study Abby Collier
-- Presentation for Civil Engineering Department
-- Data Visualization Roadshow with Jeff Oliver
-- Judging the data visualization challenge
-- Remote visualization infrastructure Development
-- Oyster Vibrio Literature Review
-- Ray tracing on the HPC
-- HAS Faculty collaborations with Holodeck
-- COVID Retail Mitigation Web Scraping
-- Autamus web interface
-- Bryan Carter Photogrammetry
-- 'Womens Hackathon: Visualization on the web workshop'
-- ObservableHQ portfolio of Data Visualization
-- Jason Hortin holographic dance graduate project
-- Advice for thesis defense visualizations, Sabrina Nardin
-- Collaboration with TechCore's Summer Internship
-- Resbaz organizer and workshop provider
-- force directed biochem networks
-- neuro choropleth
-- spring break COVID photo maps
-- VirtualGL for Nvidia accelerated remote HPC visualizations
-- Xpra and Singularity for comprehensive Graphical application support on HPC
-- 3D & VR Retrofit AZLIVE
-- BIO5 virtual reality tour
-- social VR museum capstone student project
-- Tech core level up presentation Tuesday, Mar 17 2020
-- Tech core level up presentation Monday, Sept 28 2020
-- Argonne GPU hackathon
-- Radiology 1st year resident Carl Sabotke
-- Mt. Lemmon in your Pocket-creating a virtual reality tour
-- Meeting with Tyson Swetnam to discuss containers and remote visualization
