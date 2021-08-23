@@ -17,7 +17,7 @@ names:
 - Presentation for Civil Engineering Department
 - Data Visualization Roadshow with Jeff Oliver
 - Judging the data visualization challenge
-- Remote visualization infrastructure Development
+- Remote visualization infrastructure Development spring 2021
 - Oyster Vibrio Literature Review
 - Ray tracing on the HPC
 - HAS Faculty collaborations with Holodeck
@@ -625,7 +625,7 @@ detailed_collection:
       - videos: https://drive.google.com/drive/folders/18tT28oLiXFH1wH8NGUwSU1K0URyzJq9o?usp=sharing
       - Pecha Kucha style presentation: https://docs.google.com/presentation/d/1n6ggKJ-oG7fqHfVsLMnuYkAVh095B1RA7EcNx1RQ12M/edit?usp=sharing 
       - presentation video: https://www.youtube.com/watch?v=EiQ9S5lNbA8
-      newUpdates: true
+      newUpdates: false
       status: complete
       type: collaboration
       updates:
@@ -726,13 +726,13 @@ detailed_collection:
           able to help with his AR visualization needs
         - Probably can't do much myself because I'm not familiar at all with the Hardware
           he's trying to use (Hololens)
-  - - Remote Visualization Infrastructure Development
+  - - Remote Visualization Infrastructure Development spring 2021
     - contacts: null
       dates: null
       description: null
       links: null
       newUpdates: false
-      status: active
+      status: complete
       type: infrastructure
       updates:
       - - Spent part of last week learning about "transfer encoding chunked" messages
