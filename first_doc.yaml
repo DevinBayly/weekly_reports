@@ -10,7 +10,7 @@ attributes:
 names:
 - Streaming technology for HPC
 - Vulkan on HPC
-- Biosphere 2 Biosystems visualization Collaboration
+- Virtual Nature
 - Stellarscape Astronomy Multimedia Dance Performance
 - 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
 - Independent study Abby Collier
@@ -53,7 +53,10 @@ detailed_collection:
       newUpdates: true
       status: active
       type: infrastructure
-      updates:
+      updates:'
+      - - Got help from Adam and Ric last week and was able to have the wgpu boids simulation running on the HPC sending frames to laptop with x11 forwarding
+        - Adam also put the vulkan sdk into a module so that we could use it outside of r5u09n1 the puma node that he had set aside for testing
+        - Started running into new errors `No valid $DISPLAY found. Unable to load module.` when trying to do other work on the HPC now though
       - - Vulkan is the successor to OpenGL and much of my low level graphics understanding comes from web-gpu that leverages Vulkan
         - This means in order to provide greater visualization support with the HPC I need to have access to Vulkan
         - The issues are that our nvidia driver setup has a bug in it related to Vulkan support
@@ -65,7 +68,7 @@ detailed_collection:
       dates: null
       description: null
       links: null
-      newUpdates: true
+      newUpdates: false
       status: active
       type: infrastructure
       updates:
@@ -82,6 +85,9 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Had first drop in last week, spent time with Kiri figuring out how the semester might look
+        - Planned out some presentations at the GIS day in November also
+        - Aiming to create demonstration of streaming point cloud gdal stuff from HPC the same way the USGS uses Entwine for it's national Geospatial data
       - - Created new flyer for the catalyst studio presentation on the 2nd of Sept
         - Kiri volunteered to reserve our space at the studios
         - Worked on material that needs to be swapped out from the presentation template
@@ -145,6 +151,9 @@ detailed_collection:
       status: active
       type: student
       updates:
+      - - Met to work on combining effects for the 1a movement's motion aura effect
+        - This included teaching her about glsl atomic counters
+        - implemented system by which she can work on the same Touch Designer files as me and labeled various parts of Kay's feedback by difficulty level to make it easier for her to assist me
       - - Met briefly last week to cover recent updates
         - Discussed plan for distributing the work related to the feedback given from Kay in the last meeting
       - - Met with Abby and discussed how to use the multithreading concept of "atomic"
@@ -291,6 +300,7 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Worked on feedback provided about movement 1 and 2 effects
       - - Several meetings last week, one with Kay to discuss feedback she had for the visuals I shared with the team in meeting
         - Also met with Gustavo Almeida to discuss use of sensors in the project
         - Learned about the Kalman filter approach for integrating information from the gyroscopes to minimize drift in the IMU sensor output
@@ -479,7 +489,7 @@ detailed_collection:
         - Finished storyboard for first movement of performance
         - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
           the results of that meeting
-  - - Biosphere 2 Biosystems Visualization Collaboration
+  - - Virtual Nature
     - contacts: null
       dates: null
       description: null
@@ -488,6 +498,8 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Met and discussed material in touch designer related to creating particle paths 
+        - This was accomplished using post processing feedback TOPS and also with a "sliding window" of particle position history 
       - - Watched presentation of Birds of a Feather at SIGGRAPH on "Virtual Nature" presented my Maria Garcia at UCF
         - Had the idea of trying to do collaborations with their group but centered on the southwest instead
         - Need to look for faculty who would be willing to participate in this collaboration
