@@ -53,7 +53,7 @@ detailed_collection:
       newUpdates: true
       status: active
       type: infrastructure
-      updates:'
+      updates:
       - - Got help from Adam and Ric last week and was able to have the wgpu boids simulation running on the HPC sending frames to laptop with x11 forwarding
         - Adam also put the vulkan sdk into a module so that we could use it outside of r5u09n1 the puma node that he had set aside for testing
         - Started running into new errors `No valid $DISPLAY found. Unable to load module.` when trying to do other work on the HPC now though
