@@ -54,6 +54,8 @@ detailed_collection:
       status: active
       type: infrastructure
       updates:
+      - - Reading section on windowless rendering from https://sotrh.github.io/learn-wgpu/showcase/windowless/
+        - Hopefully this will make it possible to run simulations steps faster than the x11 can forward and then stitch the png results together in a movie file
       - - Got help from Adam and Ric last week and was able to have the wgpu boids simulation running on the HPC sending frames to laptop with x11 forwarding
         - Adam also put the vulkan sdk into a module so that we could use it outside of r5u09n1 the puma node that he had set aside for testing
         - Started running into new errors `No valid $DISPLAY found. Unable to load module.` when trying to do other work on the HPC now though
@@ -85,6 +87,10 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Setup two new presentations for the fall so the remaining total is 5
+        - First new presentation is for Special Libraries Association (SLA) and their Science Technology Community sub group
+        - Second is the Math department Research Training Group (RTG) with Laura Miller and Kevin Lin
+        - Had a debrief session from last presentation and we are  going to do a bottom to top overhaul of the presentation for the ENVS presentation on the 27th
       - - Had first drop in last week, spent time with Kiri figuring out how the semester might look
         - Planned out some presentations at the GIS day in November also
         - Aiming to create demonstration of streaming point cloud gdal stuff from HPC the same way the USGS uses Entwine for it's national Geospatial data
@@ -151,6 +157,8 @@ detailed_collection:
       status: active
       type: student
       updates:
+      - - Met with Abby and worked on the 3rd effect from the performance's movement 1a
+        - Left it on a note where I described 5 modifications of varying difficulty that she could investigate 
       - - Met to work on combining effects for the 1a movement's motion aura effect
         - This included teaching her about glsl atomic counters
         - implemented system by which she can work on the same Touch Designer files as me and labeled various parts of Kay's feedback by difficulty level to make it easier for her to assist me
@@ -300,6 +308,8 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Had meeting with Kay and worked on the time codes for the 1a and 2a sections
+        - Got positive feedback on many of the changes that I had incorporated since the tech test on the 2nd of September
       - - Worked on feedback provided about movement 1 and 2 effects
       - - Several meetings last week, one with Kay to discuss feedback she had for the visuals I shared with the team in meeting
         - Also met with Gustavo Almeida to discuss use of sensors in the project
@@ -498,6 +508,7 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Made video upload for Omani showing how we will take model data in the `.ply` format and make it visible in Touch Designer using a glsl compute shader
       - - Met and discussed material in touch designer related to creating particle paths 
         - This was accomplished using post processing feedback TOPS and also with a "sliding window" of particle position history 
       - - Watched presentation of Birds of a Feather at SIGGRAPH on "Virtual Nature" presented my Maria Garcia at UCF
