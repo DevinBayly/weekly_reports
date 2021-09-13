@@ -44,7 +44,21 @@ names:
 - Radiology 1st year resident Carl Sabotke
 - Mt. Lemmon in your Pocket-creating a virtual reality tour
 - Meeting with Tyson Swetnam to discuss containers and remote visualization
-detailed_collection: 
+- IEEE Satellite Vis Conference Planning
+detailed_collection:
+  - - IEEE Satellite Vis Conference Planning
+    - contacts: null
+      dates: null
+      description: null
+      links: 
+      - https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - Spent 2 hours in meeting working out details related to the location reservations for the conference as well as community planning steps
+        - Volunteered to create the Birds of a Feather (BOF)  sign up sheet with Google's AppSheet https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
+        - Also volunteered to be the main person at the information table during the conference helping folks identify which vis experts their questions are best suited for
   - - Vulkan on HPC
     - contacts: null
       dates: null
