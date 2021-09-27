@@ -59,7 +59,7 @@ import time
 def run():
     now = datetime.datetime.now() - datetime.timedelta(days=3)
     
-    with open("first_doc.yaml","r") as phile:
+    with open("updates.yaml","r") as phile:
         # projects
         p = yaml.full_load(phile)
     ophile = StringIO()
