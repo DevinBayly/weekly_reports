@@ -15,7 +15,7 @@ names:
 - 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
 - Independent study Abby Collier
 - Presentation for Civil Engineering Department
-- Data Visualization Roadshow with Jeff Oliver
+- Data Visualization Roadshow with Jeff Oliver and Kiri Carini
 - Judging the data visualization challenge
 - Remote visualization infrastructure Development spring 2021
 - Oyster Vibrio Literature Review
@@ -56,6 +56,10 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Had meeting on Friday planning video shoutout material
+        - Decided to start emailing folks in the stakeholder list I created about the conference that's coming up
+        - Rooms and Birds of a Feather timing worked out
+        - Had meeting with DSRT folks recently and discussed the conference, folks on panel are going to help advertise
       - - Spent 2 hours in meeting working out details related to the location reservations for the conference as well as community planning steps
         - Volunteered to create the Birds of a Feather (BOF)  sign up sheet with Google's AppSheet https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
         - Also volunteered to be the main person at the information table during the conference helping folks identify which vis experts their questions are best suited for
@@ -68,6 +72,7 @@ detailed_collection:
       status: active
       type: infrastructure
       updates:
+      - - In the process of creating a program that will read from hdf5 files and transparently draw points to image texture using GPU to be saved out as individual frames of Astronomy Simulation videos
       - - Reading section on windowless rendering from https://sotrh.github.io/learn-wgpu/showcase/windowless/
         - Hopefully this will make it possible to run simulations steps faster than the x11 can forward and then stitch the png results together in a movie file
       - - Got help from Adam and Ric last week and was able to have the wgpu boids simulation running on the HPC sending frames to laptop with x11 forwarding
@@ -92,7 +97,7 @@ detailed_collection:
         - This will eventually develop into a program that can take researcher jpg udp frames and display them where ever the researcher wants to display them as long as the display client is also on the HPC VPN
         - This is a simpler remote visualization method than use desktops or VNC because it only requires running a script on the HPC, but does mean a researcher has to write code to send the images over udp
         - Either way, it should be less work for the Infrastructure team and is a simpler remote client setup which just has to be a browser page
-  - - Data Visualization Roadshow With Jeff Oliver
+  - - Data Visualization Roadshow With Jeff Oliver and Kiri Carini
     - contacts: null
       dates: null
       description: null
@@ -101,6 +106,8 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Met and revised presentation with Jeff Oliver and Kiri
+        - Worked on tool for Kirsten Ball as individual consultation
       - - Setup two new presentations for the fall so the remaining total is 5
         - First new presentation is for Special Libraries Association (SLA) and their Science Technology Community sub group
         - Second is the Math department Research Training Group (RTG) with Laura Miller and Kevin Lin
@@ -171,6 +178,9 @@ detailed_collection:
       status: active
       type: student
       updates:
+      - - Met with Abby and talked about Github actions for automated cloud operations
+        - Switched to working on stream disruption effects 
+        - Discussed a little bit of the Kalman filter bayesian questions that I have
       - - Met with Abby and worked on the 3rd effect from the performance's movement 1a
         - Left it on a note where I described 5 modifications of varying difficulty that she could investigate 
       - - Met to work on combining effects for the 1a movement's motion aura effect
@@ -322,6 +332,11 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Had Tech Test meeting last wee
+        - Switched from developing on the iMac Pro to the performance computer that Kay has
+        - Many effects were broken by the switch, so spent most of the week working on what the fixes for these were
+        - Read quite a bit of the Kalman filter jupyter notebook "book" by rlabbe, very helpful https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
+        - Going to ask Ryan in TESS if he can install Touch designer on the vis PC connected to the big display wall
       - - Had meeting with Kay and worked on the time codes for the 1a and 2a sections
         - Got positive feedback on many of the changes that I had incorporated since the tech test on the 2nd of September
       - - Worked on feedback provided about movement 1 and 2 effects
@@ -522,6 +537,7 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Will be testing Omniverse with the work machine this week to see if it's a viable way to allow the DCC Omani to work with unreal from her laptop
       - - Made video upload for Omani showing how we will take model data in the `.ply` format and make it visible in Touch Designer using a glsl compute shader
       - - Met and discussed material in touch designer related to creating particle paths 
         - This was accomplished using post processing feedback TOPS and also with a "sliding window" of particle position history 
