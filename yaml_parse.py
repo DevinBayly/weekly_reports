@@ -3,7 +3,7 @@ import os
 import shutil
 #import python_quick
 
-with open('first_doc.yaml','r') as phile:
+with open('updates.yaml','r') as phile:
     contents = yaml.full_load(phile)
 
 def fill_gaps():
