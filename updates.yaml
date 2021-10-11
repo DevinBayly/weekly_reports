@@ -107,7 +107,7 @@ detailed_collection:
       description: null
       links: null
       newUpdates: true
-      status: active
+      status: upcoming
       type: collaboration
       updates:
       - - None
