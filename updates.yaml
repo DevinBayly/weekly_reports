@@ -60,6 +60,17 @@ detailed_collection:
       type: collaboration
       updates:
       - - None
+  - - Lilliana  Salas GIS GIDP
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: consult
+      updates:
+      - - Lilliana is trying to gather her data on alternative transport mechanisms in the city of Austin
+        - I've been helping her collect data for her publication reviewers and introducing the google colab python notebooks for reproducible science
   - - Laura Miller Math
     - contacts: null
       dates: null
