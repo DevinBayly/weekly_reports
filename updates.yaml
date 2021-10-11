@@ -118,6 +118,10 @@ detailed_collection:
       status: active
       type: infrastructure
       updates:
+      - - Tested out using OOD with the boids flocking and it works
+        - Looked into running rust nannou creative coding library and that still throws the "adapter not found" error
+        - Isoloated the glib version mismatch to the `shaderc` library dependency, will investigate `Naga` or `glsllang` to get around this
+        - Next step is to take the locally running HDF5 renderer and test it on ocelote 
       - - In the process of creating a program that will read from hdf5 files and transparently draw points to image texture using GPU to be saved out as individual frames of Astronomy Simulation videos
       - - Reading section on windowless rendering from https://sotrh.github.io/learn-wgpu/showcase/windowless/
         - Hopefully this will make it possible to run simulations steps faster than the x11 can forward and then stitch the png results together in a movie file
@@ -152,6 +156,9 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Met last week and discussed upcoming presentations 
+        - First is Research Training Group for Mathematics, we will be using Jellyfish swimming fluid dynamics data, the big task is simplifying some of this to be used
+        - Next is the Special Library Association presentation, we will be explaining to other librarians our approach to explaining data visualization for different groups around campus
       - - Met and revised presentation with Jeff Oliver and Kiri
         - Worked on tool for Kirsten Ball as individual consultation
       - - Setup two new presentations for the fall so the remaining total is 5
@@ -224,6 +231,10 @@ detailed_collection:
       status: active
       type: student
       updates:
+      - - Met with Abby and discussed show running techniques
+        - This involves taking a step back and figuring out how we are planning to trigger start, end, transition behaviors in the effects that we've generated so far
+        - Much more python code getting used at this point than before
+        - Getting her support deciding how to make effects transition between their initialization and running states
       - - Met with Abby and talked about Github actions for automated cloud operations
         - Switched to working on stream disruption effects 
         - Discussed a little bit of the Kalman filter bayesian questions that I have
@@ -378,7 +389,12 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
-      - - Had Tech Test meeting last wee
+      - - Spent a significant amount of time trying to learn about Kalman Filters to try to use that for positional estimation based off accelerometer data
+        - Ultimately this wouldn't work because Kalman requires a second step where we commpare the estimated position against another sensor's estimation and refine 
+        - If we have to bring in another sensor like this we are better off just mounting a second camera above and using that to track 1 dimensional position
+        - Also spent most of the past week adding transition behavior to the various effects that I've generated already
+        - Preparing for the tech test next week on Tuesday
+      - - Had Tech Test meeting last week
         - Switched from developing on the iMac Pro to the performance computer that Kay has
         - Many effects were broken by the switch, so spent most of the week working on what the fixes for these were
         - Read quite a bit of the Kalman filter jupyter notebook "book" by rlabbe, very helpful https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
@@ -583,6 +599,11 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Officially made contact with Maria Harrington the researcher at UCF who gave the talk at SIGGRAPH on Virtual Nature
+        - She and I are meeting next week to review her next grant submission to the games industry giant by the name of "Epic Games"
+        - This company sponsored her work previously and she is re-submitting for the next phase of her grant
+        - The idea is to become a vis consultant for one of the faculty on campus who can be her on paper collaborator for a Virtual Nature extension to the Southwest
+        - Individuals to reach out to at the UA are as follows, Dr. Greg Barron-Gafford, Ellen McMahon, Dr. Scott Saleska, Bryan Black, Aaron Sparks Bugaj
       - - Will be testing Omniverse with the work machine this week to see if it's a viable way to allow the DCC Omani to work with unreal from her laptop
       - - Made video upload for Omani showing how we will take model data in the `.ply` format and make it visible in Touch Designer using a glsl compute shader
       - - Met and discussed material in touch designer related to creating particle paths 
