@@ -47,6 +47,8 @@ names:
 - IEEE Satellite Vis Conference Planning
 - Thermal Imaging Project
 - CATalyst data studio vis wall playlist 
+- Volumetric Capture processing on HPC
+- TURN UP Festival Performance NYU/UA collab
 detailed_collection:
   - - Template
     - contacts: null
@@ -58,6 +60,83 @@ detailed_collection:
       type: collaboration
       updates:
       - - None
+  - - Laura Miller Math
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: consult
+      updates:
+      - - Laura has some really neat 3d flow data of what happens in a fluid when a JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
+  - - Kirsten Ball ENVS
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: consult
+      updates:
+      - - Worked with Kirsten's Soil Data to try to produce parallel coordinates plot of different microbe community percentages under the different categories of Irrigation, and Depth of the sample
+  - - Arminda Estrada, ECE
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: consult
+      updates:
+      - - Arminda and I worked on trying to get her machine to remotely display the ROS open source robotics program with Nvidia Hardware Acceleration
+  - - TURN UP Festival Performance NYU/UA collab
+    - contacts: Win Burleson, Kay He
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - None
+  - - Volumetric Capture processing on HPC
+    - contacts: Bryan Carter
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: upcoming
+      type: collaboration
+      updates:
+      - - None
+  - - Has Faculty Collaborations With Holodeck
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: false
+      status: upcoming
+      type: collaboration
+      updates: null
+  - - Ray Tracing On The Hpc
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: false
+      status: upcoming
+      type: collaboration
+      updates: null
+  - - Observablehq Portfolio Of Data Visualization
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: false
+      status: upcoming
+      type: community
+      updates: null
   - - CATalyst data studio vis wall playlist
     - contacts: Jen Nichols
       dates: null
@@ -1125,15 +1204,6 @@ detailed_collection:
       status: complete
       type: collaboration
       updates: null
-  - - Has Faculty Collaborations With Holodeck
-    - contacts: null
-      dates: null
-      description: null
-      links: null
-      newUpdates: false
-      status: upcoming
-      type: collaboration
-      updates: null
   - - Judging The Data Visualization Challenge
     - contacts: null
       dates: null
@@ -1326,15 +1396,6 @@ detailed_collection:
       status: complete
       type: collaboration
       updates: null
-  - - Observablehq Portfolio Of Data Visualization
-    - contacts: null
-      dates: null
-      description: null
-      links: null
-      newUpdates: false
-      status: upcoming
-      type: community
-      updates: null
   - - Oyster Vibrio Literature Review
     - contacts: null
       dates: null
@@ -1385,15 +1446,6 @@ detailed_collection:
       - - Met with Jeff Oliver last week to build outline for presentation.
         - Got OK from faculty Josh Levine to use material from his slides for the
           "why we do data visualization" and "best practices" portion of the presentation.
-  - - Ray Tracing On The Hpc
-    - contacts: null
-      dates: null
-      description: null
-      links: null
-      newUpdates: false
-      status: upcoming
-      type: collaboration
-      updates: null
   - - Resbaz Organizer And Workshop Provider
     - contacts: null
       dates: null
