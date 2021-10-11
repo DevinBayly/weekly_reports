@@ -164,7 +164,7 @@ def section_fill(dc,ophile,status,typ):
                 links = deets['links']
                 if links:
                     for link in links:
-                        ophile.write(f"\t * {link} \n")
+                        ophile.write(f"\t * {link} \n".replace("{","").replace("}",""))
 
 result = run()
 result.seek(0)
