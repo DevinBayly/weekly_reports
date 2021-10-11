@@ -45,7 +45,48 @@ names:
 - Mt. Lemmon in your Pocket-creating a virtual reality tour
 - Meeting with Tyson Swetnam to discuss containers and remote visualization
 - IEEE Satellite Vis Conference Planning
+- Thermal Imaging Project
+- CATalyst data studio vis wall playlist 
 detailed_collection:
+  - - Template
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - None
+  - - CATalyst data studio vis wall playlist
+    - contacts: Jen Nichols
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: Infrastructure
+      updates:
+      - - Setup meeting with Jen for next week
+        - Goal of short project is to create a web page that will be screen saver for the big vis wall at CATalyst
+        - Have process that iterates over videos and live demos of visualizations and creative code works
+        - Make it something others can add to over time
+        - Should be a great way to be in the driver's seat for what material gets viewed by people visiting the space
+        - This will make it easy to have a showcase option for RT's work
+  - - Thermal Imaging Project
+    - contacts: Ed Wellman, Brad Ross
+      dates: null
+      description: null
+      links: null
+      newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - Had first meeting with Brad Ross and Ed Wellman
+        - Received their project directory to explore and several documents detailing the previous steps of the project
+        - Sounds like they want someone to explore a few different types of motion detection algorithms by January so they can put that information into next milestone document
+        - If possible would like to make the workflow run on the HPC so that they can process videos in bulk
+        - Set monday as date to meet and go over material with Ed
   - - IEEE Satellite Vis Conference Planning
     - contacts: null
       dates: null
