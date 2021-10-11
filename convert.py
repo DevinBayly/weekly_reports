@@ -70,6 +70,8 @@ def run():
     ophile.write(f"\n### Active Development  \n\n")
     for el in dc:
         p_name_key = el[0]
+        if p_name_key == "Template":
+            continue
         ##print(dc,p_name_key)
         deets = el[1]
         #print(deets["status"])
