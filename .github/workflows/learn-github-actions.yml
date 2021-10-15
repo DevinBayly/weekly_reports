@@ -56,7 +56,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          mv convert_temp.pdf $(date '+%Y-%m-%d' -d "3 days ago")-Data-Vis-Weekly.pdf
+          mv convert_temp.pdf $(date '+%Y-%m-%d' )-Data-Vis-Weekly.pdf
           git add .
           git commit -a -m "Automated Notes Build $(date '+%Y-%m-%d')"
           git push origin main
