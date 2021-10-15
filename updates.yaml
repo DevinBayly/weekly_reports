@@ -60,12 +60,23 @@ detailed_collection:
       type: collaboration
       updates:
       - - None
-  - - Lilliana  Salas GIS GIDP
+  - - ENVS Term paper Consultation on Cu+ exposure and environment resilience
     - contacts: null
       dates: null
       description: null
       links: null
       newUpdates: true
+      status: active
+      type: collaboration
+      updates:
+      - - I met with Taylor McCoy this week to help her plan her term paper visualizations during my drop in hours
+        - I also shared with her the google colab platform introduction for using python in a notebook environment without having to perform installations
+  - - Lilliana  Salas GIS GIDP
+    - contacts: null
+      dates: null
+      description: null
+      links: null
+      newUpdates: false
       status: active
       type: consult
       updates:
@@ -80,13 +91,14 @@ detailed_collection:
       status: active
       type: consult
       updates:
+      - - Worked on getting the jellyfish velocity field out of the VTK/paraview format so that I could view it in a wider range of tools using Meshio the python 3d conversion package
       - - Laura has some really neat 3d flow data of what happens in a fluid when a JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
   - - Kirsten Ball ENVS
     - contacts: null
       dates: null
       description: null
       links: null
-      newUpdates: true
+      newUpdates: false
       status: active
       type: consult
       updates:
@@ -96,7 +108,7 @@ detailed_collection:
       dates: null
       description: null
       links: null
-      newUpdates: true
+      newUpdates: false
       status: active
       type: consult
       updates:
@@ -110,13 +122,13 @@ detailed_collection:
       status: upcoming
       type: collaboration
       updates:
-      - - None
+      - - This project will be a very short term collaboration in which effects being generated for the astronomy multi media show are going to be recycled to use data send from NYU as part of the visualization
   - - Volumetric Capture processing on HPC
     - contacts: Bryan Carter
       dates: null
       description: null
       links: null
-      newUpdates: true
+      newUpdates: false
       status: upcoming
       type: collaboration
       updates:
@@ -157,6 +169,9 @@ detailed_collection:
       status: active
       type: Infrastructure
       updates:
+      - - Met with Jen and created a working prototype web app that pulls link urls from a google sheet to view for a predetermined amount of time before switching to the next one
+        - This will allow the CATalyst big display wall to remain active in between booked sessions
+        - Unfortunately they are now having technical difficulties with the right side of the vis computer's display and the keyboard and mouse seem to not be interfacing correctly with the computer being displayed unless I use my own device
       - - Setup meeting with Jen for next week
         - Goal of short project is to create a web page that will be screen saver for the big vis wall at CATalyst
         - Have process that iterates over videos and live demos of visualizations and creative code works
@@ -172,6 +187,10 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Met with Ed in person and discussed details of the project as well as a roadmap and ways to provide updates as the collaboration gets underway
+        - I have agreed to work 10 hours a week on this project for October and in November I'll have a chance to re evaluate the amount of availability I have to increase that amount
+        - They have a milestone document dealine that they need my work to be performed for in January so that is the next nearest deadline for this project
+        - The plan is to begin going through the excel spreadsheet logs to find good candidate video phenomena to practice various computer vision algorithms on with python's Open CV package
       - - Had first meeting with Brad Ross and Ed Wellman
         - Received their project directory to explore and several documents detailing the previous steps of the project
         - Sounds like they want someone to explore a few different types of motion detection algorithms by January so they can put that information into next milestone document
@@ -187,6 +206,10 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - This week we planned out the room assignments for various simulcast sessions from the main IEEE conference
+        - I also booked the catalyst data studio to spend a half day filming for the promotional video
+        - Josh and Nirav wanted me to also be part of the interview team so I got to be on camera talking about Research Technologies and the goal of supporting the data visualization community here on campus
+        - I also reached out to a few other people who may be interested in being exhibitors at the Visualization Showcase Lunch on Tuesday the 26th
       - - Created self updating google form for the Birds of a Feather submission
         - Organized connection for producing the Satellite conference promotional video
         - Attended meeting with videographer and Josh 
@@ -204,7 +227,7 @@ detailed_collection:
       dates: null
       description: null
       links: null
-      newUpdates: true
+      newUpdates: false
       status: active
       type: infrastructure
       updates:
@@ -246,6 +269,10 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Started draft presentation for Math RTG group presentation, outlined sections to change for the presentation since the last one we offered
+        - Created some faceting examples using the Iris Dataset for the presentation and the live demo
+        - Incorporated survey link and resources web page that Kiri Carini put together
+        - Enrolled for the Visualizing the Future public symposium in which individuals at other universities discuss strategies for successful visualization service and education in the university context 
       - - Met last week and discussed upcoming presentations 
         - First is Research Training Group for Mathematics, we will be using Jellyfish swimming fluid dynamics data, the big task is simplifying some of this to be used
         - Next is the Special Library Association presentation, we will be explaining to other librarians our approach to explaining data visualization for different groups around campus
@@ -321,6 +348,8 @@ detailed_collection:
       status: active
       type: student
       updates:
+      - - Started a new github repo for tracking the development and exercises related to using touch designer for the astro dance project
+        - Worked on parabolic path effects with the goal of generating a visual effect for a musical climax cue in movement 2a
       - - Met with Abby and discussed show running techniques
         - This involves taking a step back and figuring out how we are planning to trigger start, end, transition behaviors in the effects that we've generated so far
         - Much more python code getting used at this point than before
@@ -479,6 +508,12 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Had a tech test this week
+        - Spent a long time working out how to stream video frames from a raspberry pi connected to a kinect dk infrared camera to the computer running touch designer for the purposes of motion tracking, but wasn't able to test this is the time we had available
+        - Worked out timecodes for all the effects and transitions for movement 2a
+        - Agreed to  deliver all requested changes to the video effects between now and the 16th of November, following that there will only be changes made to the show running program
+        - Reached out to Mike to see how the simulation video is coming after we asked for it to be extended
+        - Connected with Dylan Murphy of the Ista department to ask specific questions about the Kalman filter and whether it's possible to use only one sensor to implement position estimation
       - - Spent a significant amount of time trying to learn about Kalman Filters to try to use that for positional estimation based off accelerometer data
         - Ultimately this wouldn't work because Kalman requires a second step where we commpare the estimated position against another sensor's estimation and refine 
         - If we have to bring in another sensor like this we are better off just mounting a second camera above and using that to track 1 dimensional position
@@ -689,6 +724,9 @@ detailed_collection:
       status: active
       type: collaboration
       updates:
+      - - Met with Maria Harrington this week and she's very excited to make contact with various researchers at the university who are interested in Virtualization of plants and the environment for their research
+        - Will connect her with Aaron Bugaj and Greg Barron-Gafford for collaboration on her next "Epic" Grant submission
+        - Will arrange a time to gather folks for a presentation of her work with the goal of identifying individuals on campus interested in longer term collaborations
       - - Officially made contact with Maria Harrington the researcher at UCF who gave the talk at SIGGRAPH on Virtual Nature
         - She and I are meeting next week to review her next grant submission to the games industry giant by the name of "Epic Games"
         - This company sponsored her work previously and she is re-submitting for the next phase of her grant
