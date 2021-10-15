@@ -57,7 +57,7 @@ from io import StringIO
 import time
 
 def run():
-    now = datetime.datetime.now() - datetime.timedelta(days=3)
+    now = datetime.datetime.now() #- datetime.timedelta(days=3)
     
     with open("updates.yaml","r") as phile:
         # projects
