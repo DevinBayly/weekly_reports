@@ -71,8 +71,8 @@ detailed_collection:
       updates:
       - - Annalysa was an audience member for the brief presentation that I did with the Brain Modeling Workgroup
         - She is working on a neuroimaging paper and needed to improve the resolution of some of her figures
-	- She had a very tight turn around and didn't reply to the second email offer of when to meet but was able to figure out something
-	- She is going to reach out if the reviewers ask for anything else
+        - She had a very tight turn around and didn't reply to the second email offer of when to meet but was able to figure out something
+        - She is going to reach out if the reviewers ask for anything else
   - - ENVS Term paper Consultation on Cu+ exposure and environment resilience
     - contacts: null
       dates: null
@@ -204,8 +204,8 @@ detailed_collection:
       updates:
       - - Started working on the research for a method of keeping in memory some number of detected objects in motion with a way to compare a new frame's detections against this list to update existing ones and add brand new tracked objects to the list
         - Sent updates email to Brad and Ed earlier this week asking about how the "robustness" of the computer vision is going to be calculated
-	- Sounds like this is another open question related to the project
-	- Looking up implementations of Boundary Box Overlap and the Hungarian algorithm for tracking multiple objects
+        - Sounds like this is another open question related to the project
+        - Looking up implementations of Boundary Box Overlap and the Hungarian algorithm for tracking multiple objects
       - - Met with Ed in person and discussed details of the project as well as a roadmap and ways to provide updates as the collaboration gets underway
         - I have agreed to work 10 hours a week on this project for October and in November I'll have a chance to re evaluate the amount of availability I have to increase that amount
         - They have a milestone document dealine that they need my work to be performed for in January so that is the next nearest deadline for this project
@@ -226,8 +226,8 @@ detailed_collection:
       type: collaboration
       updates:
       - - Talked with Barry and Todd to setup a filming opportunity this week of the HPC machines for the promo video
-      	- Sent out more Showcase invitiations to members of the community
-	- Helped produce material for the health sciences newsletter advertising the satellite conference
+        - Sent out more Showcase invitiations to members of the community
+        - Helped produce material for the health sciences newsletter advertising the satellite conference
       - - This week we planned out the room assignments for various simulcast sessions from the main IEEE conference
         - I also booked the catalyst data studio to spend a half day filming for the promotional video
         - Josh and Nirav wanted me to also be part of the interview team so I got to be on camera talking about Research Technologies and the goal of supporting the data visualization community here on campus
@@ -255,8 +255,8 @@ detailed_collection:
       updates:
       - - Got a free moment to do a test of creating a singularity container on the work machine created with Alec's SHPC program that I then modified with a vulkan installation and the rust webgpu code
         - Then transfered this to the HPC and it was able to render graphical windows there
-	- This frees us up from only using one vulkan version that's installed on the HPC, and may extend to other supercomputers as well
-	- Issue remains about how to create necessary ICD files when they aren't provided on the system by the Nvidia driver installation, will ask Adam about this some day 
+        - This frees us up from only using one vulkan version that's installed on the HPC, and may extend to other supercomputers as well
+        - Issue remains about how to create necessary ICD files when they aren't provided on the system by the Nvidia driver installation, will ask Adam about this some day 
       - - Tested out using OOD with the boids flocking and it works
         - Looked into running rust nannou creative coding library and that still throws the "adapter not found" error
         - Isoloated the glib version mismatch to the `shaderc` library dependency, will investigate `Naga` or `glsllang` to get around this
@@ -284,10 +284,10 @@ detailed_collection:
       updates:
       - - Had a meeting with Ryan Tombleson from the Main Library TESS IT support group 
         - Discussed the workflows that I use for remote visualization that all rely on the HPC VPN
-	- Asked whether there would be issues with connecting the catalyst vis pc to the VPN when we want to do some realtime HPC visualizations either with OOD or some customized GUI
-	- He's very open to the idea and couldn't imagine any reason why we wouldn't be able to do this
-	- Set another meeting for the first week of November to test out things after Cisco Anyconnect install 
-	- Then spent the rest of the meeting demonstrating Omniverse and it's Paraview connector with the idea that we may be able to use the vis pc omniverse client to display the results of operations happening on the HPC if I can get it setup with Omniverse singularity 
+        - Asked whether there would be issues with connecting the catalyst vis pc to the VPN when we want to do some realtime HPC visualizations either with OOD or some customized GUI
+        - He's very open to the idea and couldn't imagine any reason why we wouldn't be able to do this
+        - Set another meeting for the first week of November to test out things after Cisco Anyconnect install 
+        - Then spent the rest of the meeting demonstrating Omniverse and it's Paraview connector with the idea that we may be able to use the vis pc omniverse client to display the results of operations happening on the HPC if I can get it setup with Omniverse singularity 
       - - Spent time working out how to use FFMPEG to send frames from laptop webcam over udp as concatenated JPEG to an intermediary server that received upd and converted that to http Transfer Encoded Chunks received in a web browser and displayed as an updating image
         - This will eventually develop into a program that can take researcher jpg udp frames and display them where ever the researcher wants to display them as long as the display client is also on the HPC VPN
         - This is a simpler remote visualization method than use desktops or VNC because it only requires running a script on the HPC, but does mean a researcher has to write code to send the images over udp
@@ -302,9 +302,9 @@ detailed_collection:
       type: collaboration
       updates:
       - - Had 2 presentations this week
-      	- RTG presentation for Laura Miller and Kevin Lin which went well
-	- Gave presentation for 50 people in the Special Libraries Association, Science Technology Community 
-	- This presentation was more meta because we presented on the way that we give presentations to groups around the University of Arizona
+        - RTG presentation for Laura Miller and Kevin Lin which went well
+        - Gave presentation for 50 people in the Special Libraries Association, Science Technology Community 
+        - This presentation was more meta because we presented on the way that we give presentations to groups around the University of Arizona
       - - Started draft presentation for Math RTG group presentation, outlined sections to change for the presentation since the last one we offered
         - Created some faceting examples using the Iris Dataset for the presentation and the live demo
         - Incorporated survey link and resources web page that Kiri Carini put together
@@ -546,10 +546,10 @@ detailed_collection:
       updates:
       - - Spent most of my time this week on research data renders for the show
         - Figured out a new way to load way more data into touch designer
-	- This allowed me to enter an entire SPH simulation into memory and render at 60 fps the behavior or the 100000 gas particles over the course of their 1000 time step simulations
-	- I was then able to write an interpolator so that we could play at what ever speed looks best for the fixed media video 
-	- Tried to render these videos on Kay's machine and the results really don't look good for some reason, have more meetings planned to finish this before the end of next week
-	- Made plans to meet next week to plan out the next tech test rehearsal
+        - This allowed me to enter an entire SPH simulation into memory and render at 60 fps the behavior or the 100000 gas particles over the course of their 1000 time step simulations
+        - I was then able to write an interpolator so that we could play at what ever speed looks best for the fixed media video 
+        - Tried to render these videos on Kay's machine and the results really don't look good for some reason, have more meetings planned to finish this before the end of next week
+        - Made plans to meet next week to plan out the next tech test rehearsal
       - - Had a tech test this week
         - Spent a long time working out how to stream video frames from a raspberry pi connected to a kinect dk infrared camera to the computer running touch designer for the purposes of motion tracking, but wasn't able to test this is the time we had available
         - Worked out timecodes for all the effects and transitions for movement 2a
