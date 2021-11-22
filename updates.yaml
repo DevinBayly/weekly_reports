@@ -27,6 +27,8 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Worked with Eric Brugger and Mark Miller to get setup writing a custom launcher for the HPC
+      - Got allocation to start from the local client VisIT application
     - - This consultation is aimed to make our HPC systems setup the way other large compute centers are for using the Visit visualization tool
        - I've been working with folks from LLNL to learn about how the setup for this kind of thing works
        - It's also possible that the client is going to be content with just instructions on how to use the hpc vpn to skip doing multiple jumps for their connection
@@ -103,7 +105,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: complete
     type: consult
     updates:
@@ -168,6 +170,7 @@ detailed_collection:
     status: active
     type: Infrastructure
     updates:
+      - - Will be integrating in the links from the data Vis Challenge competition in other years to feature on the display
     - - Met with Jen and Jeff to discuss putting the visualizations from previous years Visualization challenge finalists on the big display wall using my playlist technique
        - now just waiting for the links to be sent by Jeff
     - - Talked with Katie the assistant Manager of Catalyst about whether they need
@@ -202,6 +205,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - figured out how to have certain shapes and metrics appear on the screen while the videos get processed so that I can screen record
+        - started adapting sketches to the formal vector graphic diagram
     - - Met and discussed questions related to how to get videos that I can use for my testing passes
        - I also started making python class diagrams for simplifying the process of exploring combinations of algorithms in the overall frame processing
        - I shared a doodle of an overall diagram representing the different steps of the process with Ed and he's in agreement that this is what they need for their December review meeting with NIOSH
@@ -239,7 +244,7 @@ detailed_collection:
     description: null
     links:
     - https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
-    newUpdates: true
+    newUpdates: false
     status: complete
     type: collaboration
     updates:
@@ -334,11 +339,10 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: infrastructure
     updates:
-      
     - - Had a meeting with Ryan and Dave from TESS and they installed cisco vpn on the machine that is plugged into the big display wall
        - Unfortunately the original machine that I was going to use there had a catastrophic bios failure which is not so good 
        - In the future the options for using the wall as an HPC display are now better supported
@@ -377,6 +381,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+      - - gave our last presentation this week, only one attendee so I think we could be doing something different to increase our numbers
+        - Did a full debrief of the semester and figured out some plans for what we are thinking of doing next week
     - - Met with Kiri's student to experiment setting up the AR Sandbox which we are thinking of displaying at the GIS day on the 17th of Nov
        - Also started planning presentation for the Eller Tech Core Level up students
     - - Had 2 presentations this week
@@ -475,7 +481,7 @@ detailed_collection:
     - https://openprocessing.org/user/255658?view=sketches
     - https://observablehq.com/@aecollier/sqrrules?ui=classic
     - https://aecollier.github.io/portfolio/
-    newUpdates: true
+    newUpdates: false
     status: active
     type: student
     updates:
@@ -649,6 +655,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Had a tech test rescheduled into Kay's office, and tried to hookup two different sensors to our dancer Hayley
+      - for some reason only one of these things wanted to work at a time
     - - Went to Kay's office and worked on her show machine 
       - Built new system for supporting complex effect sequencing with support for restarts, and effect indexing for testing out the effects we have built for movement 2a
     - - Spent most of my time this week on research data renders for the show
@@ -898,6 +906,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Omani recently started working on a audio localized Unreal scene
+        - This means for other aspects of the virtual nature project we will be able to further immerse a user
     - - Met with Omani and set up Christine's old computer to be her work station going forward
       - She is going to practice using Unreal to simulate sound propagation in natural environments
       - I'm still going through a C++ Unreal course to make sure we can support Maria Harrington from UCF, and her collaboration with UA staff Greg Barron Gafford, and Aaron Bugaj of the Biosphere2
