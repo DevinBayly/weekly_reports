@@ -27,67 +27,14 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Last week got this taken care of, made all changes suggested by Eric Brugger and then coupled the process to the HPC VPN
+      - This makes it possible to sign in to open connect and then communicate directly to the allocation that is created automatically according to the HPC profile
+      - Not sure how this will work out with different versions of VisIT or when people want to use different clusters, but if Puma is the target then we are all set
     - - Worked with Eric Brugger and Mark Miller to get setup writing a custom launcher for the HPC
       - Got allocation to start from the local client VisIT application
     - - This consultation is aimed to make our HPC systems setup the way other large compute centers are for using the Visit visualization tool
        - I've been working with folks from LLNL to learn about how the setup for this kind of thing works
        - It's also possible that the client is going to be content with just instructions on how to use the hpc vpn to skip doing multiple jumps for their connection
-- - Annalysa Lovos Publication Figure Rescaling
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - Annalysa was an audience member for the brief presentation that I did with
-        the Brain Modeling Workgroup
-      - She is working on a neuroimaging paper and needed to improve the resolution
-        of some of her figures
-      - She had a very tight turn around and didn't reply to the second email offer
-        of when to meet but was able to figure out something
-      - She is going to reach out if the reviewers ask for anything else
-- - ENVS Term paper Consultation on Cu+ exposure and environment resilience
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: collaboration
-    updates:
-    - - I met with Taylor McCoy this week to help her plan her term paper visualizations
-        during my drop in hours
-      - I also shared with her the google colab platform introduction for using python
-        in a notebook environment without having to perform installations
-- - Lilliana  Salas GIS GIDP
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - Lilliana is trying to gather her data on alternative transport mechanisms
-        in the city of Austin
-      - I've been helping her collect data for her publication reviewers and introducing
-        the google colab python notebooks for reproducible science
-- - Laura Miller Math
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: active
-    type: consult
-    updates:
-    - - Worked on getting the jellyfish velocity field out of the VTK/paraview format
-        so that I could view it in a wider range of tools using Meshio the python
-        3d conversion package
-    - - Laura has some really neat 3d flow data of what happens in a fluid when a
-        JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
 - - Kirsten Ball ENVS
   - contacts: null
     dates: null
@@ -100,18 +47,6 @@ detailed_collection:
     - - Worked with Kirsten's Soil Data to try to produce parallel coordinates plot
         of different microbe community percentages under the different categories
         of Irrigation, and Depth of the sample
-- - Arminda Estrada, ECE
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - Arminda wrote to me and informed me that she was able to get everything setup which is great!
-    - - Arminda and I worked on trying to get her machine to remotely display the
-        ROS open source robotics program with Nvidia Hardware Acceleration
 - - TURN UP Festival Performance NYU/UA collab
   - contacts: Win Burleson, Kay He
     dates: null
@@ -170,6 +105,8 @@ detailed_collection:
     status: active
     type: Infrastructure
     updates:
+    - - Made changes to the playlist application so that it would support google drive static content
+      - Haven't figured out how to make it play videos automatically from google drive, but in this case it might be recommended that the video gets uploaded to youtube and we just use unlisted links that have autoplay supported
     - - Will be integrating in the links from the data Vis Challenge competition in other years to feature on the display
     - - Met with Jen and Jeff to discuss putting the visualizations from previous years Visualization challenge finalists on the big display wall using my playlist technique
       - now just waiting for the links to be sent by Jeff
@@ -205,6 +142,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Attended and assisted with the Lowell Geotechnical Center of Excellence shareholder presentation last week
+      - Provided my diagrams and screencasts for the presentation and got feedback that attendees really enjoyed seeing this stuff in action
+      - Decided to test out some of the code on a raspberry pi since the groups goal is to have these algorithms running onsite at the pit mines
     - - figured out how to have certain shapes and metrics appear on the screen while the videos get processed so that I can screen record
         - started adapting sketches to the formal vector graphic diagram
     - - Met and discussed questions related to how to get videos that I can use for my testing passes
@@ -377,7 +317,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -485,6 +425,10 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met with Abby last week and taught her about the touch designer timer and the timeline that things can be locked to
+      - This is incredibly useful and makes it so that we can reliably hit certain timestamps in the music with visual transitions and events
+      - We spent the rest of the time trying to debug some of the effects that were having issues
+      - Turns out there was a dependency cycle being setup in one of the effects and this caused a result that looked like the effect would freeze from one level to another
     - - Met up over zoom this last week and worked on adding trails to the fluid driven particle effects
       - We also spent time trying to work out the dynamics of the climax effect for movement 2a
     - - Started a new github repo for tracking the development and exercises related
@@ -655,6 +599,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Had last official tech test in Crowder hall
+      - Things went incredibly well, we were able to actually put sensors on Hayley and step through the full timeline of part 2a of the performance
+      - I also found out that we have several other presentation opportunities in 2022: The Athens conference on performance and visual art (june 2022), SXSW 2022 
     - - Had a tech test rescheduled into Kay's office, and tried to hookup two different sensors to our dancer Hayley
       - for some reason only one of these things wanted to work at a time
     - - Went to Kay's office and worked on her show machine 
@@ -906,6 +853,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Discovered that the botanical gardens actually has an exhibit that is very close to what we are trying to develop in the spring
+      - I will be reaching out to them in a little while to see if they are interested in becoming a community partner on the grant that Maria has submitted
+      - Met with Omani and worked on more Unreal learning and development
     - - Omani recently started working on a audio localized Unreal scene
         - This means for other aspects of the virtual nature project we will be able to further immerse a user
     - - Met with Omani and set up Christine's old computer to be her work station going forward
@@ -1868,6 +1818,74 @@ detailed_collection:
       - He was interested in the work of Florian Feldhaus and his xpra virtualgl EGL
         backend running out a docker container as a way to remove the X server dependency
         for accelerated remote visualization
+- - Annalysa Lovos Publication Figure Rescaling
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - Annalysa was an audience member for the brief presentation that I did with
+        the Brain Modeling Workgroup
+      - She is working on a neuroimaging paper and needed to improve the resolution
+        of some of her figures
+      - She had a very tight turn around and didn't reply to the second email offer
+        of when to meet but was able to figure out something
+      - She is going to reach out if the reviewers ask for anything else
+- - ENVS Term paper Consultation on Cu+ exposure and environment resilience
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: collaboration
+    updates:
+    - - I met with Taylor McCoy this week to help her plan her term paper visualizations
+        during my drop in hours
+      - I also shared with her the google colab platform introduction for using python
+        in a notebook environment without having to perform installations
+- - Lilliana  Salas GIS GIDP
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - Lilliana is trying to gather her data on alternative transport mechanisms
+        in the city of Austin
+      - I've been helping her collect data for her publication reviewers and introducing
+        the google colab python notebooks for reproducible science
+- - Laura Miller Math
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: active
+    type: consult
+    updates:
+    - - Worked on getting the jellyfish velocity field out of the VTK/paraview format
+        so that I could view it in a wider range of tools using Meshio the python
+        3d conversion package
+    - - Laura has some really neat 3d flow data of what happens in a fluid when a
+        JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
+- - Arminda Estrada, ECE
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - Arminda wrote to me and informed me that she was able to get everything setup which is great!
+    - - Arminda and I worked on trying to get her machine to remotely display the
+        ROS open source robotics program with Nvidia Hardware Acceleration
 names:
 - Streaming technology for HPC
 - Vulkan on HPC
