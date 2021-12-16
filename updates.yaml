@@ -18,6 +18,53 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
+- - Sarah Stueve d3 brushing
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - Sarah attended my drop ins and asked for assistance with using d3 javascript
+        visualization library's brushing for interactive visualizations
+      - I provided several examples that covered the basics and a more specific example
+        related to the work for her assignment
+    - - None
+- - Volumetric Capture presentation emergency request CDH
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - I assisted Daniel Shevelev in getting material together at the last minute
+        for a conference presentation related to the volumetric capture rig at the
+        CDH
+      - Ultimately we just clipped existing depth camera footage and added audio tracks
+        to it using the HPC.
+      - In the future we may have a collaboration with this group to help them reduce
+        their dependency on the Holokit suite of volcap tools that ran too slow and
+        caused some of the panic to get ready for the presentation.
+    - - None
+- - Shane Thomas using python pandas
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - I worked with Shane in drop in hours to help merge several spreadsheets for
+        his research into a single one
+      - We also needed to filter out certain rows based on student responses on a
+        survey and merge the different sized dataframes using values from an ID column
+      - Much of this was new to me
+    - - None
 - - Visit remote visualization support
   - contacts: Hung Tran, Martin Liza
     dates: null
@@ -27,14 +74,25 @@ detailed_collection:
     status: active
     type: consult
     updates:
-    - - Last week got this taken care of, made all changes suggested by Eric Brugger and then coupled the process to the HPC VPN
-      - This makes it possible to sign in to open connect and then communicate directly to the allocation that is created automatically according to the HPC profile
-      - Not sure how this will work out with different versions of VisIT or when people want to use different clusters, but if Puma is the target then we are all set
-    - - Worked with Eric Brugger and Mark Miller to get setup writing a custom launcher for the HPC
+    - - Spent more time working on this and figured out how to redirect between different
+        machines
+      - Waiting to hear back from the client on this before creating a confluence
+        page related to the setup
+    - - Last week got this taken care of, made all changes suggested by Eric Brugger
+        and then coupled the process to the HPC VPN
+      - This makes it possible to sign in to open connect and then communicate directly
+        to the allocation that is created automatically according to the HPC profile
+      - Not sure how this will work out with different versions of VisIT or when people
+        want to use different clusters, but if Puma is the target then we are all
+        set
+    - - Worked with Eric Brugger and Mark Miller to get setup writing a custom launcher
+        for the HPC
       - Got allocation to start from the local client VisIT application
-    - - This consultation is aimed to make our HPC systems setup the way other large compute centers are for using the Visit visualization tool
-       - I've been working with folks from LLNL to learn about how the setup for this kind of thing works
-       - It's also possible that the client is going to be content with just instructions on how to use the hpc vpn to skip doing multiple jumps for their connection
+    - - This consultation is aimed to make our HPC systems setup the way other large
+        compute centers are for using the Visit visualization tool - I've been working
+        with folks from LLNL to learn about how the setup for this kind of thing works
+        - It's also possible that the client is going to be content with just instructions
+        on how to use the hpc vpn to skip doing multiple jumps for their connection
 - - Kirsten Ball ENVS
   - contacts: null
     dates: null
@@ -105,10 +163,21 @@ detailed_collection:
     status: active
     type: Infrastructure
     updates:
-    - - Made changes to the playlist application so that it would support google drive static content
-      - Haven't figured out how to make it play videos automatically from google drive, but in this case it might be recommended that the video gets uploaded to youtube and we just use unlisted links that have autoplay supported
-    - - Will be integrating in the links from the data Vis Challenge competition in other years to feature on the display
-    - - Met with Jen and Jeff to discuss putting the visualizations from previous years Visualization challenge finalists on the big display wall using my playlist technique
+    - - Kiri Carini's assistant sent me a bunch of his material and added it to the
+        playlist
+      - I included some code that would shuffle the entries before displaying them
+      - Figured out that if we load the app in two separate web browsers and display
+        one on each side of the big vis wall we get 2x the playlist demos
+    - - Made changes to the playlist application so that it would support google drive
+        static content
+      - Haven't figured out how to make it play videos automatically from google drive,
+        but in this case it might be recommended that the video gets uploaded to youtube
+        and we just use unlisted links that have autoplay supported
+    - - Will be integrating in the links from the data Vis Challenge competition in
+        other years to feature on the display
+    - - Met with Jen and Jeff to discuss putting the visualizations from previous
+        years Visualization challenge finalists on the big display wall using my playlist
+        technique
       - now just waiting for the links to be sent by Jeff
     - - Talked with Katie the assistant Manager of Catalyst about whether they need
         material for presenting on the screen for the Home Coming weekend, and she
@@ -142,14 +211,30 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
-    - - Attended and assisted with the Lowell Geotechnical Center of Excellence shareholder presentation last week
-      - Provided my diagrams and screencasts for the presentation and got feedback that attendees really enjoyed seeing this stuff in action
-      - Decided to test out some of the code on a raspberry pi since the groups goal is to have these algorithms running onsite at the pit mines
-    - - figured out how to have certain shapes and metrics appear on the screen while the videos get processed so that I can screen record
-        - started adapting sketches to the formal vector graphic diagram
-    - - Met and discussed questions related to how to get videos that I can use for my testing passes
-       - I also started making python class diagrams for simplifying the process of exploring combinations of algorithms in the overall frame processing
-       - I shared a doodle of an overall diagram representing the different steps of the process with Ed and he's in agreement that this is what they need for their December review meeting with NIOSH
+    - - Met with team on tuesday and discussed needs in the final part of this project
+      - Actively trying to setup the code on a raspberry pi to test whether these
+        can be used out in the field at the mines with the cameras
+      - Started running code on HPC and devoped a small visualization tool to display
+        tick mark results on an axis who's length is determined by the length of a
+        video
+      - this should help the clients go through 12 hour videos and pick out what sections
+        have most activity to watch closely
+      - meeting with Chad on friday to discuss the extension proposal
+    - - Attended and assisted with the Lowell Geotechnical Center of Excellence shareholder
+        presentation last week
+      - Provided my diagrams and screencasts for the presentation and got feedback
+        that attendees really enjoyed seeing this stuff in action
+      - Decided to test out some of the code on a raspberry pi since the groups goal
+        is to have these algorithms running onsite at the pit mines
+    - - figured out how to have certain shapes and metrics appear on the screen while
+        the videos get processed so that I can screen record - started adapting sketches
+        to the formal vector graphic diagram
+    - - Met and discussed questions related to how to get videos that I can use for
+        my testing passes - I also started making python class diagrams for simplifying
+        the process of exploring combinations of algorithms in the overall frame processing
+        - I shared a doodle of an overall diagram representing the different steps
+        of the process with Ed and he's in agreement that this is what they need for
+        their December review meeting with NIOSH
     - - Started working on the research for a method of keeping in memory some number
         of detected objects in motion with a way to compare a new frame's detections
         against this list to update existing ones and add brand new tracked objects
@@ -188,9 +273,12 @@ detailed_collection:
     status: complete
     type: collaboration
     updates:
-    - - This was completed recently and the ending of the conference was earlier than expected because of a + covid case from one of the participants who had been around on the first day of the conference
-       - we followed all recommended steps and there were no other positives which is great
-       - Presentation of my lightning talk went well, and so did the other events that I oversaw for the conference such as the Visualization showcase lunch and the Birds of a Feather lunch
+    - - This was completed recently and the ending of the conference was earlier than
+        expected because of a + covid case from one of the participants who had been
+        around on the first day of the conference - we followed all recommended steps
+        and there were no other positives which is great - Presentation of my lightning
+        talk went well, and so did the other events that I oversaw for the conference
+        such as the Visualization showcase lunch and the Birds of a Feather lunch
     - - Talked with Barry and Todd to setup a filming opportunity this week of the
         HPC machines for the promo video
       - Sent out more Showcase invitiations to members of the community
@@ -283,9 +371,11 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
-    - - Had a meeting with Ryan and Dave from TESS and they installed cisco vpn on the machine that is plugged into the big display wall
-       - Unfortunately the original machine that I was going to use there had a catastrophic bios failure which is not so good 
-       - In the future the options for using the wall as an HPC display are now better supported
+    - - Had a meeting with Ryan and Dave from TESS and they installed cisco vpn on
+        the machine that is plugged into the big display wall - Unfortunately the
+        original machine that I was going to use there had a catastrophic bios failure
+        which is not so good - In the future the options for using the wall as an
+        HPC display are now better supported
     - - Had a meeting with Ryan Tombleson from the Main Library TESS IT support group
       - Discussed the workflows that I use for remote visualization that all rely
         on the HPC VPN
@@ -321,9 +411,12 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
-    - - gave our last presentation this week, only one attendee so I think we could be doing something different to increase our numbers
-      - Did a full debrief of the semester and figured out some plans for what we are thinking of doing next week
-    - - Met with Kiri's student to experiment setting up the AR Sandbox which we are thinking of displaying at the GIS day on the 17th of Nov
+    - - gave our last presentation this week, only one attendee so I think we could
+        be doing something different to increase our numbers
+      - Did a full debrief of the semester and figured out some plans for what we
+        are thinking of doing next week
+    - - Met with Kiri's student to experiment setting up the AR Sandbox which we are
+        thinking of displaying at the GIS day on the 17th of Nov
       - Also started planning presentation for the Eller Tech Core Level up students
     - - Had 2 presentations this week
       - RTG presentation for Laura Miller and Kevin Lin which went well
@@ -425,12 +518,19 @@ detailed_collection:
     status: active
     type: student
     updates:
-    - - Met with Abby last week and taught her about the touch designer timer and the timeline that things can be locked to
-      - This is incredibly useful and makes it so that we can reliably hit certain timestamps in the music with visual transitions and events
-      - We spent the rest of the time trying to debug some of the effects that were having issues
-      - Turns out there was a dependency cycle being setup in one of the effects and this caused a result that looked like the effect would freeze from one level to another
-    - - Met up over zoom this last week and worked on adding trails to the fluid driven particle effects
-      - We also spent time trying to work out the dynamics of the climax effect for movement 2a
+    - - Met with Abby last week and taught her about the touch designer timer and
+        the timeline that things can be locked to
+      - This is incredibly useful and makes it so that we can reliably hit certain
+        timestamps in the music with visual transitions and events
+      - We spent the rest of the time trying to debug some of the effects that were
+        having issues
+      - Turns out there was a dependency cycle being setup in one of the effects and
+        this caused a result that looked like the effect would freeze from one level
+        to another
+    - - Met up over zoom this last week and worked on adding trails to the fluid driven
+        particle effects
+      - We also spent time trying to work out the dynamics of the climax effect for
+        movement 2a
     - - Started a new github repo for tracking the development and exercises related
         to using touch designer for the astro dance project
       - Worked on parabolic path effects with the goal of generating a visual effect
@@ -599,13 +699,24 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Found out the piece will be performed in a few places after the U of A, SXSW
+        and Athens Greece
+      - Met with the director to make changes to effects in 1a related to getting
+        the size of Hayley consistent and correct for each of the effects
+      - Figured out how to use an audio device in to control the audio reactive particles
+      - Will be using this on friday when meeting with the Taiko Drummer performer
     - - Had last official tech test in Crowder hall
-      - Things went incredibly well, we were able to actually put sensors on Hayley and step through the full timeline of part 2a of the performance
-      - I also found out that we have several other presentation opportunities in 2022: The Athens conference on performance and visual art (june 2022), SXSW 2022 
-    - - Had a tech test rescheduled into Kay's office, and tried to hookup two different sensors to our dancer Hayley
+      - Things went incredibly well, we were able to actually put sensors on Hayley
+        and step through the full timeline of part 2a of the performance
+      - I also found out that we have several other presentation opportunities in 2022: The
+          Athens conference on performance and visual art (june 2022), SXSW 2022
+    - - Had a tech test rescheduled into Kay's office, and tried to hookup two different
+        sensors to our dancer Hayley
       - for some reason only one of these things wanted to work at a time
-    - - Went to Kay's office and worked on her show machine 
-      - Built new system for supporting complex effect sequencing with support for restarts, and effect indexing for testing out the effects we have built for movement 2a
+    - - Went to Kay's office and worked on her show machine
+      - Built new system for supporting complex effect sequencing with support for
+        restarts, and effect indexing for testing out the effects we have built for
+        movement 2a
     - - Spent most of my time this week on research data renders for the show
       - Figured out a new way to load way more data into touch designer
       - This allowed me to enter an entire SPH simulation into memory and render at
@@ -853,14 +964,22 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
-    - - Discovered that the botanical gardens actually has an exhibit that is very close to what we are trying to develop in the spring
-      - I will be reaching out to them in a little while to see if they are interested in becoming a community partner on the grant that Maria has submitted
+    - - Maria recently submitted the Epic grant, awaiting newsws related to this
+    - - Discovered that the botanical gardens actually has an exhibit that is very
+        close to what we are trying to develop in the spring
+      - I will be reaching out to them in a little while to see if they are interested
+        in becoming a community partner on the grant that Maria has submitted
       - Met with Omani and worked on more Unreal learning and development
-    - - Omani recently started working on a audio localized Unreal scene
-        - This means for other aspects of the virtual nature project we will be able to further immerse a user
-    - - Met with Omani and set up Christine's old computer to be her work station going forward
-      - She is going to practice using Unreal to simulate sound propagation in natural environments
-      - I'm still going through a C++ Unreal course to make sure we can support Maria Harrington from UCF, and her collaboration with UA staff Greg Barron Gafford, and Aaron Bugaj of the Biosphere2
+    - - Omani recently started working on a audio localized Unreal scene - This means
+        for other aspects of the virtual nature project we will be able to further
+        immerse a user
+    - - Met with Omani and set up Christine's old computer to be her work station
+        going forward
+      - She is going to practice using Unreal to simulate sound propagation in natural
+        environments
+      - I'm still going through a C++ Unreal course to make sure we can support Maria
+        Harrington from UCF, and her collaboration with UA staff Greg Barron Gafford,
+        and Aaron Bugaj of the Biosphere2
     - - Facilitated connection of Maria and Greg Barron-Gafford, setup meeting for
         them to discuss grant opportunity
       - Met with Omani to start talking about how the Niagara particle system tool
@@ -1883,7 +2002,8 @@ detailed_collection:
     status: complete
     type: consult
     updates:
-    - - Arminda wrote to me and informed me that she was able to get everything setup which is great!
+    - - Arminda wrote to me and informed me that she was able to get everything setup
+        which is great!
     - - Arminda and I worked on trying to get her machine to remotely display the
         ROS open source robotics program with Nvidia Hardware Acceleration
 names:
