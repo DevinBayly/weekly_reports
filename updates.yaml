@@ -18,7 +18,32 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
-- - Sarah Stueve d3 brushing
+- - Kay He Exoplanets
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - Kay is also looking for assistance with extending the stellarscape project
+        to material about exoplanets
+      - I'm looking forward to helping with this as long as there is time
+    - - None
+- - Kay He B2 Lung
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - I have been given approval to start this project with Kay as long as I can
+        balance my other duties as well
+    - - None
+- - Martha Bhattacharya Cytoscape installation
   - contacts: null
     dates: null
     description: null
@@ -27,6 +52,42 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - I worked with Martha to create a singularity container that had this program
+        installed for using on the HPC
+      - I showed her how to get started with the interactive desktops and how to launch
+        the program from within the container
+      - Unfortunately the program isn't configured to natively take advantage of multiple
+        cpu cores so it doesn't scale many of it's operations up to the resources
+        available on the HPC
+    - - None
+- - Marcos Serafim Touch Designer visualization of audio file as video data bending
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: active
+    type: collaboration
+    updates:
+    - - Just met with Marcos and will be trying to help him with touch designer to
+        make improvements to a video project that he is sharing at an art conference
+      - it is a video composed of material around conveying the distorted nature of
+        data related to the HIV epidemic
+      - I will be trying to use data bending and data moshing techniques in touch
+        designer driven by the audio files that he sends me to render out a modification
+        to his video at 4k
+      - the presentation is in february on the 18th
+    - - None
+- - Sarah Stueve d3 brushing
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: complete
+    type: consult
+    updates:
+    - - "\e[A\e[B"
     - - Sarah attended my drop ins and asked for assistance with using d3 javascript
         visualization library's brushing for interactive visualizations
       - I provided several examples that covered the basics and a more specific example
@@ -37,8 +98,8 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
-    status: active
+    newUpdates: false
+    status: complete
     type: consult
     updates:
     - - I assisted Daniel Shevelev in getting material together at the last minute
@@ -55,8 +116,8 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
-    status: active
+    newUpdates: false
+    status: complete
     type: consult
     updates:
     - - I worked with Shane in drop in hours to help merge several spreadsheets for
@@ -74,6 +135,9 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - had a meeting with Martin Liza about this but couldn't get it working with
+        version 3.2.1 and his mac laptop
+      - need to experiment with this on my own
     - - Spent more time working on this and figured out how to redirect between different
         machines
       - Waiting to hear back from the client on this before creating a confluence
@@ -99,7 +163,7 @@ detailed_collection:
     description: null
     links: null
     newUpdates: false
-    status: active
+    status: complete
     type: consult
     updates:
     - - Worked with Kirsten's Soil Data to try to produce parallel coordinates plot
@@ -159,7 +223,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: Infrastructure
     updates:
@@ -211,6 +275,10 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - have been running the detection script on the HPC overnight
+      - also made changes to the log plotter so that it interactively draws points
+        on a background image at the location that motion was detected ain the time
+        span that the user has selected with the cursor brush
     - - Met with team on tuesday and discussed needs in the final part of this project
       - Actively trying to setup the code on a raspberry pi to test whether these
         can be used out in the field at the mines with the cameras
@@ -407,10 +475,12 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - will be meeting online for the beginning of the semester
+      - have our first presentation in the art department earlier in the spring
     - - gave our last presentation this week, only one attendee so I think we could
         be doing something different to increase our numbers
       - Did a full debrief of the semester and figured out some plans for what we
@@ -514,10 +584,15 @@ detailed_collection:
     - https://openprocessing.org/user/255658?view=sketches
     - https://observablehq.com/@aecollier/sqrrules?ui=classic
     - https://aecollier.github.io/portfolio/
-    newUpdates: false
+    newUpdates: true
     status: active
     type: student
     updates:
+    - - met with Abby and she agreed to help with other touch designer projects that
+        are on my plate
+      - she will also probably get connected with NYU and help with the turn up planning
+        and visualization work
+      - Met today and started working on new material surrounding generative visuals
     - - Met with Abby last week and taught her about the touch designer timer and
         the timeline that things can be locked to
       - This is incredibly useful and makes it so that we can reliably hit certain
@@ -699,6 +774,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - In last couple weeks have been having lots of rehearsals
+      - Show is officially postponed but will be having a private premier and the
+        next day will be filming the footage for the SXSW trip
     - - Found out the piece will be performed in a few places after the U of A, SXSW
         and Athens Greece
       - Met with the director to make changes to effects in 1a related to getting
@@ -964,6 +1042,13 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Spent most of the last couple weeks working on learnigin to write Unreal Engine
+        graphics programming code
+      - This will be most important for leveraging HPC for visualizations when the
+        time comes
+      - Visual Studio is causing me a lot of grief and just found out that the hard
+        drive that I was using for moving between different computers is probably
+        broken
     - - Maria recently submitted the Epic grant, awaiting newsws related to this
     - - Discovered that the botanical gardens actually has an exhibit that is very
         close to what we are trying to develop in the spring
@@ -1221,7 +1306,7 @@ detailed_collection:
     description: null
     links: null
     newUpdates: false
-    status: active
+    status: upcoming
     type: consult
     updates:
     - - Helped Jason connect with Bryan and Tech Core with idea that his holographic
@@ -1240,7 +1325,7 @@ detailed_collection:
     description: null
     links: null
     newUpdates: false
-    status: active
+    status: complete
     type: collaboration
     updates:
     - - Sending out introductory emails for Carl to Win Burleson, Ash Black, Bryan
@@ -1984,10 +2069,14 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: consult
     updates:
+    - - Met with Laura to see if she could help me test the Visit program setup for
+        the HPC
+      - We ran into some issues with version 3.1.1 and she is going to track down
+        some better data for our benchmarking
     - - Worked on getting the jellyfish velocity field out of the VTK/paraview format
         so that I could view it in a wider range of tools using Meshio the python
         3d conversion package
