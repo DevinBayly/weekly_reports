@@ -1,13 +1,3 @@
-attributes:
-- type
-- status
-- description
-- updates
-- dates
-- contacts
-- newUpdates
-- links
-detailed_collection:
 - - Template
   - archive: false
     contacts: null
@@ -26,7 +16,7 @@ detailed_collection:
     description: null
     links: null
     newUpdates: false
-    status: active
+    status: upcoming
     type: collaboration
     updates:
     - - Kay is also looking for assistance with extending the stellarscape project
@@ -40,7 +30,7 @@ detailed_collection:
     description: null
     links: null
     newUpdates: false
-    status: active
+    status: upcoming
     type: collaboration
     updates:
     - - I have been given approval to start this project with Kay as long as I can
@@ -2177,45 +2167,3 @@ detailed_collection:
         which is great!
     - - Arminda and I worked on trying to get her machine to remotely display the
         ROS open source robotics program with Nvidia Hardware Acceleration
-names:
-- Streaming technology for HPC
-- Vulkan on HPC
-- Virtual Nature
-- Stellarscape Astronomy Multimedia Dance Performance
-- 'Migrant Forensic Empathy project: a Digital Borderlands grant initiative'
-- Independent study Abby Collier
-- Presentation for Civil Engineering Department
-- Data Visualization Roadshow with Jeff Oliver and Kiri Carini
-- Judging the data visualization challenge
-- Remote visualization infrastructure Development spring 2021
-- Oyster Vibrio Literature Review
-- Ray tracing on the HPC
-- HAS Faculty collaborations with Holodeck
-- COVID Retail Mitigation Web Scraping
-- Autamus web interface
-- Bryan Carter Photogrammetry
-- 'Womens Hackathon: Visualization on the web workshop'
-- ObservableHQ portfolio of Data Visualization
-- Jason Hortin holographic dance graduate project
-- Advice for thesis defense visualizations, Sabrina Nardin
-- Collaboration with TechCore's Summer Internship
-- Resbaz organizer and workshop provider
-- force directed biochem networks
-- neuro choropleth
-- spring break COVID photo maps
-- VirtualGL for Nvidia accelerated remote HPC visualizations
-- Xpra and Singularity for comprehensive Graphical application support on HPC
-- 3D & VR Retrofit AZLIVE
-- BIO5 virtual reality tour
-- social VR museum capstone student project
-- Tech core level up presentation Tuesday, Mar 17 2020
-- Tech core level up presentation Monday, Sept 28 2020
-- Argonne GPU hackathon
-- Radiology 1st year resident Carl Sabotke
-- Mt. Lemmon in your Pocket-creating a virtual reality tour
-- Meeting with Tyson Swetnam to discuss containers and remote visualization
-- IEEE Satellite Vis Conference Planning
-- Thermal Imaging Project
-- CATalyst data studio vis wall playlist
-- Volumetric Capture processing on HPC
-- TURN UP Festival Performance NYU/UA collab
