@@ -114,7 +114,7 @@ def run():
         deets = el[1]     
         if deets["status"] == "upcoming":
             ophile.write(f"* {p_name_key} \n")
-    ophile.write(f"\n\n## Completed For Fiscal Year \n\n")
+    ophile.write(f"\n\n## Completed For Calendar Year \n\n")
     ## sections for this
     # workshop section
     
