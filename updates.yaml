@@ -23,7 +23,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -36,7 +36,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -52,6 +52,8 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - She was affected by the maintenance last week but it sounds like everything
+        is fine again
     - - I worked with Martha to create a singularity container that had this program
         installed for using on the HPC
       - I showed her how to get started with the interactive desktops and how to launch
@@ -65,10 +67,12 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - Spent time last wed rendering out touch designer video files for his conference
+        video
     - - Just met with Marcos and will be trying to help him with touch designer to
         make improvements to a video project that he is sharing at an art conference
       - it is a video composed of material around conveying the distorted nature of
@@ -87,7 +91,6 @@ detailed_collection:
     status: complete
     type: consult
     updates:
-    - - "\e[A\e[B"
     - - Sarah attended my drop ins and asked for assistance with using d3 javascript
         visualization library's brushing for interactive visualizations
       - I provided several examples that covered the basics and a more specific example
@@ -131,7 +134,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -275,6 +278,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Setup the array job processing, and planned a meeting with Ed and his students
+        to do the handoff, but they didn't show up
+      - Added vertical filter option and brush/end controls to the log plotter
     - - have been running the detection script on the HPC overnight
       - also made changes to the log plotter so that it interactively draws points
         on a background image at the location that motion was detected ain the time
@@ -385,10 +391,18 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: infrastructure
     updates:
+    - - Spent quite a bit of time working on getting vulkan to run on Expanse, reached
+        out to their staff on an Xsede ticket and haven't heard back after initial
+        emails
+      - Seems like there may just be a number of Nvidia cards that aren't configured
+        to be able to work with vulkan
+      - Trying to get access to more machines (New xsede startup allocations, and
+        an info ticket submitted to the TACC folks about how to get access to Longhorn,
+        Frontera, Lonestar)
     - - Got a free moment to do a test of creating a singularity container on the
         work machine created with Alec's SHPC program that I then modified with a
         vulkan installation and the rust webgpu code
@@ -479,6 +493,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Jeff is setting up meetings with the Honors college
+      - Need to arrange a time to debrief the previous semester before we start having
+        presentations again
     - - will be meeting online for the beginning of the semester
       - have our first presentation in the art department earlier in the spring
     - - gave our last presentation this week, only one attendee so I think we could
@@ -588,6 +605,9 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met with Abby and looked at her customized audio analysis program
+      - Spent most of our time going over custom glsl materials as Keystone in the
+        network, sounds like some real progress was made in terms of her understandings
     - - met with Abby and she agreed to help with other touch designer projects that
         are on my plate
       - she will also probably get connected with NYU and help with the turn up planning
@@ -770,7 +790,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -1042,6 +1062,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Trying to get in touch with Maria to hear her thoughts on hiring a student
+        from UCF through the federal work study program
     - - Spent most of the last couple weeks working on learnigin to write Unreal Engine
         graphics programming code
       - This will be most important for leveraging HPC for visualizations when the
@@ -2073,6 +2095,9 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Laura had to move her wednesday meeting back by another week, this has given
+        me more time to test things out for the visit setup which still only works
+        on linux
     - - Met with Laura to see if she could help me test the Visit program setup for
         the HPC
       - We ran into some issues with version 3.1.1 and she is going to track down

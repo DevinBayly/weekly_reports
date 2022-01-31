@@ -1,6 +1,6 @@
 import yaml
 from copy import deepcopy
-
+import uuid
 doc = yaml.load(open("updates.yaml").read(),Loader=yaml.Loader)
 
 deets = doc["detailed_collection"]
@@ -45,7 +45,7 @@ while not new_proj == "no" and not new_proj == '':
 
 
 ##write out the result
-with open("test.yml","w") as phile:
+with open(f"test.yml{uuid.uuid1()}","w") as phile:
     phile.write(yaml.dump(doc,default_flow_style= False))
 
 
