@@ -9,7 +9,8 @@ attributes:
 - links
 detailed_collection:
 - - Template
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -19,7 +20,8 @@ detailed_collection:
     updates:
     - - None
 - - Kay He Exoplanets
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -32,7 +34,8 @@ detailed_collection:
       - I'm looking forward to helping with this as long as there is time
     - - None
 - - Kay He B2 Lung
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -44,7 +47,8 @@ detailed_collection:
         balance my other duties as well
     - - None
 - - Martha Bhattacharya Cytoscape installation
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -63,7 +67,8 @@ detailed_collection:
         available on the HPC
     - - None
 - - Marcos Serafim Touch Designer visualization of audio file as video data bending
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -82,55 +87,9 @@ detailed_collection:
         to his video at 4k
       - the presentation is in february on the 18th
     - - None
-- - Sarah Stueve d3 brushing
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: true
-    status: complete
-    type: consult
-    updates:
-    - - Sarah attended my drop ins and asked for assistance with using d3 javascript
-        visualization library's brushing for interactive visualizations
-      - I provided several examples that covered the basics and a more specific example
-        related to the work for her assignment
-    - - None
-- - Volumetric Capture presentation emergency request CDH
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - I assisted Daniel Shevelev in getting material together at the last minute
-        for a conference presentation related to the volumetric capture rig at the
-        CDH
-      - Ultimately we just clipped existing depth camera footage and added audio tracks
-        to it using the HPC.
-      - In the future we may have a collaboration with this group to help them reduce
-        their dependency on the Holokit suite of volcap tools that ran too slow and
-        caused some of the panic to get ready for the presentation.
-    - - None
-- - Shane Thomas using python pandas
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - I worked with Shane in drop in hours to help merge several spreadsheets for
-        his research into a single one
-      - We also needed to filter out certain rows based on student responses on a
-        survey and merge the different sized dataframes using values from an ID column
-      - Much of this was new to me
-    - - None
 - - Visit remote visualization support
-  - contacts: Hung Tran, Martin Liza
+  - archive: false
+    contacts: Hung Tran, Martin Liza
     dates: null
     description: null
     links: null
@@ -160,20 +119,9 @@ detailed_collection:
         with folks from LLNL to learn about how the setup for this kind of thing works
         - It's also possible that the client is going to be content with just instructions
         on how to use the hpc vpn to skip doing multiple jumps for their connection
-- - Kirsten Ball ENVS
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: complete
-    type: consult
-    updates:
-    - - Worked with Kirsten's Soil Data to try to produce parallel coordinates plot
-        of different microbe community percentages under the different categories
-        of Irrigation, and Depth of the sample
 - - TURN UP Festival Performance NYU/UA collab
-  - contacts: Win Burleson, Kay He
+  - archive: false
+    contacts: Win Burleson, Kay He
     dates: null
     description: null
     links: null
@@ -185,7 +133,8 @@ detailed_collection:
         generated for the astronomy multi media show are going to be recycled to use
         data send from NYU as part of the visualization
 - - Volumetric Capture processing on HPC
-  - contacts: Bryan Carter
+  - archive: false
+    contacts: Bryan Carter
     dates: null
     description: null
     links: null
@@ -195,7 +144,8 @@ detailed_collection:
     updates:
     - - None
 - - Has Faculty Collaborations With Holodeck
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -204,7 +154,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Ray Tracing On The Hpc
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -213,7 +164,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Observablehq Portfolio Of Data Visualization
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -222,7 +174,8 @@ detailed_collection:
     type: community
     updates: null
 - - CATalyst data studio vis wall playlist
-  - contacts: Jen Nichols
+  - archive: false
+    contacts: Jen Nichols
     dates: null
     description: null
     links: null
@@ -270,7 +223,8 @@ detailed_collection:
         by people visiting the space
       - This will make it easy to have a showcase option for RT's work
 - - Thermal Imaging Project
-  - contacts: Ed Wellman, Brad Ross
+  - archive: false
+    contacts: Ed Wellman, Brad Ross
     dates: null
     description: null
     links: null
@@ -337,57 +291,9 @@ detailed_collection:
       - If possible would like to make the workflow run on the HPC so that they can
         process videos in bulk
       - Set monday as date to meet and go over material with Ed
-- - IEEE Satellite Vis Conference Planning
-  - contacts: null
-    dates: null
-    description: null
-    links:
-    - https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
-    newUpdates: false
-    status: complete
-    type: collaboration
-    updates:
-    - - This was completed recently and the ending of the conference was earlier than
-        expected because of a + covid case from one of the participants who had been
-        around on the first day of the conference - we followed all recommended steps
-        and there were no other positives which is great - Presentation of my lightning
-        talk went well, and so did the other events that I oversaw for the conference
-        such as the Visualization showcase lunch and the Birds of a Feather lunch
-    - - Talked with Barry and Todd to setup a filming opportunity this week of the
-        HPC machines for the promo video
-      - Sent out more Showcase invitiations to members of the community
-      - Helped produce material for the health sciences newsletter advertising the
-        satellite conference
-    - - This week we planned out the room assignments for various simulcast sessions
-        from the main IEEE conference
-      - I also booked the catalyst data studio to spend a half day filming for the
-        promotional video
-      - Josh and Nirav wanted me to also be part of the interview team so I got to
-        be on camera talking about Research Technologies and the goal of supporting
-        the data visualization community here on campus
-      - I also reached out to a few other people who may be interested in being exhibitors
-        at the Visualization Showcase Lunch on Tuesday the 26th
-    - - Created self updating google form for the Birds of a Feather submission
-      - Organized connection for producing the Satellite conference promotional video
-      - Attended meeting with videographer and Josh
-      - Started thinking about what live streams to watch during the satellite event
-      - Reached out to folks who might be interested in showing their services at
-        the Showcase Lunch on Tuesday
-    - - Had meeting on Friday planning video shoutout material
-      - Decided to start emailing folks in the stakeholder list I created about the
-        conference that's coming up
-      - Rooms and Birds of a Feather timing worked out
-      - Had meeting with DSRT folks recently and discussed the conference, folks on
-        panel are going to help advertise
-    - - Spent 2 hours in meeting working out details related to the location reservations
-        for the conference as well as community planning steps
-      - Volunteered to create the Birds of a Feather (BOF)  sign up sheet with Google's
-        AppSheet https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
-      - Also volunteered to be the main person at the information table during the
-        conference helping folks identify which vis experts their questions are best
-        suited for
 - - Vulkan on HPC
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -445,7 +351,8 @@ detailed_collection:
       - Sent email to the Campus Champions list serve about this but didn't get many
         useful replies
 - - Streaming Technology for HPC
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -485,7 +392,8 @@ detailed_collection:
       - Either way, it should be less work for the Infrastructure team and is a simpler
         remote client setup which just has to be a browser page
 - - Data Visualization Roadshow With Jeff Oliver and Kiri Carini
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -594,7 +502,8 @@ detailed_collection:
         for them
       - Trying the NSCS department next
 - - Independent Study Abby Collier
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links:
@@ -786,7 +695,8 @@ detailed_collection:
       - Shifted into our first week of the data visualization side of the independent
         study.
 - - Stellarscape Astronomy Multimedia Dance Performance
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -1054,7 +964,8 @@ detailed_collection:
       - Win Burleson met with Tech Launch to discuss Licensing, but haven't heard
         the results of that meeting
 - - Virtual Nature
-  - contacts: null
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
@@ -1244,8 +1155,213 @@ detailed_collection:
     - - Made more progress on understanding the .vtu file format and its layout of
         data, useful for visualizing the results of Open Root Sim
       - Began work with wireframe visualization of Zea Maize root development
+- - Jason Hortin Holographic Dance Graduate Project
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: upcoming
+    type: consult
+    updates:
+    - - Helped Jason connect with Bryan and Tech Core with idea that his holographic
+        dance project could be part of the Tech Core summer internship
+      - Last I heard he had connected with Bryan to do some volumetric video capture
+        in the Digital Humanities new center
+    - - Wrote another email to Jason and mentioned he should get his project into
+        the running for projects listed in the tech core summer Internship
+      - He also reached out to Dr. Bryan Carter recently to see what the options were
+        for doing volumetric capture footage recording
+      - Sounds like more will happen in the fall because he's going back to Chicago
+        for the summer
+- - Argonne Gpu Hackathon
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://drive.google.com/file/d/1yzTyizIMLxRXabMTQgk7KzECsVYHrXOf/view?usp=sharing
+    newUpdates: false
+    status: Complete
+    type: infrastructure
+    updates:
+    - - Got email that due to limited space our team and its proposed project weren't
+        admitted
+      - it's ok, I extended a webgpu rust boid simulator example and have it working
+        on exosphere so perhaps I got something similar to the experience of the hackathon
+        from that
+      - https://drive.google.com/file/d/1yzTyizIMLxRXabMTQgk7KzECsVYHrXOf/view?usp=sharing
+    - - Should hear from the organizers about whether we are admitted this week
+    - - Blake asked if he could join, so I spoke with organizers again
+    - - Dima asked if he could join the team so I wrote to the organizers to update
+        our roster and they allowed it
+    - - Submitted an application to participate in the Argonne GPU hackathon which
+        takes place at the end of april
+      - Team mates are Sara Willis, Chris Reidy, and Abby Collier
+      - Our project is to produce a gpu accelerated flocking simulation that we can
+        remotely visualize from a demo created to run only on a single cpu
+      - Waiting on updates about our application
+- - Meeting With Tyson Swetnam To Discuss Containers And Remote Visualization
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: null
+    type: null
+    updates:
+    - - Had recent break through using different technology, need to reach out to
+        Tyson to discuss "NoMachine"
+    - - Discussed approaches to using containers for remote visualization
+      - Shared videos of my developments with him, waiting to hear feedback
+      - Discussed option for teaching small special interest group session on container's
+        equipped for remote visualization in the upcoming container bootcamp
+      - He mentioned an opportunity to try out some proprietary nvidia remote desktop
+        software, but we will only have 45 days to use it so I'm waiting for a less
+        busy time of the semester to follow up
+      - He was interested in the work of Florian Feldhaus and his xpra virtualgl EGL
+        backend running out a docker container as a way to remove the X server dependency
+        for accelerated remote visualization
+- - Laura Miller Math
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - Laura had to move her wednesday meeting back by another week, this has given
+        me more time to test things out for the visit setup which still only works
+        on linux
+    - - Met with Laura to see if she could help me test the Visit program setup for
+        the HPC
+      - We ran into some issues with version 3.1.1 and she is going to track down
+        some better data for our benchmarking
+    - - Worked on getting the jellyfish velocity field out of the VTK/paraview format
+        so that I could view it in a wider range of tools using Meshio the python
+        3d conversion package
+    - - Laura has some really neat 3d flow data of what happens in a fluid when a
+        JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
+- - Sarah Stueve d3 brushing
+  - archive: true
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: complete
+    type: consult
+    updates:
+    - - Sarah attended my drop ins and asked for assistance with using d3 javascript
+        visualization library's brushing for interactive visualizations
+      - I provided several examples that covered the basics and a more specific example
+        related to the work for her assignment
+    - - None
+- - Volumetric Capture presentation emergency request CDH
+  - archive: true
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - I assisted Daniel Shevelev in getting material together at the last minute
+        for a conference presentation related to the volumetric capture rig at the
+        CDH
+      - Ultimately we just clipped existing depth camera footage and added audio tracks
+        to it using the HPC.
+      - In the future we may have a collaboration with this group to help them reduce
+        their dependency on the Holokit suite of volcap tools that ran too slow and
+        caused some of the panic to get ready for the presentation.
+    - - None
+- - Shane Thomas using python pandas
+  - archive: true
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - I worked with Shane in drop in hours to help merge several spreadsheets for
+        his research into a single one
+      - We also needed to filter out certain rows based on student responses on a
+        survey and merge the different sized dataframes using values from an ID column
+      - Much of this was new to me
+    - - None
+- - Kirsten Ball ENVS
+  - archive: true
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
+    status: complete
+    type: consult
+    updates:
+    - - Worked with Kirsten's Soil Data to try to produce parallel coordinates plot
+        of different microbe community percentages under the different categories
+        of Irrigation, and Depth of the sample
+- - IEEE Satellite Vis Conference Planning
+  - archive: true
+    contacts: null
+    dates: null
+    description: null
+    links:
+    - https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
+    newUpdates: false
+    status: complete
+    type: collaboration
+    updates:
+    - - This was completed recently and the ending of the conference was earlier than
+        expected because of a + covid case from one of the participants who had been
+        around on the first day of the conference - we followed all recommended steps
+        and there were no other positives which is great - Presentation of my lightning
+        talk went well, and so did the other events that I oversaw for the conference
+        such as the Visualization showcase lunch and the Birds of a Feather lunch
+    - - Talked with Barry and Todd to setup a filming opportunity this week of the
+        HPC machines for the promo video
+      - Sent out more Showcase invitiations to members of the community
+      - Helped produce material for the health sciences newsletter advertising the
+        satellite conference
+    - - This week we planned out the room assignments for various simulcast sessions
+        from the main IEEE conference
+      - I also booked the catalyst data studio to spend a half day filming for the
+        promotional video
+      - Josh and Nirav wanted me to also be part of the interview team so I got to
+        be on camera talking about Research Technologies and the goal of supporting
+        the data visualization community here on campus
+      - I also reached out to a few other people who may be interested in being exhibitors
+        at the Visualization Showcase Lunch on Tuesday the 26th
+    - - Created self updating google form for the Birds of a Feather submission
+      - Organized connection for producing the Satellite conference promotional video
+      - Attended meeting with videographer and Josh
+      - Started thinking about what live streams to watch during the satellite event
+      - Reached out to folks who might be interested in showing their services at
+        the Showcase Lunch on Tuesday
+    - - Had meeting on Friday planning video shoutout material
+      - Decided to start emailing folks in the stakeholder list I created about the
+        conference that's coming up
+      - Rooms and Birds of a Feather timing worked out
+      - Had meeting with DSRT folks recently and discussed the conference, folks on
+        panel are going to help advertise
+    - - Spent 2 hours in meeting working out details related to the location reservations
+        for the conference as well as community planning steps
+      - Volunteered to create the Birds of a Feather (BOF)  sign up sheet with Google's
+        AppSheet https://www.appsheet.com/start/7e25f1d2-e9a4-4eec-a31a-5edd275f3059
+      - Also volunteered to be the main person at the information table during the
+        conference helping folks identify which vis experts their questions are best
+        suited for
 - - Collaboration With Techcore'S Summer Internship
-  - contacts: Ash Black, Victoria Ogino, Aaron Bugaj, Joost(?)
+  - archive: true
+    contacts: Ash Black, Victoria Ogino, Aaron Bugaj, Joost(?)
     dates: null
     description: null
     links:
@@ -1322,27 +1438,9 @@ detailed_collection:
         to my own systems to attemp to visualize though
       - Aggreed to have a kick off meeting with Ash and other members of this collaboration
         on June 3rd
-- - Jason Hortin Holographic Dance Graduate Project
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: upcoming
-    type: consult
-    updates:
-    - - Helped Jason connect with Bryan and Tech Core with idea that his holographic
-        dance project could be part of the Tech Core summer internship
-      - Last I heard he had connected with Bryan to do some volumetric video capture
-        in the Digital Humanities new center
-    - - Wrote another email to Jason and mentioned he should get his project into
-        the running for projects listed in the tech core summer Internship
-      - He also reached out to Dr. Bryan Carter recently to see what the options were
-        for doing volumetric capture footage recording
-      - Sounds like more will happen in the fall because he's going back to Chicago
-        for the summer
 - - Radiology 1St Year Resident Carl Sabotke
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
@@ -1358,7 +1456,8 @@ detailed_collection:
       - Probably can't do much myself because I'm not familiar at all with the Hardware
         he's trying to use (Hololens)
 - - Remote Visualization Infrastructure Development spring 2021
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
@@ -1476,7 +1575,8 @@ detailed_collection:
       - Started trying to develop containers for use with HPC remote visualization
       - Windows Subsystem for Linux 2 is stuck with certain Nvidia Utils like nvidia-smi
 - - 3D & Vr Retrofit Azlive
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1486,7 +1586,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Discussion about Social Network Analysis Visualizations
-  - contacts:
+  - archive: true
+    contacts:
     - Leih, Rachel - (rleih) <rleih@arizona.edu>
     - Gildersleeve, Rachel - (ragildersleeve) <ragildersleeve@arizona.edu>
     dates: null
@@ -1504,7 +1605,8 @@ detailed_collection:
       - Leih, Rachel - (rleih) <rleih@arizona.edu>
       - Gildersleeve, Rachel - (ragildersleeve) <ragildersleeve@arizona.edu>
 - - Advice For Thesis Defense Visualizations, Sabrina Nardin
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1525,34 +1627,9 @@ detailed_collection:
       - Mentioned other best practices such as sharing her visualizations with as
         many other people that are like her target audience as early as possible
       - Has asked for a follow up based on changes incorporated since the meeting
-- - Argonne Gpu Hackathon
-  - contacts: null
-    dates: null
-    description: null
-    links:
-    - https://drive.google.com/file/d/1yzTyizIMLxRXabMTQgk7KzECsVYHrXOf/view?usp=sharing
-    newUpdates: false
-    status: Complete
-    type: infrastructure
-    updates:
-    - - Got email that due to limited space our team and its proposed project weren't
-        admitted
-      - it's ok, I extended a webgpu rust boid simulator example and have it working
-        on exosphere so perhaps I got something similar to the experience of the hackathon
-        from that
-      - https://drive.google.com/file/d/1yzTyizIMLxRXabMTQgk7KzECsVYHrXOf/view?usp=sharing
-    - - Should hear from the organizers about whether we are admitted this week
-    - - Blake asked if he could join, so I spoke with organizers again
-    - - Dima asked if he could join the team so I wrote to the organizers to update
-        our roster and they allowed it
-    - - Submitted an application to participate in the Argonne GPU hackathon which
-        takes place at the end of april
-      - Team mates are Sara Willis, Chris Reidy, and Abby Collier
-      - Our project is to produce a gpu accelerated flocking simulation that we can
-        remotely visualize from a demo created to run only on a single cpu
-      - Waiting on updates about our application
 - - Autamus Web Interface
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1562,7 +1639,8 @@ detailed_collection:
     type: infrastructure
     updates: null
 - - Bio5 Virtual Reality Tour
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1572,7 +1650,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Bryan Carter Photogrammetry
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1613,7 +1692,8 @@ detailed_collection:
         on demand access to media for their research projects from user's phones (didn't
         go into details about this)
 - - Covid Retail Mitigation Web Scraping
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1623,7 +1703,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Force Directed Biochem Networks
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1633,7 +1714,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Judging The Data Visualization Challenge
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1670,7 +1752,8 @@ detailed_collection:
     - - Started going over the website for information related to my judging duties
     - - No updates this week
 - - 'Migrant Forensic Empathy Project: A Digital Borderlands Grant Initiative'
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1799,7 +1882,8 @@ detailed_collection:
         his existing application to the Aframe WebVR platform so that future modification/maintenance
         is easier.
 - - Mt. Lemmon In Your Pocket-Creating A Virtual Reality Tour
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1809,7 +1893,8 @@ detailed_collection:
     type: workshop
     updates: null
 - - Neuro Choropleth
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1819,7 +1904,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Oyster Vibrio Literature Review
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1838,7 +1924,8 @@ detailed_collection:
       - Setup meeting this friday to discuss her needs and advise about data visualization
         techniques
 - - Presentation For Civil Engineering Department
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1868,7 +1955,8 @@ detailed_collection:
       - Got OK from faculty Josh Levine to use material from his slides for the "why
         we do data visualization" and "best practices" portion of the presentation.
 - - Resbaz Organizer And Workshop Provider
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1931,7 +2019,8 @@ detailed_collection:
     - - Organizer meeting this week to discuss what workshops to offer, and other
         administrivia
 - - Social Vr Museum Capstone Student Project
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1941,7 +2030,8 @@ detailed_collection:
     type: student
     updates: null
 - - Spring Break Covid Photo Maps
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1951,7 +2041,8 @@ detailed_collection:
     type: collaboration
     updates: null
 - - Tech Core Level Up Presentation Monday, Sept 28 2020
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1961,7 +2052,8 @@ detailed_collection:
     type: workshop
     updates: null
 - - Tech Core Level Up Presentation Tuesday, Mar 17 2020
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1971,7 +2063,8 @@ detailed_collection:
     type: workshop
     updates: null
 - - Virtualgl For Nvidia Accelerated Remote Hpc Visualizations
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -1981,7 +2074,8 @@ detailed_collection:
     type: infrastructure
     updates: null
 - - 'Womens Hackathon: Visualization On The Web Workshop'
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -2014,7 +2108,8 @@ detailed_collection:
         on creative coding with p5.js
     - - Provided feed back to Jen on the website that has the schedule for the event
 - - Xpra And Singularity For Comprehensive Graphical Application Support On Hpc
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links:
@@ -2023,29 +2118,9 @@ detailed_collection:
     status: complete
     type: infrastructure
     updates: null
-- - Meeting With Tyson Swetnam To Discuss Containers And Remote Visualization
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: false
-    status: null
-    type: null
-    updates:
-    - - Had recent break through using different technology, need to reach out to
-        Tyson to discuss "NoMachine"
-    - - Discussed approaches to using containers for remote visualization
-      - Shared videos of my developments with him, waiting to hear feedback
-      - Discussed option for teaching small special interest group session on container's
-        equipped for remote visualization in the upcoming container bootcamp
-      - He mentioned an opportunity to try out some proprietary nvidia remote desktop
-        software, but we will only have 45 days to use it so I'm waiting for a less
-        busy time of the semester to follow up
-      - He was interested in the work of Florian Feldhaus and his xpra virtualgl EGL
-        backend running out a docker container as a way to remove the X server dependency
-        for accelerated remote visualization
 - - Annalysa Lovos Publication Figure Rescaling
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
@@ -2061,7 +2136,8 @@ detailed_collection:
         of when to meet but was able to figure out something
       - She is going to reach out if the reviewers ask for anything else
 - - ENVS Term paper Consultation on Cu+ exposure and environment resilience
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
@@ -2074,7 +2150,8 @@ detailed_collection:
       - I also shared with her the google colab platform introduction for using python
         in a notebook environment without having to perform installations
 - - Lilliana  Salas GIS GIDP
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
@@ -2086,29 +2163,9 @@ detailed_collection:
         in the city of Austin
       - I've been helping her collect data for her publication reviewers and introducing
         the google colab python notebooks for reproducible science
-- - Laura Miller Math
-  - contacts: null
-    dates: null
-    description: null
-    links: null
-    newUpdates: true
-    status: active
-    type: consult
-    updates:
-    - - Laura had to move her wednesday meeting back by another week, this has given
-        me more time to test things out for the visit setup which still only works
-        on linux
-    - - Met with Laura to see if she could help me test the Visit program setup for
-        the HPC
-      - We ran into some issues with version 3.1.1 and she is going to track down
-        some better data for our benchmarking
-    - - Worked on getting the jellyfish velocity field out of the VTK/paraview format
-        so that I could view it in a wider range of tools using Meshio the python
-        3d conversion package
-    - - Laura has some really neat 3d flow data of what happens in a fluid when a
-        JellyFish pulses and I'm trying to help her create some non vtk/visit visualizations
 - - Arminda Estrada, ECE
-  - contacts: null
+  - archive: true
+    contacts: null
     dates: null
     description: null
     links: null
