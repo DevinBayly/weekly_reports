@@ -19,16 +19,32 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
+- - Cyverse Field Scanner Vis Tool
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - Will be meeting with Nirav, Eric Lyons, and Tyson to talk about working with
+        a group of students on this project
+      - I would be managing their development of a VR app to do visualization of David
+        LeBauer's field scanner data
+    - - None
 - - Kay He Exoplanets
   - archive: false
     contacts: null
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - We are scheduling a time to meet and have our first discussion of this project.
     - - Kay is also looking for assistance with extending the stellarscape project
         to material about exoplanets
       - I'm looking forward to helping with this as long as there is time
@@ -52,7 +68,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -72,7 +88,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -93,10 +109,13 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: consult
     updates:
+    - - Met with Laura last week and was able to test the workflow with her data,
+        will now write up confluence instructions
+      - Figured out how to do rendering via OOD with Visit also
     - - had a meeting with Martin Liza about this but couldn't get it working with
         version 3.2.1 and his mac laptop
       - need to experiment with this on my own
@@ -232,6 +251,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Completing the handoff process
+      - Met to presesnt work, and helped them get allocation on the HPC
     - - Setup the array job processing, and planned a meeting with Ed and his students
         to do the handoff, but they didn't show up
       - Added vertical filter option and brush/end controls to the log plotter
@@ -301,6 +322,9 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
+    - - Found that via Xsede anvil at purdue supports vulkan
+      - Delaware's darwin has the gclibxx error that has happened on our systems too,
+        but usually only affects vulkaninfo not vkcube or other programs
     - - Spent quite a bit of time working on getting vulkan to run on Expanse, reached
         out to their staff on an Xsede ticket and haven't heard back after initial
         emails
@@ -397,7 +421,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -514,6 +538,10 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Connecting Abby with the folks at NYU who are also working on the Turn Up
+        multimedia festival
+      - Had a conversation about materials to teach in workshop coming up for the
+        art department
     - - Met with Abby and looked at her customized audio analysis program
       - Spent most of our time going over custom glsl materials as Keystone in the
         network, sounds like some real progress was made in terms of her understandings
@@ -700,10 +728,14 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - Found out that I get to go to sxsw to run a live installation of my work at
+        the u of a wonderhouse
+      - Spent time working on making renders of the work for video editors to put
+        together
     - - In last couple weeks have been having lots of rehearsals
       - Show is officially postponed but will be having a private premier and the
         next day will be filming the footage for the SXSW trip
@@ -973,6 +1005,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Met with Omani and got started on 3d processing and the beginnings of using
+        Godot
+      - Haven't heard from Maria in a little while
     - - Trying to get in touch with Maria to hear her thoughts on hiring a student
         from UCF through the federal work study program
     - - Spent most of the last couple weeks working on learnigin to write Unreal Engine
@@ -1230,7 +1265,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
