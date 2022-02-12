@@ -19,13 +19,72 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
+- - Sensor Lab Demo Package
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - I had a meeting with Gustavo Almeida to return materials used for the astro
+        dance show and he asked me if I could help a group of his student workers
+        with generating demo material for the sensor lab
+      - I will be helping the students use and learn the touch designer program and
+        the godot game engine to incorporate realtime input from sensors in their
+        supply to visual outputs
+      - These demos will then help future clients of the sensor lab understand the
+        capabilities of each tool
+      - this will increase equipment rental for the sensor lab, and save time for
+        the clients
+    - - None
+- - Blender on HPC workflow for GIS
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - This project aims to flesh out headless rendering workflows on the HPC using
+        the 3d program Blender
+      - Finished a proof of concept with a GIS Graduate Assistant Glenn Ingram who
+        needed to render high resolution landscape data for infographics but all the
+        machines he had access to would run out of memory before he was able to finish
+      - Using only 16 cores on Elgato he was able to render his 100% resolution landscape
+        in 50 minutes
+      - This tool and workflow can be used by many individuals to complete their high
+        performance renders on the HPC
+      - Will write up documentation for confluence next week
+    - - None
+- - Erin Choi Brain modeling visualization
+  - contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - Jenn Nichols from catalyst sent me an email asking if I could assist with
+        this project given my background in visualization and neuroscience
+      - Erin is a freshman student who wants to print out 3d models to help explain
+        ideas in neuroscience literature about morphological differences in brain
+        structures of individuals with PTSD
+      - I will meet with Erin every other week on Thursday to assist with her progress
+        on this providing resources and advice as needed
+      - The outputs of this will in theory be a story for the newletter that we are
+        producing quarterly
+    - - None
 - - Cyverse Field Scanner Vis Tool
   - archive: false
     contacts: null
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -40,7 +99,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -68,8 +127,8 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
-    status: active
+    newUpdates: true
+    status: complete
     type: consult
     updates:
     - - She was affected by the maintenance last week but it sounds like everything
@@ -113,6 +172,7 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Got edit permissions added so that I can update confluence visualization pages
     - - Met with Laura last week and was able to test the workflow with her data,
         will now write up confluence instructions
       - Figured out how to do rendering via OOD with Visit also
@@ -251,6 +311,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Created repo home page with full documentation of code, process, screenshots
+        and video to help understand what I'm delivering to them
+      - Met with Ed to triage some things that weren't clear in the material provided
     - - Completing the handoff process
       - Met to presesnt work, and helped them get allocation on the HPC
     - - Setup the array job processing, and planned a meeting with Ed and his students
@@ -322,6 +385,8 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
+    - - Still troubleshooting the issues with Darwin in delaware, GLIBCXX version
+        appears to be too old to work by default, trying singularity work around
     - - Found that via Xsede anvil at purdue supports vulkan
       - Delaware's darwin has the gclibxx error that has happened on our systems too,
         but usually only affects vulkaninfo not vkcube or other programs
@@ -425,6 +490,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Signed up for two presentations at this point in the semester, one next week
+        the other in april
     - - Jeff is setting up meetings with the Honors college
       - Need to arrange a time to debrief the previous semester before we start having
         presentations again
@@ -538,6 +605,8 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met with Abby, worked on more of the touch designer workshop material for
+        the school of art, and started drafting demo ideas for the sensor lab
     - - Connecting Abby with the folks at NYU who are also working on the Turn Up
         multimedia festival
       - Had a conversation about materials to teach in workshop coming up for the
@@ -732,6 +801,12 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - This was the big re-render week
+      - Spent a lot of time with Kay's machine trying to fix issues related to the
+        various effects being not quite right for editing into the sxsw footage
+      - Just had meeting about how the sensor installation will work when we get to
+        austin
+      - Have to work on features and testing with custom network
     - - Found out that I get to go to sxsw to run a live installation of my work at
         the u of a wonderhouse
       - Spent time working on making renders of the work for video editors to put
@@ -1005,6 +1080,10 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Had phone call with Maria, mentioned progress being made towards bringing
+        her talk to the university
+      - Asked for clarification about her ideas related to hiring a student through
+        the federal work study program to assist with the development
     - - Met with Omani and got started on 3d processing and the beginnings of using
         Godot
       - Haven't heard from Maria in a little while
