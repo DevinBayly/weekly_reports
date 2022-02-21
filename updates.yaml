@@ -151,7 +151,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: complete
     type: consult
     updates:
@@ -171,8 +171,8 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
-    status: active
+    newUpdates: true
+    status: complete
     type: collaboration
     updates:
     - - Spent time last wed rendering out touch designer video files for his conference
