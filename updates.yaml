@@ -636,6 +636,10 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met and tried to work out methods to share with students related to exporting
+        video from touch deigner
+      - Tricky subject because the relation between network fps video fps and realtime
+        on/off is quite complex
     - - Met with Abby, worked on more of the touch designer workshop material for
         the school of art, and started drafting demo ideas for the sensor lab
     - - Connecting Abby with the folks at NYU who are also working on the Turn Up
@@ -832,6 +836,11 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Met and had a photo shoot for sxsw and other events that might require photo
+        material for advertising
+      - Figured out how to control a touch designer system from a browser running
+        on a different system using an ipad, this is how the live demo/installation
+        is going to work
     - - This was the big re-render week
       - Spent a lot of time with Kay's machine trying to fix issues related to the
         various effects being not quite right for editing into the sxsw footage
@@ -1111,6 +1120,9 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - recorded a video for Omani thathow to do basic point cloud creation
+      - Experimented trying to load the data from the biosphere project into godot
+        without much success
     - - Had phone call with Maria, mentioned progress being made towards bringing
         her talk to the university
       - Asked for clarification about her ideas related to hiring a student through
