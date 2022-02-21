@@ -19,12 +19,28 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
-- - Sensor Lab Demo Package
-  - contacts: null
+- - Word Cloud Visualization
+  - archive: false
+    contacts: null
     dates: null
     description: null
     links: null
     newUpdates: true
+    status: active
+    type: consult
+    updates:
+    - - Met with Teodora Stoica and worked on a visualization for her paper that lays
+        out word frequency in a word cloud as a way to capture differences in vocabulary
+        between two age groups of participants
+      - Will be meeting again to revise this in the week
+    - - None
+- - Sensor Lab Demo Package
+  - contacts: null
+    dates: null
+    archive: false
+    description: null
+    links: null
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -43,11 +59,15 @@ detailed_collection:
   - contacts: null
     dates: null
     description: null
+    archive: false
     links: null
     newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - Worked on converting PAG imagery into DTM's that can be rendered in Blender with this workflow
+      - Apparently there is noise in the lidar data that causes the outputs to have null values written into the .tif image
+      - Might need section of pipeline to address this
     - - This project aims to flesh out headless rendering workflows on the HPC using
         the 3d program Blender
       - Finished a proof of concept with a GIS Graduate Assistant Glenn Ingram who
@@ -64,10 +84,13 @@ detailed_collection:
     dates: null
     description: null
     links: null
+    archive: false
     newUpdates: true
     status: active
     type: consult
     updates:
+    - - Met with Erin and walked through how to import a model out of sketch fab to put into her printing tool tinker cad
+      - Sent emails off to Dianne to connect Erin with the Brain Modeling Crowd, as well as the Brain bus for outreach
     - - Jenn Nichols from catalyst sent me an email asking if I could assist with
         this project given my background in visualization and neuroscience
       - Erin is a freshman student who wants to print out 3d models to help explain
@@ -84,10 +107,11 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - One of Josh's PhD students is looking for a job, maybe he will be the DSI
     - - Will be meeting with Nirav, Eric Lyons, and Tyson to talk about working with
         a group of students on this project
       - I would be managing their development of a VR app to do visualization of David
@@ -172,6 +196,7 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Found issue that might be why 3.2.1 has been having trouble when 3.1.4 didn't
     - - Got edit permissions added so that I can update confluence visualization pages
     - - Met with Laura last week and was able to test the workflow with her data,
         will now write up confluence instructions
@@ -311,6 +336,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Got wonderful email from Ed that the tool has been doing great and that he wants to move to the other systems to use up the rest of his monthly allocations
+      - They have processed the bulk of their video files already by the sounds of it
     - - Created repo home page with full documentation of code, process, screenshots
         and video to help understand what I'm delivering to them
       - Met with Ed to triage some things that weren't clear in the material provided
@@ -385,6 +412,10 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
+    - - Succeeded with getting vulkan to run on Darwin in Delaware
+      - This was a useful step towards working out what is happening on the expanse
+        systems because they have the same cards in their system
+      - Got startup allocations on TACC resources and will start my testing there this week
     - - Still troubleshooting the issues with Darwin in delaware, GLIBCXX version
         appears to be too old to work by default, trying singularity work around
     - - Found that via Xsede anvil at purdue supports vulkan
