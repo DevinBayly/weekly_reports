@@ -19,13 +19,93 @@ detailed_collection:
     type: collaboration
     updates:
     - - None
-- - Tia Stephens Honors thesis assistance
+- - Intro workshops for Marcos ART 223 Imaging class 
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: 
+    - - https://arizona.zoom.us/rec/play/hCEmlxRYLP4QLuuES0IKV2l3Jwi4ruyO4eJuLQQnNqLGbQXP-J-XqkHWm2FVJcyx1u-VUNOwNbhBcEaS.QqwrgfPgoeKI8O3M?continueMode=true&_x_zm_rtaid=-pLWoGMKRoaTmt1UCsowhw.1649461220539.cb55efa3f6c0817c13ffc64aeacbd210&_x_zm_rhtaid=598
+      - https://arizona.zoom.us/rec/play/K-H_X7sWtZiMG-ZOyMAlB3oW2Gj0_IJaHXGT1B9icEeXYieC1k1loDHr5rVD7R6ySqml5SUVHpXPO2aE.zI_z0EJ4jZYXLJ0V?continueMode=true&_x_zm_rtaid=-pLWoGMKRoaTmt1UCsowhw.1649461220539.cb55efa3f6c0817c13ffc64aeacbd210&_x_zm_rhtaid=598
+    newUpdates: true
+    status: complete
+    type: workshop
+    updates:
+    - - Taught 2 separate 3 hours workshops for this course to help Marcos' students get up and running with the touch designer program
+- - Performance Art and Interactivity Presentation for MUS 542
   - archive: false
     contacts: null
     dates: null
     description: null
     links: null
     newUpdates: true
+    status: complete
+    type: workshop
+    updates:
+    - - Gave a 1 hour presentation for the students of this class touching upon the aspects of interactivity that are useful in performance art in realtime visual art/ data visualization
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - Helped Sama make mesh surface from body scan using Meshlab and Blender Shrinkwrap
+      - Worked out part of a method for converting her .pcap lidar data into .mp4 files that can be brought into programs like TD for rendering
+- - Exosphere/Jetstream2 A100 Testing
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: infrastructure
+    updates:
+    - - Vulkan singularity container is having problems on this, but the remote desktop support is nice
+      - Should help them trouble shoot the virtual gl setup
+- - Biosphere2 Digital Twin
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: active
+    type: collaboration
+    updates:
+    - - Had meeting with B2 higher ups, and Bruce McGowan is introducing me to the team at Nvidia who work on the digital twin projects
+- - Kay He Flandrau Eclipse Event and Lobby Installation
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: upcoming
+    type: collaboration
+    updates:
+    - - None
+- - Kay He Bryan Carter Collaboration
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: true
+    status: upcoming
+    type: collaboration
+    updates:
+    - - None
+- - Tia Stephens Honors thesis assistance
+  - archive: false
+    contacts: null
+    dates: null
+    description: null
+    links: null
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -46,6 +126,7 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Met with Allie and started writing/running her image segmentation on HPC
     - - Allie showed up for consultation drop in and is looking for assistance with
         processing photos of pine trees growing
       - She needs help separating the background of her images from the pine trees
@@ -54,13 +135,13 @@ detailed_collection:
       - I'm assisting her with finding the right methods from the opencv package for
         doing this
     - - None
-- - Word Cloud Visualization
+- - Teodora Word Choice Article Visualization
   - archive: false
     contacts: null
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -81,7 +162,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -110,6 +191,8 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Started screen capturing material for this workflow
+      - Also helped Sara with a request for this kind of support on the HPC
     - - Started working on this in the week, need to unearth the python script that
         is used for triggering the rendering again
       - Will be adding this to a github repo that can be linked in the confluence
@@ -142,6 +225,9 @@ detailed_collection:
     status: active
     type: consult
     updates:
+    - - Met with Erin and she has fabricated and painted a number of her models
+      - Started discussing entering it in the Symbiosis science and art show hosted
+        by NSCS dept
     - - Met with Erin and she already has printed out a number of her models
       - She tried to apply to a program that would teach her about electrochromics
         which would be great for making a model of how neurons undergo actionpotential,
@@ -172,7 +258,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -213,6 +299,10 @@ detailed_collection:
     status: active
     type: collaboration
     updates:
+    - - Work for this is ramping up, had conversation about amount of hours we can
+        work on this, have to figure out how to do projection mapping for this project
+        but Kay knows more about this
+      - Have meeting with Kay this afternoon to scope out the work
     - - Have meeting at biosphere2 next week to plan out installation happening in
         may
     - - I have been given approval to start this project with Kay as long as I can
@@ -265,7 +355,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: consult
     updates:
@@ -492,7 +582,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: infrastructure
     updates:
@@ -575,6 +665,8 @@ detailed_collection:
     status: active
     type: infrastructure
     updates:
+    - - Learned about using multiple 8bit pngs converted to mp4 as a means of leveraging
+        existing mechanisms to stream video as generic data streaming option
     - - Waiting to get confirmation from the library that the ILL loan of the mp4
         specification has arrived, and then I can start working on using custom data
         tracks in mp4s to stream data from the hpc to different devices
@@ -621,10 +713,11 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: false
+    newUpdates: true
     status: active
     type: collaboration
     updates:
+    - - Had Level up tech core presentation last week, went well
     - - Signed up for two presentations at this point in the semester, one next week
         the other in april
     - - Jeff is setting up meetings with the Honors college
@@ -740,6 +833,8 @@ detailed_collection:
     status: active
     type: student
     updates:
+    - - Met with Abby during the week and she helped me put together the workshop
+        material for Marcos' class
     - - Abby was in town recently and helped me with the sensor lab grand opening
         event
       - she will be starting her new position at the data camp and will probably be
@@ -946,7 +1041,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -1239,7 +1334,7 @@ detailed_collection:
     dates: null
     description: null
     links: null
-    newUpdates: true
+    newUpdates: false
     status: active
     type: collaboration
     updates:
@@ -2465,7 +2560,34 @@ detailed_collection:
     - - Arminda and I worked on trying to get her machine to remotely display the
         ROS open source robotics program with Nvidia Hardware Acceleration
 names:
+- Arminda Estrada, ECE
+- Lilliana  Salas GIS GIDP
+- ENVS Term paper Consultation on Cu+ exposure and environment resilience
+- Annalysa Lovos Publication Figure Rescaling
+- Discussion about Social Network Analysis Visualizations
+- Kirsten Ball ENVS
+- Shane Thomas using python pandas
+- Volumetric Capture presentation emergency request CDH
+- Sarah Stueve d3 brushing
+- Laura Miller Math
+- Visit remote visualization support
+- Marcos Serafim Touch Designer visualization of audio file as video data bending
+- Kay He Bryan Carter Collaboration
+- Kay He Flandrau Eclipse Event and Lobby Installation
+- Biosphere2 Digital Twin
+- Exosphere/Jetstream2 A100 Testing
+- Sama Alshaibi Iraq Lidar Project
+- Allie Lalor pine tree growth computer vision assistance
+- Tia Stephens Honors thesis assistance
+- Teodora Word Choice Article Visualization
+- Cyverse Field Scanner Vis Tool
+- Sensor Lab Demo Package
+- Kay He Exoplanets
+- Kay He B2 Lung
 - Streaming technology for HPC
+- Martha Bhattacharya Cytoscape installation
+- Blender on HPC workflow for GIS
+- Erin Choi Brain modeling visualization
 - Vulkan on HPC
 - Virtual Nature
 - Stellarscape Astronomy Multimedia Dance Performance
